@@ -78,4 +78,3 @@ if __name__ == '__main__':
     ls = LaunchService()
     ls.include_launch_description(ld)
     ls.run()
-

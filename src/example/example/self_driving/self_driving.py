@@ -33,12 +33,14 @@ class SelfDrivingNode(Node):
         super().__init__(name, allow_undeclared_parameters=True, automatically_declare_parameters_from_overrides=True)
         self.name = name
         self.is_running = True
-        self.pid = pid.PID(0.4, 0.0, 0.05)
+        self.pid = pid.PID(0.6, 0.0, 0.05)
         self.param_init()
 
         self.fps = fps.FPS()  
         self.image_queue = queue.Queue(maxsize=2)
         self.classes = ['go', 'right', 'park', 'red', 'green', 'crosswalk']
+        # self.classes = ['parking', 'straight']
+
         self.display = True
         self.bridge = CvBridge()
         self.lock = threading.RLock()
@@ -113,8 +115,8 @@ class SelfDrivingNode(Node):
         self.crosswalk_length = 0.1 + 0.3  # the length of zebra crossing and the robot
 
         self.start_slow_down = False  # slowing down sign
-        self.normal_speed = 0.1  # normal driving speed
-        self.slow_down_speed = 0.1  # slowing down speed
+        self.normal_speed = 0.3  # normal driving speed
+        self.slow_down_speed = 0.15  # slowing down speed
 
         self.traffic_signs_status = None  # record the state of the traffic lights
         self.red_loss_count = 0
@@ -291,7 +293,7 @@ class SelfDrivingNode(Node):
                 # line following processing
                 result_image, lane_angle, lane_x = self.lane_detect(binary_image, image.copy())  # the coordinate of the line while the robot is in the middle of the lane
                 if lane_x >= 0 and not self.stop:  
-                    if lane_x > 150:  
+                    if lane_x > 200:  
                         self.count_turn += 1
                         if self.count_turn > 5 and not self.start_turn:
                             self.start_turn = True
