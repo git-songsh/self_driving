@@ -317,6 +317,16 @@ class SelfDrivingNode(Node):
                         else:
                             if self.machine_type == 'MentorPi_Acker':
                                 twist.angular.z = 0.15 * math.tan(-0.5061) / 0.145
+                    self.get_logger().info(
+                        f"DEBUG_DRIVE "
+                        f"lane_x={lane_x}, "
+                        f"linear={twist.linear.x:.2f}, "
+                        f"linear_y={twist.linear.y:.2f}, "
+                        f"angular={twist.angular.z:.2f}, "
+                        f"stop={self.stop}, "
+                        f"crosswalk_distance={self.crosswalk_distance}, "
+                        f"start_slow_down={self.start_slow_down}"
+                    )
                     self.mecanum_pub.publish(twist)  
                 else:
                     self.pid.clear()
