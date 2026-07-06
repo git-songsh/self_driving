@@ -13,6 +13,7 @@ def launch_setup(context):
     start_arg = DeclareLaunchArgument('start', default_value=start)
     only_line_follow = LaunchConfiguration('only_line_follow', default='false')
     only_line_follow_arg = DeclareLaunchArgument('only_line_follow', default_value=only_line_follow)
+
     if compiled == 'True':
         peripherals_package_path = get_package_share_directory('peripherals')
         controller_package_path = get_package_share_directory('controller')
@@ -78,4 +79,3 @@ if __name__ == '__main__':
     ls = LaunchService()
     ls.include_launch_description(ld)
     ls.run()
-

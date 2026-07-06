@@ -1,0 +1,630 @@
+[INFO] [launch]: All log files can be found below /home/ubuntu/.ros/log/2026-06-27-02-36-01-050435-raspberrypi-1609757
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ascamera_node-1]: process started with pid [1609767]
+[INFO] [static_transform_publisher-2]: process started with pid [1609771]
+[INFO] [static_transform_publisher-3]: process started with pid [1609773]
+[INFO] [joint_state_publisher-4]: process started with pid [1609777]
+[INFO] [robot_state_publisher-5]: process started with pid [1609779]
+[INFO] [ros_robot_controller-6]: process started with pid [1609782]
+[INFO] [odom_publisher-7]: process started with pid [1609790]
+[INFO] [ekf_node-8]: process started with pid [1609802]
+[INFO] [yolo_detect-9]: process started with pid [1609813]
+[INFO] [self_driving-10]: process started with pid [1609815]
+[ascamera_node-1] [0m[INFO] [1782527761.832400965] [as_logger]: hello world angstrong camera ros2 node[0m
+[static_transform_publisher-2] [33m[WARN] [1782527761.814911965] []: Old-style arguments are deprecated; see --help for new-style arguments[0m
+[static_transform_publisher-3] [33m[WARN] [1782527761.816827502] []: Old-style arguments are deprecated; see --help for new-style arguments[0m
+[static_transform_publisher-3] [0m[INFO] [1782527761.840945484] [static_transform_publisher_z4d1KTRzD7NYTO74]: Spinning until stopped - publishing transform
+[static_transform_publisher-3] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-3] rotation: ('-0.500000', '0.499602', '-0.500000', '0.500398')
+[static_transform_publisher-3] from 'depth_cam' to 'ascamera_color_0'[0m
+[static_transform_publisher-2] [0m[INFO] [1782527761.880534262] [static_transform_publisher_XUfcnppHxF5mnigO]: Spinning until stopped - publishing transform
+[static_transform_publisher-2] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-2] rotation: ('-0.500000', '0.499602', '-0.500000', '0.500398')
+[static_transform_publisher-2] from 'depth_cam' to 'ascamera_camera_link_0'[0m
+[ascamera_node-1] 2026-06-27 02:36:01[INFO] [CameraPublisher.cpp] [1558] [printLaunchParams] get depth_width 640
+[ascamera_node-1] 2026-06-27 02:36:01[INFO] [CameraPublisher.cpp] [1559] [printLaunchParams] get depth_height 480
+[ascamera_node-1] 2026-06-27 02:36:01[INFO] [CameraPublisher.cpp] [1561] [printLaunchParams] get rgb_width 640
+[ascamera_node-1] 2026-06-27 02:36:01[INFO] [CameraPublisher.cpp] [1562] [printLaunchParams] get rgb_height 480
+[ascamera_node-1] 2026-06-27 02:36:01[INFO] [CameraPublisher.cpp] [1570] [printLaunchParams] get set_fps 15
+[ascamera_node-1] 2026-06-27 02:36:01[INFO] [CameraPublisher.cpp] [1578] [printLaunchParams] get color_pcl 1
+[ascamera_node-1] 2026-06-27 02:36:01[INFO] [CameraPublisher.cpp] [1582] [printLaunchParams] get pub_tfTree 1
+[ascamera_node-1] 2026-06-27 02:36:01[INFO] [CameraSrv.cpp] [35] [CameraSrv] Angstrong camera server
+[ascamera_node-1] 2026-06-27 02:36:01[INFO] [CameraSrv.cpp] [45] [CameraSrv] Angstrong camera sdk version:v1.2.22.20240516
+[robot_state_publisher-5] [37;1m2026-06-27 02:36:01.925 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port58421: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[robot_state_publisher-5] [0m[INFO] [1782527761.970151354] [robot_state_publisher]: got segment base_footprint[0m
+[robot_state_publisher-5] [0m[INFO] [1782527761.970513002] [robot_state_publisher]: got segment base_link[0m
+[robot_state_publisher-5] [0m[INFO] [1782527761.970544188] [robot_state_publisher]: got segment depth_cam[0m
+[robot_state_publisher-5] [0m[INFO] [1782527761.970582854] [robot_state_publisher]: got segment imu_link[0m
+[robot_state_publisher-5] [0m[INFO] [1782527761.970596965] [robot_state_publisher]: got segment lidar_frame[0m
+[robot_state_publisher-5] [0m[INFO] [1782527761.970607484] [robot_state_publisher]: got segment wheel_lb_Link[0m
+[robot_state_publisher-5] [0m[INFO] [1782527761.970619965] [robot_state_publisher]: got segment wheel_lf_Link[0m
+[robot_state_publisher-5] [0m[INFO] [1782527761.970631299] [robot_state_publisher]: got segment wheel_rb_Link[0m
+[robot_state_publisher-5] [0m[INFO] [1782527761.970645614] [robot_state_publisher]: got segment wheel_rf_Link[0m
+[ekf_node-8] [37;1m2026-06-27 02:36:01.968 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port58421: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[ekf_node-8] [37;1m2026-06-27 02:36:01.968 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port58427: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[odom_publisher-7] [37;1m2026-06-27 02:36:02.588 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port58421: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[odom_publisher-7] [37;1m2026-06-27 02:36:02.588 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port58427: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[ros_robot_controller-6] [37;1m2026-06-27 02:36:02.643 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port58421: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[ros_robot_controller-6] [37;1m2026-06-27 02:36:02.644 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port58427: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[joint_state_publisher-4] [37;1m2026-06-27 02:36:02.812 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port58421: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[joint_state_publisher-4] [37;1m2026-06-27 02:36:02.812 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port58427: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[odom_publisher-7] [0m[INFO] [1782527762.879467594] [odom_publisher]: [1;32m0.930000 1.010000[0m[0m
+[odom_publisher-7] [0m[INFO] [1782527762.895270909] [odom_publisher]: [1;32mstart[0m[0m
+[ascamera_node-1] 2026-06-27 02:36:02[INFO] [CameraSrv.cpp] [114] [onAttached] attached
+[ascamera_node-1] 2026-06-27 02:36:02[INFO] [CameraSrv.cpp] [145] [onAttached] this is a new attach device, create and open it
+[self_driving-10] [37;1m2026-06-27 02:36:03.174 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port58421: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[self_driving-10] [37;1m2026-06-27 02:36:03.175 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port58427: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[joint_state_publisher-4] [0m[INFO] [1782527763.195539020] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...[0m
+[ros_robot_controller-6] [0m[INFO] [1782527763.410843816] [ros_robot_controller]: 已设置舵机 1 的偏移量为 0[0m
+[ros_robot_controller-6] [0m[INFO] [1782527763.411905372] [ros_robot_controller]: 已设置舵机 2 的偏移量为 0[0m
+[ros_robot_controller-6] [0m[INFO] [1782527763.412852298] [ros_robot_controller]: 已设置舵机 3 的偏移量为 4[0m
+[ros_robot_controller-6] [0m[INFO] [1782527763.413802576] [ros_robot_controller]: 已设置舵机 4 的偏移量为 0[0m
+[ros_robot_controller-6] [0m[INFO] [1782527763.418417520] [ros_robot_controller]: [1;32mstart[0m[0m
+[ascamera_node-1] 2026-06-27 02:36:03[INFO] [CameraSrv.cpp] [154] [onAttached] get model type 9
+[ascamera_node-1] 2026-06-27 02:36:03[INFO] [CameraSrv.cpp] [342] [getConfigFile] get file: /home/ubuntu/third_party_ros2/third_party_ws/src/ascamera/configurationfiles/hp60c_v2_00_20230704_configEncrypt.json
+[ascamera_node-1] 2026-06-27 02:36:03[INFO] [CameraPublisher.cpp] [1501] [logCameraPathInfo] usb camera
+[ascamera_node-1] 2026-06-27 02:36:03[INFO] [CameraPublisher.cpp] [1502] [logCameraPathInfo] bnum:1
+[ascamera_node-1] 2026-06-27 02:36:03[INFO] [CameraPublisher.cpp] [1503] [logCameraPathInfo] dnum:10
+[ascamera_node-1] 2026-06-27 02:36:03[INFO] [CameraPublisher.cpp] [1504] [logCameraPathInfo] port_numbers:2
+[ascamera_node-1] 2026-06-27 02:36:03[INFO] [CameraPublisher.cpp] [171] [onCameraAttached] create a new publisher info set
+[ascamera_node-1] 2026-06-27 02:36:03[INFO] [TfTreeFrameIdInfo.cpp] [11] [TfTreeFrameIdInfo] Namespace /ascamera
+[ascamera_node-1] 2026-06-27 02:36:04[INFO] [CameraHp60c.cpp] [128] [open] according to the configuration file.
+[ascamera_node-1] 2026-06-27 02:36:04[INFO] [CameraHp60c.cpp] [1528] [parseConfigFileParameter] moduleName:AS_CAM_HP60C
+[ascamera_node-1] 2026-06-27 02:36:04[INFO] [CameraHp60c.cpp] [1555] [parseConfigFileParameter] Parsing config file /home/ubuntu/third_party_ros2/third_party_ws/src/ascamera/configurationfiles/hp60c_v2_00_20230704_configEncrypt.json
+[ascamera_node-1] 2026-06-27 02:36:04[INFO] [CameraHp60c.cpp] [1620] [parseConfigFileParameter] configuration protocol Version: v2.x
+[ascamera_node-1] 2026-06-27 02:36:04[INFO] [CameraHp60c.cpp] [1631] [parseConfigFileParameter] configuration Version: v2.0.0.20230704
+[ascamera_node-1] 2026-06-27 02:36:04[INFO] [CameraHp60c.cpp] [1796] [setParamersAfterOpenCam] Camera confiParaEnable true, setting configuration parameter
+[ascamera_node-1] 2026-06-27 02:36:05[ERROR] [XuCmdCameraHp60c.cpp] [454] [getMjpegSize] get mjpeg from xu command failed
+[ascamera_node-1] 2026-06-27 02:36:05[INFO] [XuCmdCameraHp60c.cpp] [458] [getMjpegSize] mjpeg size:640x480
+[ascamera_node-1] 2026-06-27 02:36:05[INFO] [CameraPublisher.cpp] [356] [onCameraOpen] camera opened
+[ascamera_node-1] 2026-06-27 02:36:05[INFO] [CameraPublisher.cpp] [370] [onCameraOpen] get config info, ret 0, is_Registration 1
+[ascamera_node-1] 2026-06-27 02:36:05[INFO] [Camera.cpp] [61] [init] #camera[0x5555bb57e710] SN[ASC60CF08000515]'s firmware version:DLS_VERc20865=:V01.09_2024110714:V01.19_2024110714:L01
+[ascamera_node-1] 2026-06-27 02:36:05[INFO] [CameraPublisher.cpp] [1183] [setResolution] set depth resolution: 640 x 480 @ 15fps
+[ascamera_node-1] 2026-06-27 02:36:05[INFO] [CameraPublisher.cpp] [1197] [setResolution] set rgb resolution: 640 x 480 @ 15fps
+[ascamera_node-1] 2026-06-27 02:36:05[INFO] [CameraHp60c.cpp] [260] [startStreaming] start streaming
+[ascamera_node-1] 2026-06-27 02:36:05[INFO] [CameraSrv.cpp] [202] [onAttached] attached end
+[ascamera_node-1] 2026-06-27 02:36:06[INFO] [CameraHp60c.cpp] [279] [stopStreaming] stop streaming
+[INFO] [apply_calib-11]: process started with pid [1609957]
+[INFO] [complementary_filter_node-12]: process started with pid [1609959]
+[apply_calib-11] [37;1m2026-06-27 02:36:06.821 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port58421: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[apply_calib-11] [37;1m2026-06-27 02:36:06.822 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port58427: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[complementary_filter_node-12] [37;1m2026-06-27 02:36:06.830 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port58421: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[complementary_filter_node-12] [37;1m2026-06-27 02:36:06.833 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port58427: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[complementary_filter_node-12] [0m[INFO] [1782527766.853771592] [imu_filter]: Starting ComplementaryFilterROS[0m
+[apply_calib-11] [0m[INFO] [1782527767.516716295] [imu_calib]: Calibrating gyros; do not move the IMU[0m
+[yolo_detect-9] [37;1m2026-06-27 02:36:08.555 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port58421: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[yolo_detect-9] [37;1m2026-06-27 02:36:08.555 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port58427: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[yolo_detect-9] [0m[INFO] [1782527768.655402202] [yolov5_ros2]: Current ROS 2 distribution: humble[0m
+[yolo_detect-9] [0m[INFO] [1782527769.083164535] [yolov5_ros2]: [1;32mstart yolov5 detect[0m[0m
+[apply_calib-11] [0m[INFO] [1782527769.404290757] [imu_calib]: Gyro calibration complete! (bias = [-0.009, 0.030, -0.000])[0m
+[self_driving-10] [0m[INFO] [1782527770.122989738] [self_driving]: [1;32mself driving enter[0m[0m
+[self_driving-10] [0m[INFO] [1782527770.130675627] [self_driving]: [1;32mset_running[0m[0m
+[self_driving-10] [0m[INFO] [1782527770.133622201] [self_driving]: [1;32mstart[0m[0m
+[ascamera_node-1] 2026-06-27 02:36:11[INFO] [CameraHp60c.cpp] [260] [startStreaming] start streaming
+[ascamera_node-1] 2026-06-27 02:36:12[WARN] [CameraHp60c.cpp] [785] [processRawData] wrong size, read :227489,but framesize:2945324
+[ascamera_node-1] 2026-06-27 02:36:12[INFO] [CameraHp60c.cpp] [912] [setInternalParameter] mjpeg info: size(640x480)
+[ascamera_node-1] 2026-06-27 02:36:12[INFO] [Camera.cpp] [127] [backgroundThread] SN [ ASC60CF08000515 ]'s parameter:
+[ascamera_node-1] 2026-06-27 02:36:12[INFO] [Camera.cpp] [128] [backgroundThread] irfx: 426.962
+[ascamera_node-1] 2026-06-27 02:36:12[INFO] [Camera.cpp] [129] [backgroundThread] irfy: 426.374
+[ascamera_node-1] 2026-06-27 02:36:12[INFO] [Camera.cpp] [130] [backgroundThread] ircx: 315.403
+[ascamera_node-1] 2026-06-27 02:36:12[INFO] [Camera.cpp] [131] [backgroundThread] ircy: 240.933
+[ascamera_node-1] 2026-06-27 02:36:12[INFO] [Camera.cpp] [132] [backgroundThread] rgbfx: 570.48
+[ascamera_node-1] 2026-06-27 02:36:12[INFO] [Camera.cpp] [133] [backgroundThread] rgbfy: 569.949
+[ascamera_node-1] 2026-06-27 02:36:12[INFO] [Camera.cpp] [134] [backgroundThread] rgbcx: 329.75
+[ascamera_node-1] 2026-06-27 02:36:12[INFO] [Camera.cpp] [135] [backgroundThread] rgbcy: 238.406
+[ascamera_node-1] 
+[self_driving-10] [0m[INFO] [1782527772.822033274] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527772.835147700] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527772.862961292] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527772.892117922] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527772.946726181] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527773.014406681] [self_driving]: [1;33m0[0m[0m
+[ascamera_node-1] 2026-06-27 02:36:13[INFO] [CameraHp60c.cpp] [1149] [streamCallback] set gain ret 0, gain 4
+[self_driving-10] [0m[INFO] [1782527773.167673533] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527773.222712514] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527773.267683644] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527773.356232088] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527773.402305736] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527773.500054107] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527773.554112421] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527773.605024292] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527773.695178625] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527773.753867699] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527773.827479236] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527773.891260051] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527773.956822977] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527774.018421921] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527774.089353458] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527774.169852717] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527774.233060384] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527774.281788199] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527774.347144458] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527774.423426291] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527774.481810291] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527774.555551902] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527774.622449643] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527774.690801310] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527774.766885884] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527774.830496384] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527774.888364365] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527774.964894161] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527775.024930902] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527775.092410402] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527775.154469550] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527775.249814902] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527775.285154717] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527775.366424883] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527775.419913643] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527775.500198772] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527775.565586087] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527775.648335809] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527775.702497902] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527775.772080642] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527775.834900272] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527775.906182216] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527775.991934198] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527776.032951272] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527776.097887050] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527776.163488735] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527776.244578161] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527776.308328438] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527776.371716272] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527776.443854920] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527776.515618716] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527776.574309086] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527776.635659623] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527776.728332345] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527776.766292568] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527776.843577975] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527776.894372993] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527776.980780845] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527777.034670567] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527777.116279475] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527777.181133049] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527777.251219845] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527777.317023067] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527777.377680419] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527777.448250956] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527777.506941141] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527777.576429438] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527777.643493549] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527777.719164178] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527777.777903030] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527777.864421900] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527777.924186789] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527777.986914715] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527778.056664104] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527778.121946474] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527778.205033326] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527778.254148715] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527778.325853382] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527778.377187437] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527778.458241270] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527778.512662400] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527778.592271270] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527778.651808141] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527778.719506029] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527778.788288029] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527778.865964400] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527778.930219881] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527779.001722548] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527779.058803307] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527779.118063029] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527779.191896455] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527779.255527251] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527779.334382177] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527779.397588344] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527779.467142992] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527779.537759733] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527779.592049473] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527779.677664881] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527779.735557751] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527779.793315899] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527779.866159677] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527779.945477121] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527780.004382603] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527780.076459121] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527780.141745658] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527780.144205677] [self_driving]: DEBUG_DRIVE lane_x=123.5, linear=0.30, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782527780.204218788] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527780.209601177] [self_driving]: DEBUG_DRIVE lane_x=175.0, linear=0.30, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782527780.263854714] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527780.266036843] [self_driving]: DEBUG_DRIVE lane_x=159.5, linear=0.30, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782527780.329548862] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527780.337134566] [self_driving]: DEBUG_DRIVE lane_x=38.0, linear=0.30, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782527780.405165547] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527780.408247103] [self_driving]: DEBUG_DRIVE lane_x=39.0, linear=0.30, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782527780.465384880] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527780.466681658] [self_driving]: DEBUG_DRIVE lane_x=39.0, linear=0.30, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782527780.547424936] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527780.549888584] [self_driving]: DEBUG_DRIVE lane_x=38.0, linear=0.30, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782527780.602591232] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527780.603736676] [self_driving]: DEBUG_DRIVE lane_x=37.5, linear=0.30, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782527780.667449862] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527780.668512102] [self_driving]: DEBUG_DRIVE lane_x=39.5, linear=0.30, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782527780.747086399] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527780.810007973] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527780.877658639] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527780.926314454] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527781.001762010] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527781.078662806] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527781.152135676] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527781.212358028] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527781.283683472] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527781.336377713] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527781.408289972] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527781.496711639] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527781.554047454] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527781.622869583] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527781.687054268] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527781.751057213] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527781.814739028] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527781.907393231] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527781.961830583] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527782.012199305] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527782.080146953] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527782.152514101] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527782.241447898] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527782.288643231] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527782.356510046] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527782.413941972] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527782.500573361] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527782.544632990] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527782.626352583] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527782.693530842] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527782.746222083] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527782.808591564] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527782.889336194] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527782.964615157] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527783.020295638] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527783.096086082] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527783.145439045] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527783.228099156] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527783.290096582] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527783.374219971] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527783.425577082] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527783.492082582] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527783.550730564] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527783.635996823] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527783.704332064] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527783.771986175] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527783.839304267] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527783.898236212] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527783.956648786] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527784.037225748] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527784.101434804] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527784.157556785] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527784.245090693] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527784.306309174] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527784.377688767] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527784.447885248] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527784.512174656] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527784.556190507] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527784.640146415] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527784.724050341] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527784.762939155] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527784.845659544] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527784.906095174] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527784.978512137] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527785.071458396] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527785.115713785] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527785.176407692] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527785.229755266] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527785.316616859] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527785.399757322] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527785.455006377] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527785.515884211] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527785.574913322] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527785.645197322] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527785.735505896] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527785.791740896] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527785.841049766] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527785.918358970] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527786.004055451] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527786.044006488] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527786.133430784] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527786.184645932] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527786.258065303] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527786.316978488] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527786.376233525] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527786.445950599] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527786.522613451] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527786.582849451] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527786.657106210] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527786.727391284] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527786.808833599] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527786.863543228] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527786.932096506] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527786.978220562] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527787.066250543] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527787.133313784] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527787.192592376] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527787.261302265] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527787.332807672] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527787.396925561] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527787.481485709] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527787.524541246] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527787.587431487] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527787.661116098] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527787.737461950] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527787.802107394] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527787.865993450] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527787.934044746] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527788.001828746] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527788.070142839] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527788.133613450] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527788.215171524] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527788.279702802] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527788.334450190] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527788.403377709] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527788.473176301] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527788.537733098] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527788.607271301] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527788.674405968] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527788.738820542] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527788.799627468] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527788.889853709] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527788.954927431] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527789.007885505] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527789.072553005] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527789.128783282] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527789.197624708] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527789.276946912] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527789.344018542] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527789.406308005] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527789.481352467] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527789.547032579] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527789.615589560] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527789.685878838] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527789.744293671] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527789.807532264] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527789.884855245] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527789.963272412] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527790.024052652] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527790.086403430] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527790.154754356] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527790.201215578] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527790.300832652] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527790.362233874] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527790.436920004] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527790.490542874] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527790.560024837] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527790.615970485] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527790.689293078] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527790.756851893] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527790.814416115] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527790.875026226] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527790.959106726] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527791.018241133] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527791.097772874] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527791.164486429] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527791.210209503] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527791.288471633] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527791.360852355] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527791.436427911] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527791.499996337] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527791.557885540] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527791.617935762] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527791.683087818] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527791.780565725] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527791.832047281] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527791.888956855] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527791.960718818] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527792.024157762] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527792.105395225] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527792.161055244] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527792.230896947] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527792.291671151] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527792.371484669] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527792.453536669] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527792.490135392] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527792.571697299] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527792.631166040] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527792.690747410] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527792.773312206] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527792.850289854] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527792.903521577] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527792.980550558] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527793.026726132] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527793.109544299] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527793.160571021] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527793.253826039] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527793.299322243] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527793.373282428] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527793.426885021] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527793.499341521] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527793.587553613] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527793.657913687] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527793.702278687] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527793.779182446] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527793.843589502] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527793.920874446] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527793.974444983] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527794.045788261] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527794.120597705] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527794.187743317] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527794.259170983] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527794.322895631] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527794.381221039] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527794.452447298] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527794.507592298] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527794.603587724] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527794.652586613] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527794.727404131] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527794.789411501] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527794.856591335] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527794.916670353] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527795.010186260] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527795.054816686] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527795.134330575] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527795.192778538] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527795.261939557] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527795.345094390] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527795.398455797] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527795.463760131] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527795.516973945] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527795.579497297] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527795.656469279] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527795.736734223] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527795.795973112] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527795.865675278] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527795.930491612] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527795.988843612] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527796.068646315] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527796.121076649] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527796.204434463] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527796.260184112] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527796.323734852] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527796.414783408] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527796.464031111] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527796.538253556] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527796.601276852] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527796.657493000] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527796.753650278] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527796.792728482] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527796.871001148] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527796.934091648] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527797.004668426] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527797.072354407] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527797.169926333] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527797.208969518] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527797.275942222] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527797.336216481] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527797.415628963] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527797.498478370] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527797.553311259] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527797.614278759] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527797.678289389] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527797.745841611] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527797.802730037] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527797.875805055] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527797.941690222] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527798.016047907] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527798.087685999] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527798.137951833] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527798.226187833] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527798.281295647] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527798.347784370] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527798.409239444] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527798.480856370] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527798.558933777] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527798.626768832] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527798.677094610] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527798.743101740] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527798.804444869] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527798.904581073] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527798.939544462] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527799.011646314] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527799.082440406] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527799.152527369] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527799.220125054] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527799.293359443] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527799.351525813] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527799.413662091] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527799.497332128] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527799.555615017] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527799.634739795] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527799.694835998] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527799.764690443] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527799.828185795] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527799.891793832] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527799.975623313] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527800.035239313] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527800.083926739] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527800.160463943] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527800.231513424] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527800.284007850] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527800.381225442] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527800.439550498] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527800.495666942] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527800.567625887] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527800.624963961] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527800.694755535] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527800.756426701] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527800.840106683] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527800.897397238] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527800.968175738] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527801.040560516] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527801.109758831] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527801.161041738] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527801.235239035] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527801.305463294] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527801.362169090] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527801.440222146] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527801.497565608] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527801.568708090] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527801.641449960] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527801.710774405] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527801.788502349] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527801.850397701] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527801.911665960] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527801.970904904] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527802.051159978] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527802.103770849] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527802.194981256] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527802.252517367] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527802.308636830] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527802.367728904] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527802.474466534] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527802.527854571] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527802.579904126] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527802.655289089] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527802.706838237] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527802.770324997] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527802.856081663] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527802.923421608] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527802.977194385] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527803.057399070] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527803.119463607] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527803.195762033] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527803.253125052] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527803.323306330] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527803.374539237] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527803.444133052] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527803.510491996] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527803.595568755] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527803.651887792] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527803.734633996] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527803.796626107] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527803.853351866] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527803.936173440] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527803.997752348] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527804.058103700] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527804.128082237] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527804.191788218] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527804.281913311] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527804.339160885] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527804.393022088] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527804.452316570] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527804.523954699] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527804.584667662] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527804.669657532] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527804.737194032] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527804.796990051] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527804.869709106] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527804.948349218] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527805.013806088] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527805.065951977] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527805.119667199] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527805.207417828] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527805.276106365] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527805.349602477] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527805.398224291] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527805.473284532] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527805.537666810] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527805.603430643] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527805.661504013] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527805.749082439] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527805.804968754] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527805.875267384] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527805.942095884] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527806.026534032] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527806.076031846] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527806.145830939] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527806.202121532] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527806.288943217] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527806.343512550] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527806.426401643] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527806.477860254] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527806.541303050] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782527806.613678420] [self_driving]: [1;33m0[0m[0m

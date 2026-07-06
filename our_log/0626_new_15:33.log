@@ -1,0 +1,1053 @@
+[INFO] [launch]: All log files can be found below /home/ubuntu/.ros/log/2026-06-26-06-32-44-547903-raspberrypi-353730
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ascamera_node-1]: process started with pid [353746]
+[INFO] [static_transform_publisher-2]: process started with pid [353748]
+[INFO] [static_transform_publisher-3]: process started with pid [353750]
+[INFO] [joint_state_publisher-4]: process started with pid [353752]
+[INFO] [robot_state_publisher-5]: process started with pid [353754]
+[INFO] [ros_robot_controller-6]: process started with pid [353756]
+[INFO] [odom_publisher-7]: process started with pid [353759]
+[INFO] [ekf_node-8]: process started with pid [353774]
+[INFO] [yolo_detect-9]: process started with pid [353784]
+[INFO] [self_driving-10]: process started with pid [353788]
+[ascamera_node-1] [0m[INFO] [1782455565.295536238] [as_logger]: hello world angstrong camera ros2 node[0m
+[static_transform_publisher-2] [33m[WARN] [1782455565.288510423] []: Old-style arguments are deprecated; see --help for new-style arguments[0m
+[static_transform_publisher-3] [33m[WARN] [1782455565.292867997] []: Old-style arguments are deprecated; see --help for new-style arguments[0m
+[static_transform_publisher-2] [0m[INFO] [1782455565.382434590] [static_transform_publisher_sfAFiTtvADujlPlf]: Spinning until stopped - publishing transform
+[static_transform_publisher-2] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-2] rotation: ('-0.500000', '0.499602', '-0.500000', '0.500398')
+[static_transform_publisher-2] from 'depth_cam' to 'ascamera_camera_link_0'[0m
+[static_transform_publisher-3] [0m[INFO] [1782455565.416150979] [static_transform_publisher_8Agui7rnEGJySymp]: Spinning until stopped - publishing transform
+[static_transform_publisher-3] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-3] rotation: ('-0.500000', '0.499602', '-0.500000', '0.500398')
+[static_transform_publisher-3] from 'depth_cam' to 'ascamera_color_0'[0m
+[ascamera_node-1] 2026-06-26 06:32:45[INFO] [CameraPublisher.cpp] [1558] [printLaunchParams] get depth_width 640
+[ascamera_node-1] 2026-06-26 06:32:45[INFO] [CameraPublisher.cpp] [1559] [printLaunchParams] get depth_height 480
+[ascamera_node-1] 2026-06-26 06:32:45[INFO] [CameraPublisher.cpp] [1561] [printLaunchParams] get rgb_width 640
+[ascamera_node-1] 2026-06-26 06:32:45[INFO] [CameraPublisher.cpp] [1562] [printLaunchParams] get rgb_height 480
+[ascamera_node-1] 2026-06-26 06:32:45[INFO] [CameraPublisher.cpp] [1570] [printLaunchParams] get set_fps 15
+[ascamera_node-1] 2026-06-26 06:32:45[INFO] [CameraPublisher.cpp] [1578] [printLaunchParams] get color_pcl 1
+[ascamera_node-1] 2026-06-26 06:32:45[INFO] [CameraPublisher.cpp] [1582] [printLaunchParams] get pub_tfTree 1
+[ascamera_node-1] 2026-06-26 06:32:45[INFO] [CameraSrv.cpp] [35] [CameraSrv] Angstrong camera server
+[ascamera_node-1] 2026-06-26 06:32:45[INFO] [CameraSrv.cpp] [45] [CameraSrv] Angstrong camera sdk version:v1.2.22.20240516
+[robot_state_publisher-5] [0m[INFO] [1782455565.435535275] [robot_state_publisher]: got segment base_footprint[0m
+[robot_state_publisher-5] [0m[INFO] [1782455565.443867682] [robot_state_publisher]: got segment base_link[0m
+[robot_state_publisher-5] [0m[INFO] [1782455565.443887590] [robot_state_publisher]: got segment depth_cam[0m
+[robot_state_publisher-5] [0m[INFO] [1782455565.443899312] [robot_state_publisher]: got segment imu_link[0m
+[robot_state_publisher-5] [0m[INFO] [1782455565.443907423] [robot_state_publisher]: got segment lidar_frame[0m
+[robot_state_publisher-5] [0m[INFO] [1782455565.443916349] [robot_state_publisher]: got segment wheel_lb_Link[0m
+[robot_state_publisher-5] [0m[INFO] [1782455565.443930386] [robot_state_publisher]: got segment wheel_lf_Link[0m
+[robot_state_publisher-5] [0m[INFO] [1782455565.443944201] [robot_state_publisher]: got segment wheel_rb_Link[0m
+[robot_state_publisher-5] [0m[INFO] [1782455565.443957127] [robot_state_publisher]: got segment wheel_rf_Link[0m
+[joint_state_publisher-4] [0m[INFO] [1782455566.213686256] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...[0m
+[odom_publisher-7] [0m[INFO] [1782455566.315983608] [odom_publisher]: [1;32m0.930000 1.010000[0m[0m
+[odom_publisher-7] [0m[INFO] [1782455566.350159811] [odom_publisher]: [1;32mstart[0m[0m
+[ascamera_node-1] 2026-06-26 06:32:46[INFO] [CameraSrv.cpp] [114] [onAttached] attached
+[ascamera_node-1] 2026-06-26 06:32:46[INFO] [CameraSrv.cpp] [145] [onAttached] this is a new attach device, create and open it
+[ros_robot_controller-6] [0m[INFO] [1782455567.017424218] [ros_robot_controller]: 已设置舵机 1 的偏移量为 0[0m
+[ros_robot_controller-6] [0m[INFO] [1782455567.018501441] [ros_robot_controller]: 已设置舵机 2 的偏移量为 0[0m
+[ros_robot_controller-6] [0m[INFO] [1782455567.019450089] [ros_robot_controller]: 已设置舵机 3 的偏移量为 4[0m
+[ros_robot_controller-6] [0m[INFO] [1782455567.020450941] [ros_robot_controller]: 已设置舵机 4 的偏移量为 0[0m
+[ros_robot_controller-6] [0m[INFO] [1782455567.025088181] [ros_robot_controller]: [1;32mstart[0m[0m
+[ascamera_node-1] 2026-06-26 06:32:47[INFO] [CameraSrv.cpp] [154] [onAttached] get model type 9
+[ascamera_node-1] 2026-06-26 06:32:47[INFO] [CameraSrv.cpp] [342] [getConfigFile] get file: /home/ubuntu/third_party_ros2/third_party_ws/src/ascamera/configurationfiles/hp60c_v2_00_20230704_configEncrypt.json
+[ascamera_node-1] 2026-06-26 06:32:47[INFO] [CameraPublisher.cpp] [1501] [logCameraPathInfo] usb camera
+[ascamera_node-1] 2026-06-26 06:32:47[INFO] [CameraPublisher.cpp] [1502] [logCameraPathInfo] bnum:1
+[ascamera_node-1] 2026-06-26 06:32:47[INFO] [CameraPublisher.cpp] [1503] [logCameraPathInfo] dnum:3
+[ascamera_node-1] 2026-06-26 06:32:47[INFO] [CameraPublisher.cpp] [1504] [logCameraPathInfo] port_numbers:2
+[ascamera_node-1] 2026-06-26 06:32:47[INFO] [CameraPublisher.cpp] [171] [onCameraAttached] create a new publisher info set
+[ascamera_node-1] 2026-06-26 06:32:47[INFO] [TfTreeFrameIdInfo.cpp] [11] [TfTreeFrameIdInfo] Namespace /ascamera
+[ascamera_node-1] 2026-06-26 06:32:47[INFO] [CameraHp60c.cpp] [128] [open] according to the configuration file.
+[ascamera_node-1] 2026-06-26 06:32:47[INFO] [CameraHp60c.cpp] [1528] [parseConfigFileParameter] moduleName:AS_CAM_HP60C
+[ascamera_node-1] 2026-06-26 06:32:47[INFO] [CameraHp60c.cpp] [1555] [parseConfigFileParameter] Parsing config file /home/ubuntu/third_party_ros2/third_party_ws/src/ascamera/configurationfiles/hp60c_v2_00_20230704_configEncrypt.json
+[ascamera_node-1] 2026-06-26 06:32:47[INFO] [CameraHp60c.cpp] [1620] [parseConfigFileParameter] configuration protocol Version: v2.x
+[ascamera_node-1] 2026-06-26 06:32:47[INFO] [CameraHp60c.cpp] [1631] [parseConfigFileParameter] configuration Version: v2.0.0.20230704
+[ascamera_node-1] 2026-06-26 06:32:47[INFO] [CameraHp60c.cpp] [1796] [setParamersAfterOpenCam] Camera confiParaEnable true, setting configuration parameter
+[ascamera_node-1] 2026-06-26 06:32:48[ERROR] [XuCmdCameraHp60c.cpp] [454] [getMjpegSize] get mjpeg from xu command failed
+[ascamera_node-1] 2026-06-26 06:32:48[INFO] [XuCmdCameraHp60c.cpp] [458] [getMjpegSize] mjpeg size:640x480
+[ascamera_node-1] 2026-06-26 06:32:48[INFO] [CameraPublisher.cpp] [356] [onCameraOpen] camera opened
+[ascamera_node-1] 2026-06-26 06:32:48[INFO] [CameraPublisher.cpp] [370] [onCameraOpen] get config info, ret 0, is_Registration 1
+[ascamera_node-1] 2026-06-26 06:32:48[INFO] [Camera.cpp] [61] [init] #camera[0x55565018e710] SN[ASC60CF08000515]'s firmware version:DLS_VERc20865=:V01.09_2024110714:V01.19_2024110714:L01
+[ascamera_node-1] 2026-06-26 06:32:48[INFO] [CameraPublisher.cpp] [1183] [setResolution] set depth resolution: 640 x 480 @ 15fps
+[ascamera_node-1] 2026-06-26 06:32:48[INFO] [CameraPublisher.cpp] [1197] [setResolution] set rgb resolution: 640 x 480 @ 15fps
+[ascamera_node-1] 2026-06-26 06:32:48[INFO] [CameraHp60c.cpp] [260] [startStreaming] start streaming
+[ascamera_node-1] 2026-06-26 06:32:48[INFO] [CameraSrv.cpp] [202] [onAttached] attached end
+[ascamera_node-1] 2026-06-26 06:32:49[INFO] [CameraHp60c.cpp] [279] [stopStreaming] stop streaming
+[INFO] [apply_calib-11]: process started with pid [353924]
+[INFO] [complementary_filter_node-12]: process started with pid [353926]
+[apply_calib-11] [0m[INFO] [1782455570.678897994] [imu_calib]: Calibrating gyros; do not move the IMU[0m
+[complementary_filter_node-12] [0m[INFO] [1782455570.682141494] [imu_filter]: Starting ComplementaryFilterROS[0m
+[apply_calib-11] [0m[INFO] [1782455572.720012585] [imu_calib]: Gyro calibration complete! (bias = [-0.029, 0.032, 0.026])[0m
+[yolo_detect-9] [0m[INFO] [1782455572.993111548] [yolov5_ros2]: Current ROS 2 distribution: humble[0m
+[yolo_detect-9] [0m[INFO] [1782455573.387054992] [yolov5_ros2]: [1;32mstart yolov5 detect[0m[0m
+[ascamera_node-1] 2026-06-26 06:32:54[INFO] [CameraHp60c.cpp] [260] [startStreaming] start streaming
+[self_driving-10] [0m[INFO] [1782455574.440570862] [self_driving]: [1;32mself driving enter[0m[0m
+[self_driving-10] [0m[INFO] [1782455574.451084936] [self_driving]: [1;32mset_running[0m[0m
+[self_driving-10] [0m[INFO] [1782455574.454310862] [self_driving]: [1;32mstart[0m[0m
+[ascamera_node-1] 2026-06-26 06:32:55[INFO] [CameraHp60c.cpp] [912] [setInternalParameter] mjpeg info: size(640x480)
+[ascamera_node-1] 2026-06-26 06:32:56[INFO] [CameraHp60c.cpp] [1149] [streamCallback] set gain ret 0, gain 4
+[ascamera_node-1] 2026-06-26 06:32:56[INFO] [Camera.cpp] [127] [backgroundThread] SN [ ASC60CF08000515 ]'s parameter:
+[ascamera_node-1] 2026-06-26 06:32:56[INFO] [Camera.cpp] [128] [backgroundThread] irfx: 426.962
+[ascamera_node-1] 2026-06-26 06:32:56[INFO] [Camera.cpp] [129] [backgroundThread] irfy: 426.374
+[ascamera_node-1] 2026-06-26 06:32:56[INFO] [Camera.cpp] [130] [backgroundThread] ircx: 315.403
+[ascamera_node-1] 2026-06-26 06:32:56[INFO] [Camera.cpp] [131] [backgroundThread] ircy: 240.933
+[ascamera_node-1] 2026-06-26 06:32:56[INFO] [Camera.cpp] [132] [backgroundThread] rgbfx: 570.48
+[ascamera_node-1] 2026-06-26 06:32:56[INFO] [Camera.cpp] [133] [backgroundThread] rgbfy: 569.949
+[ascamera_node-1] 2026-06-26 06:32:56[INFO] [Camera.cpp] [134] [backgroundThread] rgbcx: 329.75
+[ascamera_node-1] 2026-06-26 06:32:56[INFO] [Camera.cpp] [135] [backgroundThread] rgbcy: 238.406
+[ascamera_node-1] 
+[self_driving-10] [0m[INFO] [1782455577.081450694] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455577.084293157] [self_driving]: DEBUG_DRIVE lane_x=182.5, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455577.095769546] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455577.097397768] [self_driving]: DEBUG_DRIVE lane_x=185.0, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455577.130878564] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455577.132304138] [self_driving]: DEBUG_DRIVE lane_x=184.5, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455577.158881305] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455577.162065398] [self_driving]: DEBUG_DRIVE lane_x=187.0, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455577.211981083] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455577.213319101] [self_driving]: DEBUG_DRIVE lane_x=188.5, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455577.272975379] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455577.275005101] [self_driving]: DEBUG_DRIVE lane_x=292.0, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455577.345574101] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455577.346971879] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455577.348275546] [self_driving]: [DET] crosswalk: cx=279, cy=341, box=array('i', [216, 317, 343, 366]), score=0.82[0m
+[self_driving-10] [0m[INFO] [1782455577.367212379] [self_driving]: DEBUG_DRIVE lane_x=283.0, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=341, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455577.403903138] [self_driving]: [1;33m341[0m[0m
+[self_driving-10] [0m[INFO] [1782455577.407768823] [self_driving]: DEBUG_DRIVE lane_x=280.0, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=341, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455577.480473434] [self_driving]: [1;33m341[0m[0m
+[self_driving-10] [0m[INFO] [1782455577.482137027] [self_driving]: DEBUG_DRIVE lane_x=290.0, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=341, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455577.532253286] [self_driving]: [1;33m341[0m[0m
+[self_driving-10] [0m[INFO] [1782455577.534358712] [self_driving]: DEBUG_DRIVE lane_x=293.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=341, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455577.619818138] [self_driving]: [1;33m341[0m[0m
+[self_driving-10] [0m[INFO] [1782455577.621420971] [self_driving]: DEBUG_DRIVE lane_x=295.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=341, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455577.677631101] [self_driving]: [1;33m341[0m[0m
+[self_driving-10] [0m[INFO] [1782455577.679848545] [self_driving]: DEBUG_DRIVE lane_x=301.0, linear=0.40, linear_y=0.00, angular=-1.30, stop=False, crosswalk_distance=341, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455577.697336249] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455577.698077342] [self_driving]: [DET] crosswalk: cx=281, cy=336, box=array('i', [218, 312, 345, 361]), score=0.77[0m
+[self_driving-10] [0m[INFO] [1782455577.750427490] [self_driving]: [1;33m336[0m[0m
+[self_driving-10] [0m[INFO] [1782455577.752588045] [self_driving]: DEBUG_DRIVE lane_x=310.5, linear=0.40, linear_y=0.00, angular=-1.30, stop=False, crosswalk_distance=336, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455577.823425175] [self_driving]: [1;33m336[0m[0m
+[self_driving-10] [0m[INFO] [1782455577.824872860] [self_driving]: DEBUG_DRIVE lane_x=214.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=336, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455577.883835212] [self_driving]: [1;33m336[0m[0m
+[self_driving-10] [0m[INFO] [1782455577.885950397] [self_driving]: DEBUG_DRIVE lane_x=229.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=336, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455577.953070416] [self_driving]: [1;33m336[0m[0m
+[self_driving-10] [0m[INFO] [1782455577.954663730] [self_driving]: DEBUG_DRIVE lane_x=237.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=336, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455578.004615730] [self_driving]: [1;33m336[0m[0m
+[self_driving-10] [0m[INFO] [1782455578.006862212] [self_driving]: DEBUG_DRIVE lane_x=244.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=336, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455578.054159471] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455578.056121786] [self_driving]: [DET] crosswalk: cx=282, cy=343, box=array('i', [217, 319, 347, 368]), score=0.59[0m
+[self_driving-10] [0m[INFO] [1782455578.098202323] [self_driving]: [1;33m343[0m[0m
+[self_driving-10] [0m[INFO] [1782455578.102118027] [self_driving]: DEBUG_DRIVE lane_x=252.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=343, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455578.138624767] [self_driving]: [1;33m343[0m[0m
+[self_driving-10] [0m[INFO] [1782455578.140980490] [self_driving]: DEBUG_DRIVE lane_x=253.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=343, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455578.214694193] [self_driving]: [1;33m343[0m[0m
+[self_driving-10] [0m[INFO] [1782455578.217115638] [self_driving]: DEBUG_DRIVE lane_x=252.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=343, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455578.284498230] [self_driving]: [1;33m343[0m[0m
+[self_driving-10] [0m[INFO] [1782455578.286350341] [self_driving]: DEBUG_DRIVE lane_x=229.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=343, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455578.339525156] [self_driving]: [1;33m343[0m[0m
+[self_driving-10] [0m[INFO] [1782455578.340878989] [self_driving]: DEBUG_DRIVE lane_x=203.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=343, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455578.415241471] [self_driving]: [1;33m343[0m[0m
+[self_driving-10] [0m[INFO] [1782455578.418645452] [self_driving]: DEBUG_DRIVE lane_x=181.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=343, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455578.486643545] [self_driving]: [1;33m343[0m[0m
+[self_driving-10] [0m[INFO] [1782455578.488881915] [self_driving]: DEBUG_DRIVE lane_x=158.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=343, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455578.542581971] [self_driving]: [1;33m343[0m[0m
+[self_driving-10] [0m[INFO] [1782455578.544871323] [self_driving]: DEBUG_DRIVE lane_x=135.5, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=343, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455578.621824378] [self_driving]: [1;33m343[0m[0m
+[self_driving-10] [0m[INFO] [1782455578.623405360] [self_driving]: DEBUG_DRIVE lane_x=127.5, linear=0.60, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=343, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455578.691327156] [self_driving]: [1;33m343[0m[0m
+[self_driving-10] [0m[INFO] [1782455578.693559693] [self_driving]: DEBUG_DRIVE lane_x=109.5, linear=0.60, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=343, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455578.740653341] [self_driving]: [1;33m343[0m[0m
+[self_driving-10] [0m[INFO] [1782455578.742046897] [self_driving]: DEBUG_DRIVE lane_x=82.5, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=343, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455578.821326156] [self_driving]: [1;33m343[0m[0m
+[self_driving-10] [0m[INFO] [1782455578.822842063] [self_driving]: DEBUG_DRIVE lane_x=47.5, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=343, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455578.845582823] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455578.846386934] [self_driving]: [DET] crosswalk: cx=312, cy=346, box=array('i', [245, 320, 380, 373]), score=0.27[0m
+[self_driving-10] [0m[INFO] [1782455578.927709452] [self_driving]: [1;33m346[0m[0m
+[self_driving-10] [0m[INFO] [1782455578.929113489] [self_driving]: DEBUG_DRIVE lane_x=180.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=346, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455578.956906415] [self_driving]: [1;33m346[0m[0m
+[self_driving-10] [0m[INFO] [1782455578.958411119] [self_driving]: DEBUG_DRIVE lane_x=211.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=346, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455579.024055841] [self_driving]: [1;33m346[0m[0m
+[self_driving-10] [0m[INFO] [1782455579.025253230] [self_driving]: DEBUG_DRIVE lane_x=227.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=346, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455579.086403433] [self_driving]: [1;33m346[0m[0m
+[self_driving-10] [0m[INFO] [1782455579.087616378] [self_driving]: DEBUG_DRIVE lane_x=243.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=346, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455579.149301211] [self_driving]: [1;33m346[0m[0m
+[self_driving-10] [0m[INFO] [1782455579.151000008] [self_driving]: DEBUG_DRIVE lane_x=261.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=346, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455579.223928007] [self_driving]: [1;33m346[0m[0m
+[self_driving-10] [0m[INFO] [1782455579.225309748] [self_driving]: DEBUG_DRIVE lane_x=266.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=346, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455579.252352137] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455579.252903267] [self_driving]: [DET] crosswalk: cx=369, cy=248, box=array('i', [292, 240, 447, 257]), score=0.91[0m
+[self_driving-10] [0m[INFO] [1782455579.254852637] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455579.255393137] [self_driving]: [DET] crosswalk: cx=360, cy=201, box=array('i', [306, 196, 415, 207]), score=0.84[0m
+[self_driving-10] [0m[INFO] [1782455579.260613322] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455579.263076841] [self_driving]: [DET] green: cx=125, cy=386, box=array('i', [10, 293, 241, 480]), score=0.50[0m
+[self_driving-10] [0m[INFO] [1782455579.322457322] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455579.329735878] [self_driving]: DEBUG_DRIVE lane_x=271.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455579.372808341] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455579.374093026] [self_driving]: DEBUG_DRIVE lane_x=279.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455579.418232470] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455579.419759452] [self_driving]: DEBUG_DRIVE lane_x=281.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455579.489078600] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455579.491357285] [self_driving]: DEBUG_DRIVE lane_x=284.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455579.556853359] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455579.558518433] [self_driving]: DEBUG_DRIVE lane_x=285.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455579.613842285] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455579.617826007] [self_driving]: DEBUG_DRIVE lane_x=288.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455579.664512341] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455579.668110841] [self_driving]: [DET] crosswalk: cx=370, cy=182, box=array('i', [287, 177, 453, 188]), score=0.83[0m
+[self_driving-10] [0m[INFO] [1782455579.673287655] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455579.674432544] [self_driving]: [DET] go: cx=285, cy=124, box=array('i', [277, 115, 293, 134]), score=0.65[0m
+[self_driving-10] [0m[INFO] [1782455579.704461192] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455579.707462785] [self_driving]: DEBUG_DRIVE lane_x=287.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455579.774250118] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455579.777613378] [self_driving]: DEBUG_DRIVE lane_x=285.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455579.823066581] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455579.824623989] [self_driving]: DEBUG_DRIVE lane_x=276.5, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455579.894839637] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455579.897922285] [self_driving]: DEBUG_DRIVE lane_x=269.5, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455579.964852063] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455579.966250803] [self_driving]: DEBUG_DRIVE lane_x=228.0, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455580.033912359] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455580.035241081] [self_driving]: DEBUG_DRIVE lane_x=184.5, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455580.061719359] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455580.062273525] [self_driving]: [DET] go: cx=405, cy=140, box=array('i', [398, 131, 412, 150]), score=0.84[0m
+[self_driving-10] [0m[INFO] [1782455580.076159655] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455580.077962396] [self_driving]: [DET] crosswalk: cx=492, cy=181, box=array('i', [429, 179, 556, 184]), score=0.67[0m
+[self_driving-10] [0m[INFO] [1782455580.121481766] [self_driving]: [1;33m181[0m[0m
+[self_driving-10] [0m[INFO] [1782455580.125169229] [self_driving]: DEBUG_DRIVE lane_x=119.5, linear=0.60, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=181, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455580.167437840] [self_driving]: [1;33m181[0m[0m
+[self_driving-10] [0m[INFO] [1782455580.168545303] [self_driving]: DEBUG_DRIVE lane_x=38.5, linear=0.60, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=181, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455580.222108433] [self_driving]: [1;33m181[0m[0m
+[self_driving-10] [0m[INFO] [1782455580.307423655] [self_driving]: [1;33m181[0m[0m
+[self_driving-10] [0m[INFO] [1782455580.360291285] [self_driving]: [1;33m181[0m[0m
+[self_driving-10] [0m[INFO] [1782455580.431327118] [self_driving]: [1;33m181[0m[0m
+[self_driving-10] [0m[INFO] [1782455580.433478377] [self_driving]: DEBUG_DRIVE lane_x=18.5, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=181, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455580.450286710] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455580.451431970] [self_driving]: [DET] go: cx=405, cy=145, box=array('i', [398, 135, 412, 155]), score=0.84[0m
+[self_driving-10] [0m[INFO] [1782455580.454996266] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455580.455605914] [self_driving]: [DET] crosswalk: cx=503, cy=189, box=array('i', [436, 186, 571, 192]), score=0.48[0m
+[self_driving-10] [0m[INFO] [1782455580.545403451] [self_driving]: [1;33m189[0m[0m
+[self_driving-10] [0m[INFO] [1782455580.550473581] [self_driving]: DEBUG_DRIVE lane_x=42.0, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=189, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455580.559224007] [self_driving]: [1;33m189[0m[0m
+[self_driving-10] [0m[INFO] [1782455580.560407321] [self_driving]: DEBUG_DRIVE lane_x=85.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=189, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455580.622841673] [self_driving]: [1;33m189[0m[0m
+[self_driving-10] [0m[INFO] [1782455580.624081914] [self_driving]: DEBUG_DRIVE lane_x=120.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=189, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455580.690908710] [self_driving]: [1;33m189[0m[0m
+[self_driving-10] [0m[INFO] [1782455580.694069581] [self_driving]: DEBUG_DRIVE lane_x=128.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=189, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455580.762299655] [self_driving]: [1;33m189[0m[0m
+[self_driving-10] [0m[INFO] [1782455580.763628007] [self_driving]: DEBUG_DRIVE lane_x=129.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=189, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455580.838832303] [self_driving]: [1;33m189[0m[0m
+[self_driving-10] [0m[INFO] [1782455580.839984544] [self_driving]: DEBUG_DRIVE lane_x=126.0, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=189, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455580.915742840] [self_driving]: [1;33m189[0m[0m
+[self_driving-10] [0m[INFO] [1782455580.917959377] [self_driving]: DEBUG_DRIVE lane_x=115.0, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=189, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455580.985699543] [self_driving]: [1;33m189[0m[0m
+[self_driving-10] [0m[INFO] [1782455580.989761229] [self_driving]: DEBUG_DRIVE lane_x=110.0, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=189, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455581.043705580] [self_driving]: [1;33m189[0m[0m
+[self_driving-10] [0m[INFO] [1782455581.044875469] [self_driving]: DEBUG_DRIVE lane_x=117.0, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=189, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455581.098963321] [self_driving]: [1;33m189[0m[0m
+[self_driving-10] [0m[INFO] [1782455581.102593562] [self_driving]: DEBUG_DRIVE lane_x=114.5, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=189, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455581.157201266] [self_driving]: [1;33m189[0m[0m
+[self_driving-10] [0m[INFO] [1782455581.158459284] [self_driving]: DEBUG_DRIVE lane_x=119.0, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=189, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455581.242692488] [self_driving]: [1;33m189[0m[0m
+[self_driving-10] [0m[INFO] [1782455581.245788858] [self_driving]: DEBUG_DRIVE lane_x=125.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=189, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455581.300621784] [self_driving]: [1;33m189[0m[0m
+[self_driving-10] [0m[INFO] [1782455581.303287784] [self_driving]: DEBUG_DRIVE lane_x=128.5, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=189, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455581.325782173] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455581.327121840] [self_driving]: [DET] crosswalk: cx=322, cy=152, box=array('i', [235, 147, 410, 157]), score=0.80[0m
+[self_driving-10] [0m[INFO] [1782455581.331078636] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455581.333827080] [self_driving]: [DET] right: cx=233, cy=87, box=array('i', [224, 77, 242, 97]), score=0.26[0m
+[self_driving-10] [0m[INFO] [1782455581.399179821] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455581.401384895] [self_driving]: DEBUG_DRIVE lane_x=137.0, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455581.441573191] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455581.443352025] [self_driving]: DEBUG_DRIVE lane_x=145.5, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455581.518838691] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455581.520201747] [self_driving]: DEBUG_DRIVE lane_x=145.5, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455581.559318932] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455581.562980784] [self_driving]: DEBUG_DRIVE lane_x=147.0, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455581.636052543] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455581.638378988] [self_driving]: DEBUG_DRIVE lane_x=149.5, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455581.708716506] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455581.710645728] [self_driving]: DEBUG_DRIVE lane_x=145.5, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455581.723644802] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455581.724131284] [self_driving]: [DET] crosswalk: cx=384, cy=206, box=array('i', [292, 201, 477, 211]), score=0.85[0m
+[self_driving-10] [0m[INFO] [1782455581.727347821] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455581.729065636] [self_driving]: [DET] crosswalk: cx=377, cy=188, box=array('i', [317, 186, 437, 191]), score=0.62[0m
+[self_driving-10] [0m[INFO] [1782455581.798288673] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455581.801100543] [self_driving]: DEBUG_DRIVE lane_x=146.0, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=188, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455581.846784580] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455581.848573561] [self_driving]: DEBUG_DRIVE lane_x=139.5, linear=0.60, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=188, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455581.901698432] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455581.903900321] [self_driving]: DEBUG_DRIVE lane_x=137.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=188, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455581.977001524] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455581.979224247] [self_driving]: DEBUG_DRIVE lane_x=131.0, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=188, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455582.042289339] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455582.044632617] [self_driving]: DEBUG_DRIVE lane_x=133.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=188, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455582.097971339] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455582.100011154] [self_driving]: DEBUG_DRIVE lane_x=131.0, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=188, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455582.112005432] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455582.112720561] [self_driving]: [DET] go: cx=266, cy=141, box=array('i', [259, 130, 274, 152]), score=0.87[0m
+[self_driving-10] [0m[INFO] [1782455582.121662265] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455582.122759987] [self_driving]: [DET] crosswalk: cx=377, cy=213, box=array('i', [262, 207, 492, 220]), score=0.85[0m
+[self_driving-10] [0m[INFO] [1782455582.126367432] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455582.127520561] [self_driving]: [DET] crosswalk: cx=365, cy=189, box=array('i', [296, 186, 435, 192]), score=0.75[0m
+[self_driving-10] [0m[INFO] [1782455582.206692524] [self_driving]: [1;33m189[0m[0m
+[self_driving-10] [0m[INFO] [1782455582.208793839] [self_driving]: DEBUG_DRIVE lane_x=133.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=189, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455582.250070339] [self_driving]: [1;33m189[0m[0m
+[self_driving-10] [0m[INFO] [1782455582.251171246] [self_driving]: DEBUG_DRIVE lane_x=132.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=189, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455582.316662246] [self_driving]: [1;33m189[0m[0m
+[self_driving-10] [0m[INFO] [1782455582.318319691] [self_driving]: DEBUG_DRIVE lane_x=134.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=189, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455582.384987320] [self_driving]: [1;33m189[0m[0m
+[self_driving-10] [0m[INFO] [1782455582.389301857] [self_driving]: DEBUG_DRIVE lane_x=140.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=189, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455582.457607783] [self_driving]: [1;33m189[0m[0m
+[self_driving-10] [0m[INFO] [1782455582.458920598] [self_driving]: DEBUG_DRIVE lane_x=145.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=189, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455582.517170228] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455582.518588876] [self_driving]: [DET] crosswalk: cx=386, cy=196, box=array('i', [305, 193, 467, 200]), score=0.80[0m
+[self_driving-10] [0m[INFO] [1782455582.522449691] [self_driving]: [1;33m196[0m[0m
+[self_driving-10] [0m[INFO] [1782455582.525623450] [self_driving]: DEBUG_DRIVE lane_x=145.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=196, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455582.589581154] [self_driving]: [1;33m196[0m[0m
+[self_driving-10] [0m[INFO] [1782455582.591316635] [self_driving]: DEBUG_DRIVE lane_x=140.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=196, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455582.648071320] [self_driving]: [1;33m196[0m[0m
+[self_driving-10] [0m[INFO] [1782455582.649939283] [self_driving]: DEBUG_DRIVE lane_x=133.0, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=196, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455582.714623061] [self_driving]: [1;33m196[0m[0m
+[self_driving-10] [0m[INFO] [1782455582.722594172] [self_driving]: DEBUG_DRIVE lane_x=126.5, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=196, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455582.767514116] [self_driving]: [1;33m196[0m[0m
+[self_driving-10] [0m[INFO] [1782455582.769642598] [self_driving]: DEBUG_DRIVE lane_x=102.5, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=196, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455582.847692653] [self_driving]: [1;33m196[0m[0m
+[self_driving-10] [0m[INFO] [1782455582.848888950] [self_driving]: DEBUG_DRIVE lane_x=93.5, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=196, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455582.918024431] [self_driving]: [1;33m196[0m[0m
+[self_driving-10] [0m[INFO] [1782455582.919264950] [self_driving]: DEBUG_DRIVE lane_x=98.0, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=196, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455582.948045561] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455582.950006098] [self_driving]: [DET] crosswalk: cx=417, cy=270, box=array('i', [197, 255, 637, 285]), score=0.89[0m
+[self_driving-10] [0m[INFO] [1782455582.951929098] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455582.953508894] [self_driving]: [DET] go: cx=238, cy=141, box=array('i', [228, 128, 248, 155]), score=0.86[0m
+[self_driving-10] [0m[INFO] [1782455582.970633598] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455582.978964505] [self_driving]: [DET] crosswalk: cx=373, cy=208, box=array('i', [279, 203, 468, 213]), score=0.81[0m
+[self_driving-10] [0m[INFO] [1782455583.011003709] [self_driving]: [1;33m208[0m[0m
+[self_driving-10] [0m[INFO] [1782455583.014681598] [self_driving]: DEBUG_DRIVE lane_x=112.5, linear=0.60, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=208, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455583.059103616] [self_driving]: [1;33m208[0m[0m
+[self_driving-10] [0m[INFO] [1782455583.063685061] [self_driving]: DEBUG_DRIVE lane_x=123.5, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=208, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455583.126072357] [self_driving]: [1;33m208[0m[0m
+[self_driving-10] [0m[INFO] [1782455583.128267987] [self_driving]: DEBUG_DRIVE lane_x=138.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=208, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455583.185576079] [self_driving]: [1;33m208[0m[0m
+[self_driving-10] [0m[INFO] [1782455583.188938246] [self_driving]: DEBUG_DRIVE lane_x=153.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=208, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455583.257140301] [self_driving]: [1;33m208[0m[0m
+[self_driving-10] [0m[INFO] [1782455583.258170542] [self_driving]: DEBUG_DRIVE lane_x=155.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=208, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455583.315335949] [self_driving]: [1;33m208[0m[0m
+[self_driving-10] [0m[INFO] [1782455583.316672172] [self_driving]: DEBUG_DRIVE lane_x=150.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=208, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455583.382150542] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455583.382804024] [self_driving]: [1;33m208[0m[0m
+[self_driving-10] [0m[INFO] [1782455583.386413431] [self_driving]: [DET] go: cx=216, cy=139, box=array('i', [206, 123, 226, 155]), score=0.86[0m
+[self_driving-10] [0m[INFO] [1782455583.387066524] [self_driving]: DEBUG_DRIVE lane_x=138.0, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=208, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455583.393685838] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455583.394874949] [self_driving]: [DET] crosswalk: cx=377, cy=219, box=array('i', [255, 213, 499, 226]), score=0.85[0m
+[self_driving-10] [0m[INFO] [1782455583.479854449] [self_driving]: [1;33m219[0m[0m
+[self_driving-10] [0m[INFO] [1782455583.481257672] [self_driving]: DEBUG_DRIVE lane_x=161.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=219, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455583.522958394] [self_driving]: [1;33m219[0m[0m
+[self_driving-10] [0m[INFO] [1782455583.524589746] [self_driving]: DEBUG_DRIVE lane_x=172.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=219, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455583.590803023] [self_driving]: [1;33m219[0m[0m
+[self_driving-10] [0m[INFO] [1782455583.595710838] [self_driving]: DEBUG_DRIVE lane_x=168.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=219, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455583.661231579] [self_driving]: [1;33m219[0m[0m
+[self_driving-10] [0m[INFO] [1782455583.662505505] [self_driving]: DEBUG_DRIVE lane_x=169.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=219, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455583.718004671] [self_driving]: [1;33m219[0m[0m
+[self_driving-10] [0m[INFO] [1782455583.719432616] [self_driving]: DEBUG_DRIVE lane_x=160.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=219, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455583.785088190] [self_driving]: [1;33m219[0m[0m
+[self_driving-10] [0m[INFO] [1782455583.787911320] [self_driving]: DEBUG_DRIVE lane_x=148.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=219, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455583.789305616] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455583.792362616] [self_driving]: [DET] crosswalk: cx=311, cy=451, box=array('i', [0, 424, 622, 479]), score=0.90[0m
+[self_driving-10] [0m[INFO] [1782455583.796073079] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455583.807766708] [self_driving]: [DET] go: cx=192, cy=121, box=array('i', [180, 102, 205, 141]), score=0.88[0m
+[self_driving-10] [0m[INFO] [1782455583.876444060] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455583.879415634] [self_driving]: DEBUG_DRIVE lane_x=143.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455583.931005671] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455583.933597894] [self_driving]: DEBUG_DRIVE lane_x=134.0, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=0, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455583.985568801] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455583.987422579] [self_driving]: DEBUG_DRIVE lane_x=133.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455584.049786801] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455584.052416505] [self_driving]: DEBUG_DRIVE lane_x=129.5, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=0, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455584.122654856] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455584.125486690] [self_driving]: DEBUG_DRIVE lane_x=130.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455584.199724171] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455584.203679690] [self_driving]: DEBUG_DRIVE lane_x=131.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455584.213389560] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455584.217721912] [self_driving]: [DET] crosswalk: cx=436, cy=254, box=array('i', [239, 239, 634, 270]), score=0.91[0m
+[self_driving-10] [0m[INFO] [1782455584.224101930] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455584.228475560] [self_driving]: [DET] go: cx=188, cy=126, box=array('i', [174, 104, 202, 149]), score=0.88[0m
+[self_driving-10] [0m[INFO] [1782455584.262473597] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455584.265614486] [self_driving]: DEBUG_DRIVE lane_x=134.5, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455584.327783616] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455584.335986986] [self_driving]: DEBUG_DRIVE lane_x=129.5, linear=0.60, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455584.402528560] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455584.405076893] [self_driving]: DEBUG_DRIVE lane_x=125.5, linear=0.60, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455584.455763430] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455584.456818115] [self_driving]: DEBUG_DRIVE lane_x=120.5, linear=0.60, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455584.521484486] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455584.523318393] [self_driving]: DEBUG_DRIVE lane_x=125.5, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455584.601828504] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455584.603312301] [self_driving]: DEBUG_DRIVE lane_x=126.5, linear=0.60, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455584.617238060] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455584.623185208] [self_driving]: [DET] go: cx=123, cy=117, box=array('i', [107, 88, 140, 146]), score=0.91[0m
+[self_driving-10] [0m[INFO] [1782455584.631320486] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455584.636725726] [self_driving]: [DET] crosswalk: cx=408, cy=308, box=array('i', [177, 280, 640, 337]), score=0.91[0m
+[self_driving-10] [0m[INFO] [1782455584.682338023] [self_driving]: [1;33m308[0m[0m
+[self_driving-10] [0m[INFO] [1782455584.684179282] [self_driving]: DEBUG_DRIVE lane_x=133.0, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=308, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455584.738896745] [self_driving]: [1;33m308[0m[0m
+[self_driving-10] [0m[INFO] [1782455584.741628412] [self_driving]: DEBUG_DRIVE lane_x=131.0, linear=0.60, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=308, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455584.804199189] [self_driving]: [1;33m308[0m[0m
+[self_driving-10] [0m[INFO] [1782455584.805860782] [self_driving]: DEBUG_DRIVE lane_x=136.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=308, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455584.872945300] [self_driving]: [1;33m308[0m[0m
+[self_driving-10] [0m[INFO] [1782455584.876295874] [self_driving]: DEBUG_DRIVE lane_x=143.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=308, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455584.933534819] [self_driving]: [1;33m308[0m[0m
+[self_driving-10] [0m[INFO] [1782455584.937540374] [self_driving]: DEBUG_DRIVE lane_x=145.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=308, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455584.993468652] [self_driving]: [1;33m308[0m[0m
+[self_driving-10] [0m[INFO] [1782455584.996280263] [self_driving]: DEBUG_DRIVE lane_x=160.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=308, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455585.067466615] [self_driving]: [1;33m308[0m[0m
+[self_driving-10] [0m[INFO] [1782455585.070528300] [self_driving]: DEBUG_DRIVE lane_x=175.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=308, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455585.088785134] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455585.090272226] [self_driving]: [DET] crosswalk: cx=321, cy=418, box=array('i', [2, 357, 640, 480]), score=0.87[0m
+[self_driving-10] [0m[INFO] [1782455585.094594411] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455585.100485208] [self_driving]: [DET] go: cx=12, cy=103, box=array('i', [0, 59, 25, 147]), score=0.83[0m
+[self_driving-10] [0m[INFO] [1782455585.157839837] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455585.162486504] [self_driving]: DEBUG_DRIVE lane_x=206.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455585.214763245] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455585.218924745] [self_driving]: DEBUG_DRIVE lane_x=217.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455585.283079096] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455585.286433578] [self_driving]: DEBUG_DRIVE lane_x=225.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455585.336988911] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455585.338558948] [self_driving]: DEBUG_DRIVE lane_x=228.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455585.408322430] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455585.409715726] [self_driving]: DEBUG_DRIVE lane_x=232.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455585.466953189] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455585.470171356] [self_driving]: DEBUG_DRIVE lane_x=247.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455585.554947856] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455585.561382541] [self_driving]: DEBUG_DRIVE lane_x=269.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455585.600160004] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455585.602060763] [self_driving]: DEBUG_DRIVE lane_x=105.5, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=0, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455585.671535689] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455585.673260633] [self_driving]: DEBUG_DRIVE lane_x=159.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455585.745177411] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455585.746681115] [self_driving]: DEBUG_DRIVE lane_x=188.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455585.816224226] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455585.817360152] [self_driving]: DEBUG_DRIVE lane_x=216.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455585.877184059] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455585.881802726] [self_driving]: DEBUG_DRIVE lane_x=245.0, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455585.964238948] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455585.968200226] [self_driving]: DEBUG_DRIVE lane_x=279.5, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455586.014331707] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455586.016552244] [self_driving]: DEBUG_DRIVE lane_x=187.0, linear=0.60, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455586.079639114] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455586.081624392] [self_driving]: DEBUG_DRIVE lane_x=231.5, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455586.149162392] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455586.204368781] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455586.261630577] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455586.372775392] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455586.410716374] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455586.481748855] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455586.535969485] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455586.613788929] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455586.722876373] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455586.777715170] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455586.870740725] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455586.940062058] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455587.017573892] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455587.110999281] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455587.201184984] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455587.276581355] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455587.349920206] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455587.417065429] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455587.510648058] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455587.592290669] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455587.597231114] [self_driving]: DEBUG_DRIVE lane_x=275.5, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455587.670104039] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455587.672012002] [self_driving]: DEBUG_DRIVE lane_x=203.0, linear=0.60, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455587.740063928] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455587.741301873] [self_driving]: DEBUG_DRIVE lane_x=144.0, linear=0.60, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455587.802898151] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455587.804974113] [self_driving]: DEBUG_DRIVE lane_x=88.5, linear=0.60, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455587.863152984] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455587.865554965] [self_driving]: DEBUG_DRIVE lane_x=234.5, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455587.957439187] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455587.961401576] [self_driving]: DEBUG_DRIVE lane_x=64.5, linear=0.60, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455588.014969336] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455588.017370113] [self_driving]: DEBUG_DRIVE lane_x=248.5, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455588.069486002] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455588.071251780] [self_driving]: DEBUG_DRIVE lane_x=164.0, linear=0.60, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455588.144317576] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455588.145807150] [self_driving]: DEBUG_DRIVE lane_x=160.5, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455588.194252039] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455588.198960206] [self_driving]: DEBUG_DRIVE lane_x=197.5, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455588.265837335] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455588.268457502] [self_driving]: DEBUG_DRIVE lane_x=255.0, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455588.344476743] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455588.345622502] [self_driving]: DEBUG_DRIVE lane_x=184.0, linear=0.60, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455588.402963243] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455588.404769261] [self_driving]: DEBUG_DRIVE lane_x=255.0, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455588.481162595] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455588.482471169] [self_driving]: DEBUG_DRIVE lane_x=252.0, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455588.534029539] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455588.538687983] [self_driving]: DEBUG_DRIVE lane_x=303.0, linear=0.60, linear_y=0.00, angular=-1.30, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455588.612593613] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455588.613709780] [self_driving]: DEBUG_DRIVE lane_x=270.0, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455588.666311502] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455588.668856891] [self_driving]: DEBUG_DRIVE lane_x=220.5, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=0, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455588.708514039] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455588.711442483] [self_driving]: [DET] crosswalk: cx=196, cy=465, box=array('i', [108, 453, 285, 478]), score=0.77[0m
+[self_driving-10] [0m[INFO] [1782455588.767137372] [self_driving]: [1;33m465[0m[0m
+[self_driving-10] [0m[INFO] [1782455588.770600094] [self_driving]: DEBUG_DRIVE lane_x=298.0, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=465, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455588.818990280] [self_driving]: [1;33m465[0m[0m
+[self_driving-10] [0m[INFO] [1782455588.820367780] [self_driving]: DEBUG_DRIVE lane_x=285.0, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=465, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455588.872676631] [self_driving]: [1;33m465[0m[0m
+[self_driving-10] [0m[INFO] [1782455588.874830761] [self_driving]: DEBUG_DRIVE lane_x=303.5, linear=0.40, linear_y=0.00, angular=-1.30, stop=False, crosswalk_distance=465, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455588.943933520] [self_driving]: [1;33m465[0m[0m
+[self_driving-10] [0m[INFO] [1782455588.945574965] [self_driving]: DEBUG_DRIVE lane_x=153.5, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=465, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455589.010093594] [self_driving]: [1;33m465[0m[0m
+[self_driving-10] [0m[INFO] [1782455589.011821391] [self_driving]: DEBUG_DRIVE lane_x=89.0, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=465, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455589.074740279] [self_driving]: [1;33m465[0m[0m
+[self_driving-10] [0m[INFO] [1782455589.075362650] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455589.077951631] [self_driving]: [DET] crosswalk: cx=28, cy=449, box=array('i', [0, 419, 56, 480]), score=0.39[0m
+[self_driving-10] [0m[INFO] [1782455589.079948835] [self_driving]: DEBUG_DRIVE lane_x=56.0, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=465, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455589.100364890] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455589.101430409] [self_driving]: [DET] green: cx=163, cy=364, box=array('i', [2, 248, 324, 480]), score=0.38[0m
+[self_driving-10] [0m[INFO] [1782455589.142928353] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455589.145426483] [self_driving]: DEBUG_DRIVE lane_x=50.5, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=0, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455589.218254853] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455589.270794927] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455589.342842742] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455589.423507242] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455589.482994131] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455589.520406298] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455589.521188001] [self_driving]: [DET] crosswalk: cx=533, cy=188, box=array('i', [476, 149, 591, 228]), score=0.67[0m
+[self_driving-10] [0m[INFO] [1782455589.566048761] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455589.628414723] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455589.680607168] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455589.755309131] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455589.815199964] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455589.887808853] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455589.967653668] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455590.045439427] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455590.092604964] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455590.163103519] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455590.225295464] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455590.291937668] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455590.375858427] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455590.420354316] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455590.486648427] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455590.549360001] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455590.631910834] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455590.728281464] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455590.774325630] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455590.837898741] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455590.882305834] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455590.965571352] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455591.030739204] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455591.130654834] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455591.156493260] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455591.222624260] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455591.304293241] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455591.365539408] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455591.431466611] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455591.517444519] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455591.572717148] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455591.576345315] [self_driving]: DEBUG_DRIVE lane_x=264.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=188, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455591.632872259] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455591.712632500] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455591.715836907] [self_driving]: DEBUG_DRIVE lane_x=250.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=188, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455591.758743556] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455591.762795148] [self_driving]: DEBUG_DRIVE lane_x=244.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=188, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455591.838280333] [self_driving]: [1;33m188[0m[0m
+[self_driving-10] [0m[INFO] [1782455591.839638741] [self_driving]: DEBUG_DRIVE lane_x=270.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=188, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455591.883252241] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455591.886590037] [self_driving]: [DET] crosswalk: cx=602, cy=321, box=array('i', [566, 282, 639, 360]), score=0.46[0m
+[self_driving-10] [0m[INFO] [1782455591.940951889] [self_driving]: [1;33m321[0m[0m
+[self_driving-10] [0m[INFO] [1782455591.946145981] [self_driving]: DEBUG_DRIVE lane_x=204.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=321, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455591.985898333] [self_driving]: [1;33m321[0m[0m
+[self_driving-10] [0m[INFO] [1782455591.987903759] [self_driving]: DEBUG_DRIVE lane_x=232.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=321, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455592.047549629] [self_driving]: [1;33m321[0m[0m
+[self_driving-10] [0m[INFO] [1782455592.048738018] [self_driving]: DEBUG_DRIVE lane_x=253.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=321, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455592.099160481] [self_driving]: [1;33m321[0m[0m
+[self_driving-10] [0m[INFO] [1782455592.101874444] [self_driving]: DEBUG_DRIVE lane_x=257.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=321, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455592.175794407] [self_driving]: [1;33m321[0m[0m
+[self_driving-10] [0m[INFO] [1782455592.177147981] [self_driving]: DEBUG_DRIVE lane_x=253.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=321, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455592.232406426] [self_driving]: [1;33m321[0m[0m
+[self_driving-10] [0m[INFO] [1782455592.233945889] [self_driving]: DEBUG_DRIVE lane_x=226.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=321, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455592.274477870] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455592.275938722] [self_driving]: [DET] crosswalk: cx=56, cy=266, box=array('i', [0, 254, 113, 278]), score=0.87[0m
+[self_driving-10] [0m[INFO] [1782455592.293733259] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455592.295124352] [self_driving]: [DET] crosswalk: cx=60, cy=205, box=array('i', [11, 200, 109, 210]), score=0.31[0m
+[self_driving-10] [0m[INFO] [1782455592.344733852] [self_driving]: [1;33m205[0m[0m
+[self_driving-10] [0m[INFO] [1782455592.352728833] [self_driving]: DEBUG_DRIVE lane_x=219.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=205, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455592.381971240] [self_driving]: [1;33m205[0m[0m
+[self_driving-10] [0m[INFO] [1782455592.390709685] [self_driving]: DEBUG_DRIVE lane_x=230.0, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=205, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455592.446753259] [self_driving]: [1;33m205[0m[0m
+[self_driving-10] [0m[INFO] [1782455592.450971500] [self_driving]: DEBUG_DRIVE lane_x=307.0, linear=0.60, linear_y=0.00, angular=-1.30, stop=False, crosswalk_distance=205, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455592.512760611] [self_driving]: [1;33m205[0m[0m
+[self_driving-10] [0m[INFO] [1782455592.517237518] [self_driving]: DEBUG_DRIVE lane_x=302.0, linear=0.40, linear_y=0.00, angular=-1.30, stop=False, crosswalk_distance=205, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455592.570805148] [self_driving]: [1;33m205[0m[0m
+[self_driving-10] [0m[INFO] [1782455592.572749796] [self_driving]: DEBUG_DRIVE lane_x=315.0, linear=0.40, linear_y=0.00, angular=-1.30, stop=False, crosswalk_distance=205, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455592.649305648] [self_driving]: [1;33m205[0m[0m
+[self_driving-10] [0m[INFO] [1782455592.650735611] [self_driving]: DEBUG_DRIVE lane_x=157.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=205, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455592.690617259] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455592.694326351] [self_driving]: [DET] crosswalk: cx=316, cy=384, box=array('i', [258, 361, 375, 408]), score=0.72[0m
+[self_driving-10] [0m[INFO] [1782455592.708453333] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455592.709486870] [self_driving]: [DET] crosswalk: cx=356, cy=307, box=array('i', [311, 293, 402, 322]), score=0.70[0m
+[self_driving-10] [0m[INFO] [1782455592.746060388] [self_driving]: [1;33m307[0m[0m
+[self_driving-10] [0m[INFO] [1782455592.754443092] [self_driving]: DEBUG_DRIVE lane_x=196.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=307, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455592.793492166] [self_driving]: [1;33m307[0m[0m
+[self_driving-10] [0m[INFO] [1782455592.795137610] [self_driving]: DEBUG_DRIVE lane_x=180.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=307, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455592.850068796] [self_driving]: [1;33m307[0m[0m
+[self_driving-10] [0m[INFO] [1782455592.851186703] [self_driving]: DEBUG_DRIVE lane_x=199.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=307, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455592.904126777] [self_driving]: [1;33m307[0m[0m
+[self_driving-10] [0m[INFO] [1782455592.905298499] [self_driving]: DEBUG_DRIVE lane_x=215.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=307, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455592.973064314] [self_driving]: [1;33m307[0m[0m
+[self_driving-10] [0m[INFO] [1782455592.974376536] [self_driving]: DEBUG_DRIVE lane_x=226.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=307, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455593.040140610] [self_driving]: [1;33m307[0m[0m
+[self_driving-10] [0m[INFO] [1782455593.041889203] [self_driving]: DEBUG_DRIVE lane_x=191.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=307, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455593.124531203] [self_driving]: [1;33m307[0m[0m
+[self_driving-10] [0m[INFO] [1782455593.125892833] [self_driving]: DEBUG_DRIVE lane_x=260.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=307, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455593.166166740] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455593.177489703] [self_driving]: [DET] crosswalk: cx=602, cy=302, box=array('i', [567, 274, 638, 331]), score=0.40[0m
+[self_driving-10] [0m[INFO] [1782455593.208355481] [self_driving]: [1;33m302[0m[0m
+[self_driving-10] [0m[INFO] [1782455593.209558203] [self_driving]: DEBUG_DRIVE lane_x=262.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=302, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455593.244962444] [self_driving]: [1;33m302[0m[0m
+[self_driving-10] [0m[INFO] [1782455593.246752851] [self_driving]: DEBUG_DRIVE lane_x=274.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=302, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455593.321362425] [self_driving]: [1;33m302[0m[0m
+[self_driving-10] [0m[INFO] [1782455593.322488703] [self_driving]: DEBUG_DRIVE lane_x=253.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=302, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455593.390935647] [self_driving]: [1;33m302[0m[0m
+[self_driving-10] [0m[INFO] [1782455593.393906481] [self_driving]: DEBUG_DRIVE lane_x=229.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=302, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455593.458025351] [self_driving]: [1;33m302[0m[0m
+[self_driving-10] [0m[INFO] [1782455593.461320703] [self_driving]: DEBUG_DRIVE lane_x=217.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=302, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455593.526438499] [self_driving]: [1;33m302[0m[0m
+[self_driving-10] [0m[INFO] [1782455593.529123758] [self_driving]: DEBUG_DRIVE lane_x=159.5, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=302, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455593.576337129] [self_driving]: [1;33m302[0m[0m
+[self_driving-10] [0m[INFO] [1782455593.577612888] [self_driving]: DEBUG_DRIVE lane_x=176.0, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=302, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455593.683538610] [self_driving]: [1;33m302[0m[0m
+[self_driving-10] [0m[INFO] [1782455593.695848684] [self_driving]: DEBUG_DRIVE lane_x=200.5, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=302, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455593.722350110] [self_driving]: [1;33m302[0m[0m
+[self_driving-10] [0m[INFO] [1782455593.727053425] [self_driving]: DEBUG_DRIVE lane_x=237.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=302, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455593.786090943] [self_driving]: [1;33m302[0m[0m
+[self_driving-10] [0m[INFO] [1782455593.791186258] [self_driving]: DEBUG_DRIVE lane_x=240.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=302, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455593.852558517] [self_driving]: [1;33m302[0m[0m
+[self_driving-10] [0m[INFO] [1782455593.855215628] [self_driving]: DEBUG_DRIVE lane_x=107.5, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=302, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455593.924643054] [self_driving]: [1;33m302[0m[0m
+[self_driving-10] [0m[INFO] [1782455593.926749758] [self_driving]: DEBUG_DRIVE lane_x=180.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=302, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455593.983989369] [self_driving]: [1;33m302[0m[0m
+[self_driving-10] [0m[INFO] [1782455593.993064628] [self_driving]: DEBUG_DRIVE lane_x=261.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=302, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455594.055712499] [self_driving]: [1;33m302[0m[0m
+[self_driving-10] [0m[INFO] [1782455594.057236684] [self_driving]: DEBUG_DRIVE lane_x=68.5, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=302, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455594.066761202] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455594.067591147] [self_driving]: [DET] crosswalk: cx=389, cy=415, box=array('i', [308, 379, 471, 451]), score=0.87[0m
+[self_driving-10] [0m[INFO] [1782455594.139098480] [self_driving]: [1;33m415[0m[0m
+[self_driving-10] [0m[INFO] [1782455594.141793517] [self_driving]: DEBUG_DRIVE lane_x=98.5, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=415, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455594.192200369] [self_driving]: [1;33m415[0m[0m
+[self_driving-10] [0m[INFO] [1782455594.193821091] [self_driving]: DEBUG_DRIVE lane_x=107.5, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=415, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455594.243233850] [self_driving]: [1;33m415[0m[0m
+[self_driving-10] [0m[INFO] [1782455594.244894999] [self_driving]: DEBUG_DRIVE lane_x=116.0, linear=0.40, linear_y=0.00, angular=0.08, stop=False, crosswalk_distance=415, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455594.328082239] [self_driving]: [1;33m415[0m[0m
+[self_driving-10] [0m[INFO] [1782455594.329439591] [self_driving]: DEBUG_DRIVE lane_x=132.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=415, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455594.390630610] [self_driving]: [1;33m415[0m[0m
+[self_driving-10] [0m[INFO] [1782455594.393327850] [self_driving]: DEBUG_DRIVE lane_x=136.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=415, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455594.493594498] [self_driving]: [1;33m415[0m[0m
+[self_driving-10] [0m[INFO] [1782455594.500692665] [self_driving]: DEBUG_DRIVE lane_x=135.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=415, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455594.550219128] [self_driving]: [1;33m415[0m[0m
+[self_driving-10] [0m[INFO] [1782455594.553700998] [self_driving]: DEBUG_DRIVE lane_x=139.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=415, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455594.598589924] [self_driving]: [1;33m415[0m[0m
+[self_driving-10] [0m[INFO] [1782455594.600142554] [self_driving]: DEBUG_DRIVE lane_x=148.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=415, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455594.669134535] [self_driving]: [1;33m415[0m[0m
+[self_driving-10] [0m[INFO] [1782455594.671969869] [self_driving]: DEBUG_DRIVE lane_x=168.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=415, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455594.721722961] [self_driving]: [1;33m415[0m[0m
+[self_driving-10] [0m[INFO] [1782455594.723197165] [self_driving]: DEBUG_DRIVE lane_x=176.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=415, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455594.791084591] [self_driving]: [1;33m415[0m[0m
+[self_driving-10] [0m[INFO] [1782455594.792890906] [self_driving]: DEBUG_DRIVE lane_x=168.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=415, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455594.861013609] [self_driving]: [1;33m415[0m[0m
+[self_driving-10] [0m[INFO] [1782455594.862874387] [self_driving]: DEBUG_DRIVE lane_x=139.0, linear=0.60, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=415, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455594.888007924] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455594.889018331] [self_driving]: [DET] crosswalk: cx=63, cy=433, box=array('i', [0, 395, 127, 472]), score=0.61[0m
+[self_driving-10] [0m[INFO] [1782455594.935050961] [self_driving]: [1;33m433[0m[0m
+[self_driving-10] [0m[INFO] [1782455594.940502387] [self_driving]: DEBUG_DRIVE lane_x=98.5, linear=0.60, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=433, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455594.998418054] [self_driving]: [1;33m433[0m[0m
+[self_driving-10] [0m[INFO] [1782455595.000002202] [self_driving]: DEBUG_DRIVE lane_x=73.0, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=433, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455595.050241961] [self_driving]: [1;33m433[0m[0m
+[self_driving-10] [0m[INFO] [1782455595.052228442] [self_driving]: DEBUG_DRIVE lane_x=86.5, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=433, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455595.126924350] [self_driving]: [1;33m433[0m[0m
+[self_driving-10] [0m[INFO] [1782455595.129089535] [self_driving]: DEBUG_DRIVE lane_x=81.5, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=433, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455595.193840294] [self_driving]: [1;33m433[0m[0m
+[self_driving-10] [0m[INFO] [1782455595.195217831] [self_driving]: DEBUG_DRIVE lane_x=62.0, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=433, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455595.247763442] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455595.248843442] [self_driving]: [DET] crosswalk: cx=243, cy=446, box=array('i', [137, 412, 349, 480]), score=0.89[0m
+[self_driving-10] [0m[INFO] [1782455595.253701868] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455595.254696239] [self_driving]: [DET] crosswalk: cx=220, cy=261, box=array('i', [145, 245, 296, 278]), score=0.89[0m
+[self_driving-10] [0m[INFO] [1782455595.281407887] [self_driving]: [1;33m261[0m[0m
+[self_driving-10] [0m[INFO] [1782455595.287161590] [self_driving]: DEBUG_DRIVE lane_x=43.0, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=261, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455595.343706924] [self_driving]: [1;33m261[0m[0m
+[self_driving-10] [0m[INFO] [1782455595.346911776] [self_driving]: DEBUG_DRIVE lane_x=102.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=261, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455595.411196331] [self_driving]: [1;33m261[0m[0m
+[self_driving-10] [0m[INFO] [1782455595.413041053] [self_driving]: DEBUG_DRIVE lane_x=115.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=261, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455595.449112850] [self_driving]: [1;33m261[0m[0m
+[self_driving-10] [0m[INFO] [1782455595.452440239] [self_driving]: DEBUG_DRIVE lane_x=105.0, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=261, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455595.525302220] [self_driving]: [1;33m261[0m[0m
+[self_driving-10] [0m[INFO] [1782455595.528606646] [self_driving]: DEBUG_DRIVE lane_x=87.0, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=261, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455595.589473053] [self_driving]: [1;33m261[0m[0m
+[self_driving-10] [0m[INFO] [1782455595.591702424] [self_driving]: DEBUG_DRIVE lane_x=95.5, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=261, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455595.660139924] [self_driving]: [1;33m261[0m[0m
+[self_driving-10] [0m[INFO] [1782455595.662259387] [self_driving]: DEBUG_DRIVE lane_x=91.0, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=261, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455595.678019979] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455595.678832331] [self_driving]: [DET] crosswalk: cx=257, cy=406, box=array('i', [131, 379, 383, 433]), score=0.92[0m
+[self_driving-10] [0m[INFO] [1782455595.682789775] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455595.683544850] [self_driving]: [DET] crosswalk: cx=270, cy=266, box=array('i', [198, 254, 343, 279]), score=0.87[0m
+[self_driving-10] [0m[INFO] [1782455595.742160720] [self_driving]: [1;33m266[0m[0m
+[self_driving-10] [0m[INFO] [1782455595.743261757] [self_driving]: DEBUG_DRIVE lane_x=99.0, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=266, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455595.807914498] [self_driving]: [1;33m266[0m[0m
+[self_driving-10] [0m[INFO] [1782455595.809630775] [self_driving]: DEBUG_DRIVE lane_x=101.5, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=266, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455595.876096090] [self_driving]: [1;33m266[0m[0m
+[self_driving-10] [0m[INFO] [1782455595.878361109] [self_driving]: DEBUG_DRIVE lane_x=104.5, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=266, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455595.937484590] [self_driving]: [1;33m266[0m[0m
+[self_driving-10] [0m[INFO] [1782455595.938737849] [self_driving]: DEBUG_DRIVE lane_x=105.5, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=266, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455596.002380738] [self_driving]: [1;33m266[0m[0m
+[self_driving-10] [0m[INFO] [1782455596.007056257] [self_driving]: DEBUG_DRIVE lane_x=111.5, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=266, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455596.059457238] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455596.082031553] [self_driving]: [DET] crosswalk: cx=327, cy=170, box=array('i', [250, 165, 405, 175]), score=0.83[0m
+[self_driving-10] [0m[INFO] [1782455596.084989183] [self_driving]: [1;33m266[0m[0m
+[self_driving-10] [0m[INFO] [1782455596.108540312] [self_driving]: DEBUG_DRIVE lane_x=115.5, linear=0.60, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=170, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455596.159224294] [self_driving]: [1;33m170[0m[0m
+[self_driving-10] [0m[INFO] [1782455596.162206979] [self_driving]: DEBUG_DRIVE lane_x=121.0, linear=0.60, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=170, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455596.205559349] [self_driving]: [1;33m170[0m[0m
+[self_driving-10] [0m[INFO] [1782455596.208583368] [self_driving]: DEBUG_DRIVE lane_x=131.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=170, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455596.264427608] [self_driving]: [1;33m170[0m[0m
+[self_driving-10] [0m[INFO] [1782455596.268077979] [self_driving]: DEBUG_DRIVE lane_x=149.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=170, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455596.337660090] [self_driving]: [1;33m170[0m[0m
+[self_driving-10] [0m[INFO] [1782455596.340077127] [self_driving]: DEBUG_DRIVE lane_x=155.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=170, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455596.393934053] [self_driving]: [1;33m170[0m[0m
+[self_driving-10] [0m[INFO] [1782455596.398507868] [self_driving]: DEBUG_DRIVE lane_x=157.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=170, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455596.461213331] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455596.462695571] [self_driving]: [1;33m170[0m[0m
+[self_driving-10] [0m[INFO] [1782455596.464398534] [self_driving]: [DET] crosswalk: cx=361, cy=197, box=array('i', [285, 193, 437, 202]), score=0.85[0m
+[self_driving-10] [0m[INFO] [1782455596.470017386] [self_driving]: DEBUG_DRIVE lane_x=151.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=197, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455596.472280238] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455596.479387793] [self_driving]: [DET] crosswalk: cx=364, cy=232, box=array('i', [221, 223, 507, 241]), score=0.84[0m
+[self_driving-10] [0m[INFO] [1782455596.533216738] [self_driving]: [1;33m232[0m[0m
+[self_driving-10] [0m[INFO] [1782455596.535779942] [self_driving]: DEBUG_DRIVE lane_x=148.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=232, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455596.614022145] [self_driving]: [1;33m232[0m[0m
+[self_driving-10] [0m[INFO] [1782455596.616636960] [self_driving]: DEBUG_DRIVE lane_x=160.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=232, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455596.677975645] [self_driving]: [1;33m232[0m[0m
+[self_driving-10] [0m[INFO] [1782455596.679158812] [self_driving]: DEBUG_DRIVE lane_x=181.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=232, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455596.743938960] [self_driving]: [1;33m232[0m[0m
+[self_driving-10] [0m[INFO] [1782455596.745173627] [self_driving]: DEBUG_DRIVE lane_x=171.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=232, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455596.810551034] [self_driving]: [1;33m232[0m[0m
+[self_driving-10] [0m[INFO] [1782455596.813420960] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455596.814284738] [self_driving]: [DET] crosswalk: cx=389, cy=254, box=array('i', [197, 239, 582, 269]), score=0.87[0m
+[self_driving-10] [0m[INFO] [1782455596.817416627] [self_driving]: DEBUG_DRIVE lane_x=163.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=232, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455596.823143367] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455596.824660367] [self_driving]: [DET] crosswalk: cx=370, cy=201, box=array('i', [282, 197, 459, 206]), score=0.82[0m
+[self_driving-10] [0m[INFO] [1782455596.879386015] [self_driving]: [1;33m201[0m[0m
+[self_driving-10] [0m[INFO] [1782455596.886007404] [self_driving]: DEBUG_DRIVE lane_x=153.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=201, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455596.938426219] [self_driving]: [1;33m201[0m[0m
+[self_driving-10] [0m[INFO] [1782455596.940183127] [self_driving]: DEBUG_DRIVE lane_x=144.0, linear=0.40, linear_y=0.00, angular=-0.03, stop=False, crosswalk_distance=201, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455597.012900812] [self_driving]: [1;33m201[0m[0m
+[self_driving-10] [0m[INFO] [1782455597.015472312] [self_driving]: DEBUG_DRIVE lane_x=136.5, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=201, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455597.082475534] [self_driving]: [1;33m201[0m[0m
+[self_driving-10] [0m[INFO] [1782455597.083979701] [self_driving]: DEBUG_DRIVE lane_x=137.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=201, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455597.144604534] [self_driving]: [1;33m201[0m[0m
+[self_driving-10] [0m[INFO] [1782455597.147471775] [self_driving]: DEBUG_DRIVE lane_x=136.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=201, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455597.179358460] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455597.181813163] [self_driving]: [DET] crosswalk: cx=410, cy=287, box=array('i', [180, 265, 640, 309]), score=0.87[0m
+[self_driving-10] [0m[INFO] [1782455597.190641515] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455597.195590534] [self_driving]: [DET] crosswalk: cx=398, cy=207, box=array('i', [295, 202, 501, 213]), score=0.76[0m
+[self_driving-10] [0m[INFO] [1782455597.231365756] [self_driving]: [1;33m207[0m[0m
+[self_driving-10] [0m[INFO] [1782455597.234046515] [self_driving]: DEBUG_DRIVE lane_x=140.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=207, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455597.284626404] [self_driving]: [1;33m207[0m[0m
+[self_driving-10] [0m[INFO] [1782455597.285768608] [self_driving]: DEBUG_DRIVE lane_x=139.5, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=207, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455597.338997163] [self_driving]: [1;33m207[0m[0m
+[self_driving-10] [0m[INFO] [1782455597.342154200] [self_driving]: DEBUG_DRIVE lane_x=138.5, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=207, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455597.406903663] [self_driving]: [1;33m207[0m[0m
+[self_driving-10] [0m[INFO] [1782455597.408269274] [self_driving]: DEBUG_DRIVE lane_x=136.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=207, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455597.468669608] [self_driving]: [1;33m207[0m[0m
+[self_driving-10] [0m[INFO] [1782455597.469861293] [self_driving]: DEBUG_DRIVE lane_x=135.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=207, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455597.540983626] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455597.542547404] [self_driving]: [1;33m207[0m[0m
+[self_driving-10] [0m[INFO] [1782455597.545063052] [self_driving]: DEBUG_DRIVE lane_x=137.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=207, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455597.547076497] [self_driving]: [DET] crosswalk: cx=360, cy=364, box=array('i', [81, 317, 640, 411]), score=0.94[0m
+[self_driving-10] [0m[INFO] [1782455597.552068126] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455597.552873811] [self_driving]: [DET] crosswalk: cx=422, cy=214, box=array('i', [297, 208, 547, 221]), score=0.86[0m
+[self_driving-10] [0m[INFO] [1782455597.609429126] [self_driving]: [1;33m214[0m[0m
+[self_driving-10] [0m[INFO] [1782455597.612683922] [self_driving]: DEBUG_DRIVE lane_x=130.0, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=214, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455597.677585274] [self_driving]: [1;33m214[0m[0m
+[self_driving-10] [0m[INFO] [1782455597.680005867] [self_driving]: DEBUG_DRIVE lane_x=129.5, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=214, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455597.747147274] [self_driving]: [1;33m214[0m[0m
+[self_driving-10] [0m[INFO] [1782455597.749161496] [self_driving]: DEBUG_DRIVE lane_x=129.5, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=214, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455597.815593385] [self_driving]: [1;33m214[0m[0m
+[self_driving-10] [0m[INFO] [1782455597.816933219] [self_driving]: DEBUG_DRIVE lane_x=129.0, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=214, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455597.882611644] [self_driving]: [1;33m214[0m[0m
+[self_driving-10] [0m[INFO] [1782455597.884655330] [self_driving]: DEBUG_DRIVE lane_x=129.0, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=214, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455597.923539941] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455597.928093015] [self_driving]: [DET] crosswalk: cx=413, cy=233, box=array('i', [260, 223, 566, 244]), score=0.89[0m
+[self_driving-10] [0m[INFO] [1782455597.934028367] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455597.934943978] [self_driving]: [DET] crosswalk: cx=312, cy=470, box=array('i', [0, 461, 624, 480]), score=0.69[0m
+[self_driving-10] [0m[INFO] [1782455597.977690422] [self_driving]: [1;33m470[0m[0m
+[self_driving-10] [0m[INFO] [1782455597.981356256] [self_driving]: DEBUG_DRIVE lane_x=130.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=470, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455598.035759218] [self_driving]: [1;33m470[0m[0m
+[self_driving-10] [0m[INFO] [1782455598.039433552] [self_driving]: DEBUG_DRIVE lane_x=130.0, linear=0.40, linear_y=0.00, angular=0.00, stop=False, crosswalk_distance=470, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455598.081192626] [self_driving]: [1;33m470[0m[0m
+[self_driving-10] [0m[INFO] [1782455598.083285348] [self_driving]: DEBUG_DRIVE lane_x=136.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=470, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455598.145189126] [self_driving]: [1;33m470[0m[0m
+[self_driving-10] [0m[INFO] [1782455598.146842163] [self_driving]: DEBUG_DRIVE lane_x=139.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=470, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455598.220791811] [self_driving]: [1;33m470[0m[0m
+[self_driving-10] [0m[INFO] [1782455598.222073681] [self_driving]: DEBUG_DRIVE lane_x=141.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=470, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455598.288769663] [self_driving]: [1;33m470[0m[0m
+[self_driving-10] [0m[INFO] [1782455598.290020163] [self_driving]: DEBUG_DRIVE lane_x=141.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=470, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455598.322483774] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455598.332700515] [self_driving]: [DET] crosswalk: cx=420, cy=253, box=array('i', [232, 237, 608, 269]), score=0.90[0m
+[self_driving-10] [0m[INFO] [1782455598.380651663] [self_driving]: [1;33m253[0m[0m
+[self_driving-10] [0m[INFO] [1782455598.382300663] [self_driving]: DEBUG_DRIVE lane_x=139.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=253, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455598.438317218] [self_driving]: [1;33m253[0m[0m
+[self_driving-10] [0m[INFO] [1782455598.439524681] [self_driving]: DEBUG_DRIVE lane_x=136.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=253, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455598.498249477] [self_driving]: [1;33m253[0m[0m
+[self_driving-10] [0m[INFO] [1782455598.502282496] [self_driving]: DEBUG_DRIVE lane_x=130.0, linear=0.60, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=253, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455598.558239107] [self_driving]: [1;33m253[0m[0m
+[self_driving-10] [0m[INFO] [1782455598.560488237] [self_driving]: DEBUG_DRIVE lane_x=125.5, linear=0.60, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=253, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455598.622477126] [self_driving]: [1;33m253[0m[0m
+[self_driving-10] [0m[INFO] [1782455598.624809403] [self_driving]: DEBUG_DRIVE lane_x=117.5, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=253, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455598.689027255] [self_driving]: [1;33m253[0m[0m
+[self_driving-10] [0m[INFO] [1782455598.691619459] [self_driving]: DEBUG_DRIVE lane_x=122.0, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=253, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455598.746194162] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455598.749726662] [self_driving]: [DET] crosswalk: cx=390, cy=309, box=array('i', [141, 278, 640, 340]), score=0.93[0m
+[self_driving-10] [0m[INFO] [1782455598.752665959] [self_driving]: [1;33m253[0m[0m
+[self_driving-10] [0m[INFO] [1782455598.765672755] [self_driving]: DEBUG_DRIVE lane_x=122.0, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=309, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455598.831239274] [self_driving]: [1;33m309[0m[0m
+[self_driving-10] [0m[INFO] [1782455598.834451051] [self_driving]: DEBUG_DRIVE lane_x=126.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=309, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455598.889842533] [self_driving]: [1;33m309[0m[0m
+[self_driving-10] [0m[INFO] [1782455598.891103125] [self_driving]: DEBUG_DRIVE lane_x=122.5, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=309, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455598.959266866] [self_driving]: [1;33m309[0m[0m
+[self_driving-10] [0m[INFO] [1782455598.961977922] [self_driving]: DEBUG_DRIVE lane_x=116.5, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=309, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455599.030008218] [self_driving]: [1;33m309[0m[0m
+[self_driving-10] [0m[INFO] [1782455599.032370588] [self_driving]: DEBUG_DRIVE lane_x=115.0, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=309, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455599.080913940] [self_driving]: [1;33m309[0m[0m
+[self_driving-10] [0m[INFO] [1782455599.082154514] [self_driving]: DEBUG_DRIVE lane_x=133.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=309, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455599.115984607] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455599.123622903] [self_driving]: [DET] crosswalk: cx=321, cy=421, box=array('i', [2, 362, 640, 480]), score=0.89[0m
+[self_driving-10] [0m[INFO] [1782455599.197146847] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455599.198788199] [self_driving]: DEBUG_DRIVE lane_x=146.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=421, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455599.229821236] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455599.232193255] [self_driving]: DEBUG_DRIVE lane_x=153.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=421, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455599.299491644] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455599.300794847] [self_driving]: DEBUG_DRIVE lane_x=153.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=421, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455599.353617736] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455599.356512607] [self_driving]: DEBUG_DRIVE lane_x=150.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=421, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455599.417490532] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455599.418937218] [self_driving]: DEBUG_DRIVE lane_x=146.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=421, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455599.495037921] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455599.496971329] [self_driving]: DEBUG_DRIVE lane_x=138.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=421, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455599.588619736] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455599.595346847] [self_driving]: DEBUG_DRIVE lane_x=134.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=421, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455599.628256903] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455599.629485940] [self_driving]: DEBUG_DRIVE lane_x=127.0, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=421, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455599.694130847] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455599.698460180] [self_driving]: DEBUG_DRIVE lane_x=121.0, linear=0.60, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=421, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455599.774289643] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455599.777650940] [self_driving]: DEBUG_DRIVE lane_x=110.0, linear=0.60, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=421, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455599.821438569] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455599.823792884] [self_driving]: DEBUG_DRIVE lane_x=107.0, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=421, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455599.888371754] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455599.890265773] [self_driving]: DEBUG_DRIVE lane_x=107.5, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=421, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455599.970040291] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455599.971543828] [self_driving]: DEBUG_DRIVE lane_x=103.0, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=421, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455600.025756736] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455600.028904736] [self_driving]: DEBUG_DRIVE lane_x=118.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=421, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455600.095928439] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455600.097434310] [self_driving]: DEBUG_DRIVE lane_x=128.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=421, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455600.161741310] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455600.164320680] [self_driving]: DEBUG_DRIVE lane_x=142.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=421, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455600.226956791] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455600.229048310] [self_driving]: DEBUG_DRIVE lane_x=171.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=421, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455600.298374254] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455600.301560217] [self_driving]: DEBUG_DRIVE lane_x=172.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=421, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455600.357601217] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455600.359721939] [self_driving]: DEBUG_DRIVE lane_x=174.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=421, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455600.443636310] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455600.445847736] [self_driving]: DEBUG_DRIVE lane_x=181.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=421, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455600.506584347] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455600.508510458] [self_driving]: DEBUG_DRIVE lane_x=182.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=421, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455600.577109421] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455600.578152717] [self_driving]: DEBUG_DRIVE lane_x=229.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=421, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455600.641942606] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455600.645365421] [self_driving]: DEBUG_DRIVE lane_x=246.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=421, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455600.705216939] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455600.709954569] [self_driving]: DEBUG_DRIVE lane_x=134.0, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=421, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455600.780459846] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455600.782315346] [self_driving]: DEBUG_DRIVE lane_x=168.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=421, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455600.843088106] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455600.844731587] [self_driving]: DEBUG_DRIVE lane_x=179.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=421, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455600.902688883] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455600.905988976] [self_driving]: DEBUG_DRIVE lane_x=200.0, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=421, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455600.977343606] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455600.979230550] [self_driving]: DEBUG_DRIVE lane_x=240.0, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=421, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455601.045154235] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455601.048128643] [self_driving]: DEBUG_DRIVE lane_x=159.5, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=421, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455601.106279217] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455601.108535717] [self_driving]: DEBUG_DRIVE lane_x=188.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=421, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455601.200871383] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455601.251386846] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455601.319960124] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455601.378528124] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455601.448257235] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455601.524432031] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455601.636839439] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455601.654498457] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455601.712156105] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455601.780305883] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455601.851674438] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455601.929187772] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455602.053389549] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455602.094396679] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455602.169906420] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455602.242922716] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455602.322292901] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455602.422907234] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455602.488339105] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455602.577045382] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455602.657849068] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455602.752799234] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455602.823899382] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455602.899300530] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455602.971467327] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455603.064632993] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455603.065823623] [self_driving]: DEBUG_DRIVE lane_x=308.5, linear=0.40, linear_y=0.00, angular=-1.30, stop=False, crosswalk_distance=421, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455603.148900512] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455603.150548604] [self_driving]: DEBUG_DRIVE lane_x=259.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=421, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455603.226708549] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455603.307807308] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455603.309485771] [self_driving]: DEBUG_DRIVE lane_x=313.0, linear=0.40, linear_y=0.00, angular=-1.30, stop=False, crosswalk_distance=421, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455603.373982938] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455603.375133456] [self_driving]: DEBUG_DRIVE lane_x=286.5, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=421, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455603.462311197] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455603.465153289] [self_driving]: DEBUG_DRIVE lane_x=61.5, linear=0.60, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=421, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455603.514027789] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455603.517540882] [self_driving]: DEBUG_DRIVE lane_x=174.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=421, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455603.576998419] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455603.580743011] [self_driving]: DEBUG_DRIVE lane_x=294.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=421, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455603.640428345] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455603.641821011] [self_driving]: DEBUG_DRIVE lane_x=213.0, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=421, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455603.701886289] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455603.703457493] [self_driving]: DEBUG_DRIVE lane_x=181.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=421, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455603.781351845] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455603.782994104] [self_driving]: DEBUG_DRIVE lane_x=219.5, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=421, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455603.846559456] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455603.848542011] [self_driving]: DEBUG_DRIVE lane_x=206.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=421, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455603.914804696] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455603.918318419] [self_driving]: DEBUG_DRIVE lane_x=78.0, linear=0.40, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=421, start_slow_down=True[0m
+[self_driving-10] [0m[INFO] [1782455603.981451474] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455604.045578141] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455604.105639715] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455604.198524696] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455604.260248641] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455604.307061233] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455604.383153344] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455604.454867104] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455604.520207085] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455604.582179585] [self_driving]: [1;33m421[0m[0m
+[self_driving-10] [0m[INFO] [1782455604.614923159] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455604.621485752] [self_driving]: [DET] crosswalk: cx=34, cy=389, box=array('i', [0, 371, 69, 408]), score=0.81[0m
+[self_driving-10] [0m[INFO] [1782455604.629758455] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455604.631110955] [self_driving]: [DET] crosswalk: cx=28, cy=320, box=array('i', [0, 310, 56, 331]), score=0.65[0m
+[self_driving-10] [0m[INFO] [1782455604.667844807] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455604.732004214] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455604.794341696] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455604.853994400] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455604.916946807] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455604.988510918] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455605.085746529] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455605.125826511] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455605.192246548] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455605.259190122] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455605.328880103] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455605.392463566] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455605.492784973] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455605.538177510] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455605.594771788] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455605.655869399] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455605.727121325] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455605.796901084] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455605.882405640] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455605.940351955] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455606.010190695] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455606.062071158] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455606.118548917] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455606.196764714] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455606.280231362] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455606.337150028] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455606.414482362] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455606.458663232] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455606.544445250] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455606.591207713] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455606.672966639] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455606.753056769] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455606.825679213] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455606.875833435] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455606.944433547] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455606.998552084] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455607.073173954] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455607.074357269] [self_driving]: DEBUG_DRIVE lane_x=297.0, linear=0.40, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=320, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455607.126722083] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455607.127943880] [self_driving]: DEBUG_DRIVE lane_x=248.0, linear=0.60, linear_y=0.00, angular=-0.10, stop=False, crosswalk_distance=320, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455607.224246083] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455607.228035454] [self_driving]: DEBUG_DRIVE lane_x=155.0, linear=0.60, linear_y=0.00, angular=0.10, stop=False, crosswalk_distance=320, start_slow_down=False[0m
+[self_driving-10] [0m[INFO] [1782455607.268684750] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455607.341716713] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455607.403094509] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455607.476283435] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455607.572567879] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455607.634726731] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455607.685106565] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455607.746887565] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455607.811710990] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455607.867945879] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455607.933337361] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455608.045086009] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455608.079954194] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455608.138506657] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455608.214394712] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455608.287188583] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455608.344793675] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455608.449815249] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455608.485785268] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455608.555991046] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455608.608739231] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455608.674355564] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455608.747509379] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455608.813077731] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455608.896964656] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455608.957566175] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455609.022566342] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455609.088420101] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455609.161761656] [self_driving]: [1;33m320[0m[0m
+[self_driving-10] [0m[INFO] [1782455609.208652490] [self_driving]: objects=1[0m
+[self_driving-10] [0m[INFO] [1782455609.211051749] [self_driving]: [DET] green: cx=241, cy=100, box=array('i', [129, 0, 353, 201]), score=0.31[0m
+[self_driving-10] [0m[INFO] [1782455609.248479915] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455609.294800082] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455609.358943638] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455609.410214378] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455609.485651619] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455609.560333767] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455609.630378471] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455609.701407897] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455609.764622230] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455609.826680841] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455609.885413952] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455609.943443841] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455610.032600489] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455610.095389896] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455610.154381767] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455610.233251582] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455610.298656063] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455610.352734693] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455610.449737211] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455610.489906730] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455610.572290507] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455610.634138285] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455610.705013433] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455610.764380785] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455610.850933878] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455610.908120989] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455610.968392822] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455611.021504803] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455611.092478970] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455611.179249192] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455611.254184044] [self_driving]: [1;33m0[0m[0m
+[self_driving-10] [0m[INFO] [1782455611.295260137] [self_driving]: [1;33m0[0m[0m

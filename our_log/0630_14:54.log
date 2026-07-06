@@ -1,0 +1,696 @@
+[INFO] [launch]: All log files can be found below /home/ubuntu/.ros/log/2026-06-26-23-50-17-286459-raspberrypi-1005792
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ascamera_node-1]: process started with pid [1005808]
+[INFO] [static_transform_publisher-2]: process started with pid [1005810]
+[INFO] [static_transform_publisher-3]: process started with pid [1005812]
+[INFO] [joint_state_publisher-4]: process started with pid [1005814]
+[INFO] [robot_state_publisher-5]: process started with pid [1005816]
+[INFO] [ros_robot_controller-6]: process started with pid [1005818]
+[INFO] [odom_publisher-7]: process started with pid [1005820]
+[INFO] [ekf_node-8]: process started with pid [1005822]
+[INFO] [yolo_detect-9]: process started with pid [1005833]
+[INFO] [self_driving-10]: process started with pid [1005838]
+[static_transform_publisher-2] [33m[WARN] [1782517818.035122263] []: Old-style arguments are deprecated; see --help for new-style arguments[0m
+[static_transform_publisher-3] [33m[WARN] [1782517818.030784615] []: Old-style arguments are deprecated; see --help for new-style arguments[0m
+[ascamera_node-1] [0m[INFO] [1782517818.053820948] [as_logger]: hello world angstrong camera ros2 node[0m
+[ascamera_node-1] 2026-06-26 23:50:18[INFO] [CameraPublisher.cpp] [1558] [printLaunchParams] get depth_width 640
+[ascamera_node-1] 2026-06-26 23:50:18[INFO] [CameraPublisher.cpp] [1559] [printLaunchParams] get depth_height 480
+[ascamera_node-1] 2026-06-26 23:50:18[INFO] [CameraPublisher.cpp] [1561] [printLaunchParams] get rgb_width 640
+[ascamera_node-1] 2026-06-26 23:50:18[INFO] [CameraPublisher.cpp] [1562] [printLaunchParams] get rgb_height 480
+[ascamera_node-1] 2026-06-26 23:50:18[INFO] [CameraPublisher.cpp] [1570] [printLaunchParams] get set_fps 15
+[ascamera_node-1] 2026-06-26 23:50:18[INFO] [CameraPublisher.cpp] [1578] [printLaunchParams] get color_pcl 1
+[ascamera_node-1] 2026-06-26 23:50:18[INFO] [CameraPublisher.cpp] [1582] [printLaunchParams] get pub_tfTree 1
+[ascamera_node-1] 2026-06-26 23:50:18[INFO] [CameraSrv.cpp] [35] [CameraSrv] Angstrong camera server
+[ascamera_node-1] 2026-06-26 23:50:18[INFO] [CameraSrv.cpp] [45] [CameraSrv] Angstrong camera sdk version:v1.2.22.20240516
+[static_transform_publisher-2] [0m[INFO] [1782517818.106891503] [static_transform_publisher_fVhCSvwvY9hJNm43]: Spinning until stopped - publishing transform
+[static_transform_publisher-2] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-2] rotation: ('-0.500000', '0.499602', '-0.500000', '0.500398')
+[static_transform_publisher-2] from 'depth_cam' to 'ascamera_camera_link_0'[0m
+[static_transform_publisher-3] [0m[INFO] [1782517818.135268003] [static_transform_publisher_aOHOuudbZesNg8gZ]: Spinning until stopped - publishing transform
+[static_transform_publisher-3] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-3] rotation: ('-0.500000', '0.499602', '-0.500000', '0.500398')
+[static_transform_publisher-3] from 'depth_cam' to 'ascamera_color_0'[0m
+[robot_state_publisher-5] [0m[INFO] [1782517818.146305559] [robot_state_publisher]: got segment base_footprint[0m
+[robot_state_publisher-5] [0m[INFO] [1782517818.148138170] [robot_state_publisher]: got segment base_link[0m
+[robot_state_publisher-5] [0m[INFO] [1782517818.148189466] [robot_state_publisher]: got segment depth_cam[0m
+[robot_state_publisher-5] [0m[INFO] [1782517818.149822411] [robot_state_publisher]: got segment imu_link[0m
+[robot_state_publisher-5] [0m[INFO] [1782517818.149844633] [robot_state_publisher]: got segment lidar_frame[0m
+[robot_state_publisher-5] [0m[INFO] [1782517818.149856115] [robot_state_publisher]: got segment wheel_lb_Link[0m
+[robot_state_publisher-5] [0m[INFO] [1782517818.149866337] [robot_state_publisher]: got segment wheel_lf_Link[0m
+[robot_state_publisher-5] [0m[INFO] [1782517818.149876615] [robot_state_publisher]: got segment wheel_rb_Link[0m
+[robot_state_publisher-5] [0m[INFO] [1782517818.149886781] [robot_state_publisher]: got segment wheel_rf_Link[0m
+[joint_state_publisher-4] [0m[INFO] [1782517818.730644077] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...[0m
+[odom_publisher-7] [0m[INFO] [1782517818.866916244] [odom_publisher]: [1;32m0.930000 1.010000[0m[0m
+[odom_publisher-7] [0m[INFO] [1782517818.891037873] [odom_publisher]: [1;32mstart[0m[0m
+[ascamera_node-1] 2026-06-26 23:50:19[INFO] [CameraSrv.cpp] [114] [onAttached] attached
+[ascamera_node-1] 2026-06-26 23:50:19[INFO] [CameraSrv.cpp] [145] [onAttached] this is a new attach device, create and open it
+[ros_robot_controller-6] [0m[INFO] [1782517819.614512169] [ros_robot_controller]: 已设置舵机 1 的偏移量为 0[0m
+[ros_robot_controller-6] [0m[INFO] [1782517819.615433151] [ros_robot_controller]: 已设置舵机 2 的偏移量为 0[0m
+[ros_robot_controller-6] [0m[INFO] [1782517819.616544725] [ros_robot_controller]: 已设置舵机 3 的偏移量为 4[0m
+[ros_robot_controller-6] [0m[INFO] [1782517819.617370354] [ros_robot_controller]: 已设置舵机 4 的偏移量为 0[0m
+[self_driving-10] [0m[INFO] [1782517819.658131966] [self_driving]: [INIT] init_process started[0m
+[self_driving-10] [0m[INFO] [1782517819.658730317] [self_driving]: [INIT] only_line_follow=False[0m
+[self_driving-10] [0m[INFO] [1782517819.659279262] [self_driving]: [INIT] request /yolov5/start[0m
+[ros_robot_controller-6] [0m[INFO] [1782517819.951561539] [ros_robot_controller]: [1;32mstart[0m[0m
+[ascamera_node-1] 2026-06-26 23:50:20[INFO] [CameraSrv.cpp] [154] [onAttached] get model type 9
+[ascamera_node-1] 2026-06-26 23:50:20[INFO] [CameraSrv.cpp] [342] [getConfigFile] get file: /home/ubuntu/third_party_ros2/third_party_ws/src/ascamera/configurationfiles/hp60c_v2_00_20230704_configEncrypt.json
+[ascamera_node-1] 2026-06-26 23:50:20[INFO] [CameraPublisher.cpp] [1501] [logCameraPathInfo] usb camera
+[ascamera_node-1] 2026-06-26 23:50:20[INFO] [CameraPublisher.cpp] [1502] [logCameraPathInfo] bnum:1
+[ascamera_node-1] 2026-06-26 23:50:20[INFO] [CameraPublisher.cpp] [1503] [logCameraPathInfo] dnum:3
+[ascamera_node-1] 2026-06-26 23:50:20[INFO] [CameraPublisher.cpp] [1504] [logCameraPathInfo] port_numbers:2
+[ascamera_node-1] 2026-06-26 23:50:20[INFO] [CameraPublisher.cpp] [171] [onCameraAttached] create a new publisher info set
+[ascamera_node-1] 2026-06-26 23:50:20[INFO] [TfTreeFrameIdInfo.cpp] [11] [TfTreeFrameIdInfo] Namespace /ascamera
+[ascamera_node-1] 2026-06-26 23:50:20[INFO] [CameraHp60c.cpp] [128] [open] according to the configuration file.
+[ascamera_node-1] 2026-06-26 23:50:20[INFO] [CameraHp60c.cpp] [1528] [parseConfigFileParameter] moduleName:AS_CAM_HP60C
+[ascamera_node-1] 2026-06-26 23:50:20[INFO] [CameraHp60c.cpp] [1555] [parseConfigFileParameter] Parsing config file /home/ubuntu/third_party_ros2/third_party_ws/src/ascamera/configurationfiles/hp60c_v2_00_20230704_configEncrypt.json
+[ascamera_node-1] 2026-06-26 23:50:20[INFO] [CameraHp60c.cpp] [1620] [parseConfigFileParameter] configuration protocol Version: v2.x
+[ascamera_node-1] 2026-06-26 23:50:20[INFO] [CameraHp60c.cpp] [1631] [parseConfigFileParameter] configuration Version: v2.0.0.20230704
+[ascamera_node-1] 2026-06-26 23:50:20[INFO] [CameraHp60c.cpp] [1796] [setParamersAfterOpenCam] Camera confiParaEnable true, setting configuration parameter
+[self_driving-10] [33m[WARN] [1782517821.662649964] [self_driving]: [YOLO_SERVICE] service not ready, continue without blocking[0m
+[ascamera_node-1] 2026-06-26 23:50:21[ERROR] [XuCmdCameraHp60c.cpp] [454] [getMjpegSize] get mjpeg from xu command failed
+[ascamera_node-1] 2026-06-26 23:50:21[INFO] [XuCmdCameraHp60c.cpp] [458] [getMjpegSize] mjpeg size:640x480
+[ascamera_node-1] 2026-06-26 23:50:21[INFO] [CameraPublisher.cpp] [356] [onCameraOpen] camera opened
+[ascamera_node-1] 2026-06-26 23:50:21[INFO] [CameraPublisher.cpp] [370] [onCameraOpen] get config info, ret 0, is_Registration 1
+[ascamera_node-1] 2026-06-26 23:50:21[INFO] [Camera.cpp] [61] [init] #camera[0x5555bf282710] SN[ASC60CF08000515]'s firmware version:DLS_VERc20865=:V01.09_2024110714:V01.19_2024110714:L01
+[ascamera_node-1] 2026-06-26 23:50:21[INFO] [CameraPublisher.cpp] [1183] [setResolution] set depth resolution: 640 x 480 @ 15fps
+[ascamera_node-1] 2026-06-26 23:50:21[INFO] [CameraPublisher.cpp] [1197] [setResolution] set rgb resolution: 640 x 480 @ 15fps
+[ascamera_node-1] 2026-06-26 23:50:21[INFO] [CameraHp60c.cpp] [260] [startStreaming] start streaming
+[ascamera_node-1] 2026-06-26 23:50:21[INFO] [CameraSrv.cpp] [202] [onAttached] attached end
+[self_driving-10] [0m[INFO] [1782517822.163771483] [self_driving]: [INIT] enter + set_running start[0m
+[self_driving-10] [0m[INFO] [1782517822.164257668] [self_driving]: [1;32mself driving enter[0m[0m
+[self_driving-10] [0m[INFO] [1782517822.172458964] [self_driving]: [SUB] image=/ascamera/camera_publisher/rgb0/image object=/yolov5_ros2/object_detect[0m
+[self_driving-10] [0m[INFO] [1782517822.173127260] [self_driving]: [1;32mset_running[0m[0m
+[self_driving-10] [0m[INFO] [1782517822.178537779] [self_driving]: [1;32m[START] hybrid self_driving start: auto LINE_FOLLOW[0m[0m
+[INFO] [apply_calib-11]: process started with pid [1005988]
+[INFO] [complementary_filter_node-12]: process started with pid [1005990]
+[apply_calib-11] [0m[INFO] [1782517823.395084593] [imu_calib]: Calibrating gyros; do not move the IMU[0m
+[complementary_filter_node-12] [0m[INFO] [1782517823.399833037] [imu_filter]: Starting ComplementaryFilterROS[0m
+[ascamera_node-1] 2026-06-26 23:50:23[INFO] [CameraHp60c.cpp] [912] [setInternalParameter] mjpeg info: size(640x480)
+[ascamera_node-1] 2026-06-26 23:50:23[INFO] [Camera.cpp] [127] [backgroundThread] SN [ ASC60CF08000515 ]'s parameter:
+[ascamera_node-1] 2026-06-26 23:50:23[INFO] [Camera.cpp] [128] [backgroundThread] irfx: 426.962
+[ascamera_node-1] 2026-06-26 23:50:23[INFO] [Camera.cpp] [129] [backgroundThread] irfy: 426.374
+[ascamera_node-1] 2026-06-26 23:50:23[INFO] [Camera.cpp] [130] [backgroundThread] ircx: 315.403
+[ascamera_node-1] 2026-06-26 23:50:23[INFO] [Camera.cpp] [131] [backgroundThread] ircy: 240.933
+[ascamera_node-1] 2026-06-26 23:50:23[INFO] [Camera.cpp] [132] [backgroundThread] rgbfx: 570.48
+[ascamera_node-1] 2026-06-26 23:50:23[INFO] [Camera.cpp] [133] [backgroundThread] rgbfy: 569.949
+[ascamera_node-1] 2026-06-26 23:50:23[INFO] [Camera.cpp] [134] [backgroundThread] rgbcx: 329.75
+[ascamera_node-1] 2026-06-26 23:50:23[INFO] [Camera.cpp] [135] [backgroundThread] rgbcy: 238.406
+[ascamera_node-1] 
+[self_driving-10] [0m[INFO] [1782517823.834393259] [self_driving]: [IMAGE] received count=1 shape=(480, 640, 3) queue=0[0m
+[ascamera_node-1] 2026-06-26 23:50:23[INFO] [CameraHp60c.cpp] [1149] [streamCallback] set gain ret 0, gain 4
+[self_driving-10] [33m[WARN] [1782517824.013541574] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517824.014165389] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517824.529988370] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517824.530744926] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517825.067793536] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517825.068413370] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 stop=False[0m
+[yolo_detect-9] [0m[INFO] [1782517825.366094925] [yolov5_ros2]: Current ROS 2 distribution: humble[0m
+[apply_calib-11] [0m[INFO] [1782517825.432253518] [imu_calib]: Gyro calibration complete! (bias = [0.001, 0.052, -0.004])[0m
+[self_driving-10] [33m[WARN] [1782517825.615378647] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517825.616031518] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517825.882811999] [self_driving]: [IMAGE] received count=26 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [33m[WARN] [1782517826.166678536] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517826.167307351] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517826.721424184] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517826.726794146] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517827.290858572] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517827.291841998] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517827.839413016] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517827.839943442] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517827.935565886] [self_driving]: [IMAGE] received count=54 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [33m[WARN] [1782517828.361263942] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517828.361899386] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517828.881817090] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517828.882494849] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517829.446676441] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517829.447808589] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517829.989099293] [self_driving]: [IMAGE] received count=82 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [33m[WARN] [1782517830.000652422] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517830.002944200] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517830.569545144] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517830.570287052] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517831.080851644] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517831.081339311] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517831.609909014] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517831.613228495] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517831.999829254] [self_driving]: [IMAGE] received count=109 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [33m[WARN] [1782517832.156026236] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517832.156668903] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517832.708192828] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517832.708742661] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517833.270037846] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517833.270613735] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517833.856346031] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517833.856874142] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517834.082253346] [self_driving]: [IMAGE] received count=135 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [33m[WARN] [1782517834.407168568] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517834.407739364] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517834.965149401] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517834.965800197] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517835.519467808] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517835.520744900] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517835.926940456] [self_driving]: [OBJECTS] msg_count=1 n=1 names=['green'][0m
+[self_driving-10] [0m[INFO] [1782517835.927653734] [self_driving]: [TRAFFIC_CANDIDATE] name=green valid=True cx=425 cy=380 area=48800 score=0.46 min_area=800[0m
+[self_driving-10] [33m[WARN] [1782517836.068432530] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517836.068987308] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517836.101125178] [self_driving]: [IMAGE] received count=163 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [33m[WARN] [1782517836.596040881] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517836.597108511] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517837.145492844] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517837.148420122] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517837.669565418] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=65.5 lane_x=65.5 filter=stable linear=0.30 angular=0.10 cw_y=0 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517838.137287084] [self_driving]: [IMAGE] received count=193 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782517838.212834880] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=14.0 lane_x=14.0 filter=stable linear=0.30 angular=0.10 cw_y=0 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517838.745584510] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=14.5 lane_x=14.5 filter=stable linear=0.30 angular=0.10 cw_y=0 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517839.268704343] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=214.0 lane_x=214.0 filter=stable linear=0.30 angular=-0.45 cw_y=0 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517839.672051435] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517839.819439565] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517840.233656972] [self_driving]: [IMAGE] received count=223 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [33m[WARN] [1782517840.245474435] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517840.393964583] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517840.790339749] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517840.946417286] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517841.351878582] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517841.470266953] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517841.888918230] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517842.024396934] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517842.286477711] [self_driving]: [IMAGE] received count=251 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [33m[WARN] [1782517842.426438896] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517842.560798637] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517842.647332767] [self_driving]: [OBJECTS] msg_count=2 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782517842.648631026] [self_driving]: [TRAFFIC_CLEAR] no valid red/green in current object msg -> clear stale traffic[0m
+[self_driving-10] [33m[WARN] [1782517842.959577174] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517843.105818674] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=56 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517843.489427748] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517843.632566766] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=56 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517843.740075859] [self_driving]: [OBJECTS] msg_count=5 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782517843.978505673] [self_driving]: [1;33m[CROSSWALK_DETECT] 최초 감지! 정지선 접근 시퀀스 작동[0m[0m
+[self_driving-10] [33m[WARN] [1782517844.040874803] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517844.172384877] [self_driving]: [CW_STAGE 1] 감속 접근 중... elapsed: 0.19s[0m
+[self_driving-10] [0m[INFO] [1782517844.173630581] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.15 angular=0.00 cw_y=474 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517844.305247488] [self_driving]: [IMAGE] received count=281 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [33m[WARN] [1782517844.585550321] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517844.703002451] [self_driving]: [CW_STAGE 1] 감속 접근 중... elapsed: 0.72s[0m
+[self_driving-10] [0m[INFO] [1782517844.707336488] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.15 angular=0.00 cw_y=474 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517845.254985765] [self_driving]: [1;31m[CW_STAGE 2] 정지선 앞 완전 정지 (브레이크 작동 중)[0m[0m
+[self_driving-10] [33m[WARN] [1782517845.256395413] [self_driving]: [LANE_LOST] lane_x=145.0 filter=jump_reject stop_flag=True[0m
+[self_driving-10] [0m[INFO] [1782517845.256882802] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=234.0 lane_x=145.0 filter=jump_reject linear=0.00 angular=0.00 cw_y=474 stop=True[0m
+[self_driving-10] [0m[INFO] [1782517845.328070709] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517845.389939969] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517845.456269932] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517845.519702191] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517845.577851857] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517845.589974617] [self_driving]: [OBJECTS] msg_count=6 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782517845.590942894] [self_driving]: [TRAFFIC_CLEAR_STOP] clear stale red stop -> resume slow/line follow[0m
+[self_driving-10] [0m[INFO] [1782517845.726122968] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517845.793076413] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517845.794198505] [self_driving]: [1;31m[CW_STAGE 2] 정지선 앞 완전 정지 (브레이크 작동 중)[0m[0m
+[self_driving-10] [33m[WARN] [1782517845.794847617] [self_driving]: [LANE_LOST] lane_x=76.0 filter=hold_last stop_flag=True[0m
+[self_driving-10] [0m[INFO] [1782517845.795360894] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=76.0 filter=hold_last linear=0.00 angular=0.00 cw_y=67 stop=True[0m
+[self_driving-10] [0m[INFO] [1782517845.855780376] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517845.916208005] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517846.000070098] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517846.064720950] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517846.128499542] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517846.192080839] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517846.258129764] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517846.321418357] [self_driving]: [IMAGE] received count=311 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782517846.329634283] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517846.330129783] [self_driving]: [1;31m[CW_STAGE 2] 정지선 앞 완전 정지 (브레이크 작동 중)[0m[0m
+[self_driving-10] [33m[WARN] [1782517846.338020913] [self_driving]: [LANE_LOST] lane_x=45.5 filter=stable stop_flag=True[0m
+[self_driving-10] [0m[INFO] [1782517846.343865283] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=45.5 lane_x=45.5 filter=stable linear=0.00 angular=0.00 cw_y=67 stop=True[0m
+[self_driving-10] [0m[INFO] [1782517846.399732598] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517846.459187264] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517846.514078061] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517846.599371894] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517846.664984746] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517846.721031468] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517846.800719579] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517846.853211634] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517846.853887153] [self_driving]: [1;31m[CW_STAGE 2] 정지선 앞 완전 정지 (브레이크 작동 중)[0m[0m
+[self_driving-10] [33m[WARN] [1782517846.856664246] [self_driving]: [LANE_LOST] lane_x=94.5 filter=stable stop_flag=True[0m
+[self_driving-10] [0m[INFO] [1782517846.857507486] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=94.5 lane_x=94.5 filter=stable linear=0.00 angular=0.00 cw_y=67 stop=True[0m
+[self_driving-10] [0m[INFO] [1782517846.934893727] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517846.986513523] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517847.016053153] [self_driving]: [OBJECTS] msg_count=7 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782517847.016546412] [self_driving]: [TRAFFIC_CLEAR_STOP] clear stale red stop -> resume slow/line follow[0m
+[self_driving-10] [0m[INFO] [1782517847.139009505] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517847.205858875] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517847.206877616] [self_driving]: [1;32m[CW_STAGE 3] 정지 완료 후 출발! (6초간 재감지 방지 락 가동)[0m[0m
+[self_driving-10] [0m[INFO] [1782517847.393624467] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=266.0 lane_x=266.0 filter=stable linear=0.30 angular=-0.45 cw_y=382 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517847.845057986] [self_driving]: [OBJECTS] msg_count=12 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782517847.942124912] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=194.5 lane_x=194.5 filter=stable linear=0.30 angular=0.00 cw_y=475 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517848.332196689] [self_driving]: [IMAGE] received count=341 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782517848.464973171] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=187.5 lane_x=187.5 filter=stable linear=0.30 angular=0.00 cw_y=460 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517848.625912578] [self_driving]: [OBJECTS] msg_count=20 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782517849.001870411] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=164.5 lane_x=164.5 filter=stable linear=0.30 angular=0.00 cw_y=465 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517849.380293892] [self_driving]: [OBJECTS] msg_count=29 n=1 names=['go'][0m
+[self_driving-10] [0m[INFO] [1782517849.567915170] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=138.0 lane_x=138.0 filter=stable linear=0.30 angular=-0.10 cw_y=419 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517850.085239633] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=153.5 lane_x=153.5 filter=stable linear=0.30 angular=-0.10 cw_y=420 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517850.207121873] [self_driving]: [OBJECTS] msg_count=39 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782517850.345086595] [self_driving]: [IMAGE] received count=371 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782517850.633594373] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=133.0 lane_x=133.0 filter=stable linear=0.30 angular=-0.10 cw_y=472 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517850.952664169] [self_driving]: [OBJECTS] msg_count=45 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782517851.165852799] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=146.5 lane_x=146.5 filter=stable linear=0.30 angular=-0.10 cw_y=472 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517851.697870798] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=125.5 lane_x=125.5 filter=stable linear=0.30 angular=0.10 cw_y=321 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517851.699148169] [self_driving]: [OBJECTS] msg_count=50 n=1 names=['crosswalk'][0m
+[self_driving-10] [33m[WARN] [1782517852.253034742] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517852.253615520] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=469 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517852.354460650] [self_driving]: [IMAGE] received count=401 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782517852.477674779] [self_driving]: [OBJECTS] msg_count=53 n=1 names=['crosswalk'][0m
+[self_driving-10] [33m[WARN] [1782517852.778030501] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517852.779967205] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=324 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517853.212177501] [self_driving]: [CROSSWALK_LOCK] 잠금 해제 완료. 이제 다음 횡단보도 정상 감지가 가능합니다.[0m
+[self_driving-10] [0m[INFO] [1782517853.212618631] [self_driving]: [OBJECTS] msg_count=57 n=1 names=['crosswalk'][0m
+[self_driving-10] [33m[WARN] [1782517853.316725501] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517853.317272260] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=471 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517853.453812631] [self_driving]: [1;33m[CROSSWALK_DETECT] 최초 감지! 정지선 접근 시퀀스 작동[0m[0m
+[self_driving-10] [0m[INFO] [1782517853.843916316] [self_driving]: [CW_STAGE 1] 감속 접근 중... elapsed: 0.39s[0m
+[self_driving-10] [0m[INFO] [1782517853.848349334] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=104.5 lane_x=104.5 filter=stable linear=0.15 angular=0.10 cw_y=322 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517853.960886482] [self_driving]: [OBJECTS] msg_count=62 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782517854.396437315] [self_driving]: [IMAGE] received count=431 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782517854.407524704] [self_driving]: [CW_STAGE 1] 감속 접근 중... elapsed: 0.95s[0m
+[self_driving-10] [0m[INFO] [1782517854.409442093] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=103.5 lane_x=103.5 filter=stable linear=0.15 angular=0.10 cw_y=475 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517854.665625019] [self_driving]: [LANE_LOST] lane_x=106.5 filter=stable stop_flag=True[0m
+[self_driving-10] [0m[INFO] [1782517854.713938593] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517854.735988482] [self_driving]: [OBJECTS] msg_count=67 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782517854.736478833] [self_driving]: [TRAFFIC_CLEAR_STOP] clear stale red stop -> resume slow/line follow[0m
+[self_driving-10] [0m[INFO] [1782517854.868579445] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517854.929146482] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517854.929613648] [self_driving]: [1;31m[CW_STAGE 2] 정지선 앞 완전 정지 (브레이크 작동 중)[0m[0m
+[self_driving-10] [0m[INFO] [1782517854.930028870] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=110.0 lane_x=110.0 filter=stable linear=0.00 angular=0.00 cw_y=327 stop=True[0m
+[self_driving-10] [0m[INFO] [1782517854.991197130] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517855.057893037] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517855.093829500] [self_driving]: [TRAFFIC_CLEAR_STOP] clear stale red stop -> resume slow/line follow[0m
+[self_driving-10] [0m[INFO] [1782517855.214028315] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [33m[WARN] [1782517855.214985444] [self_driving]: [LANE_LOST] lane_x=119.0 filter=stable stop_flag=True[0m
+[self_driving-10] [0m[INFO] [1782517855.268188037] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517855.312781889] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517855.401706333] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517855.466835000] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517855.467313611] [self_driving]: [1;31m[CW_STAGE 2] 정지선 앞 완전 정지 (브레이크 작동 중)[0m[0m
+[self_driving-10] [0m[INFO] [1782517855.467743722] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=134.0 lane_x=134.0 filter=stable linear=0.00 angular=0.00 cw_y=446 stop=True[0m
+[self_driving-10] [0m[INFO] [1782517855.472175926] [self_driving]: [OBJECTS] msg_count=74 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782517855.472674240] [self_driving]: [TRAFFIC_CLEAR_STOP] clear stale red stop -> resume slow/line follow[0m
+[self_driving-10] [0m[INFO] [1782517855.591984740] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517855.663130444] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517855.729712074] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [33m[WARN] [1782517855.730253203] [self_driving]: [LANE_LOST] lane_x=200.0 filter=stable stop_flag=True[0m
+[self_driving-10] [0m[INFO] [1782517855.803375425] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517855.840245092] [self_driving]: [TRAFFIC_CLEAR_STOP] clear stale red stop -> resume slow/line follow[0m
+[self_driving-10] [0m[INFO] [1782517855.939826462] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517856.000528499] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517856.002512148] [self_driving]: [1;31m[CW_STAGE 2] 정지선 앞 완전 정지 (브레이크 작동 중)[0m[0m
+[self_driving-10] [0m[INFO] [1782517856.003303999] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=277.0 filter=hold_last linear=0.00 angular=0.00 cw_y=431 stop=True[0m
+[self_driving-10] [0m[INFO] [1782517856.056153481] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517856.125618629] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517856.211447370] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517856.217131647] [self_driving]: [OBJECTS] msg_count=80 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782517856.217791721] [self_driving]: [TRAFFIC_CLEAR_STOP] clear stale red stop -> resume slow/line follow[0m
+[self_driving-10] [33m[WARN] [1782517856.285196721] [self_driving]: [LANE_LOST] lane_x=277.0 filter=hold_last stop_flag=True[0m
+[self_driving-10] [0m[INFO] [1782517856.347886555] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517856.401646147] [self_driving]: [IMAGE] received count=461 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782517856.408971610] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517856.475437925] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517856.532931684] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517856.533721129] [self_driving]: [1;31m[CW_STAGE 2] 정지선 앞 완전 정지 (브레이크 작동 중)[0m[0m
+[self_driving-10] [0m[INFO] [1782517856.534192610] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.00 angular=0.00 cw_y=438 stop=True[0m
+[self_driving-10] [0m[INFO] [1782517856.606939555] [self_driving]: [TRAFFIC_CLEAR_STOP] clear stale red stop -> resume slow/line follow[0m
+[self_driving-10] [0m[INFO] [1782517856.666754666] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517856.672631980] [self_driving]: [1;32m[CW_STAGE 3] 정지 완료 후 출발! (6초간 재감지 방지 락 가동)[0m[0m
+[self_driving-10] [0m[INFO] [1782517857.072306536] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=160.5 lane_x=294.0 filter=jump_reject linear=0.30 angular=-0.45 cw_y=469 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517857.373547536] [self_driving]: [OBJECTS] msg_count=83 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782517857.614195498] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=62.0 lane_x=62.0 filter=stable linear=0.30 angular=0.00 cw_y=48 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517858.173702646] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=67.0 lane_x=67.0 filter=stable linear=0.30 angular=0.00 cw_y=48 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517858.401539294] [self_driving]: [IMAGE] received count=491 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782517858.684047776] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=70.5 lane_x=70.5 filter=stable linear=0.30 angular=0.00 cw_y=48 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517859.222215479] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=87.5 lane_x=87.5 filter=stable linear=0.30 angular=0.10 cw_y=48 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517859.226948479] [self_driving]: [OBJECTS] msg_count=84 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782517859.761144682] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=228.0 lane_x=228.0 filter=stable linear=0.30 angular=-0.45 cw_y=468 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517860.307078478] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=241.0 lane_x=241.0 filter=stable linear=0.30 angular=-0.45 cw_y=468 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517860.424398515] [self_driving]: [IMAGE] received count=521 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782517860.838835515] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=259.5 filter=hold_last linear=0.30 angular=-0.45 cw_y=468 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517861.047184237] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517861.365912978] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=468 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517861.579171829] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517861.903279514] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=468 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517862.117695477] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517862.456164125] [self_driving]: [IMAGE] received count=551 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782517862.465780681] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=468 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517862.643070736] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517862.679263625] [self_driving]: [CROSSWALK_LOCK] 잠금 해제 완료. 이제 다음 횡단보도 정상 감지가 가능합니다.[0m
+[self_driving-10] [0m[INFO] [1782517862.931299866] [self_driving]: [1;33m[CROSSWALK_DETECT] 최초 감지! 정지선 접근 시퀀스 작동[0m[0m
+[self_driving-10] [0m[INFO] [1782517862.993702884] [self_driving]: [CW_STAGE 1] 감속 접근 중... elapsed: 0.06s[0m
+[self_driving-10] [0m[INFO] [1782517862.995492458] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.15 angular=0.00 cw_y=468 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517863.191977717] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[ekf_node-8] Failed to meet update rate! Took 0.017334037000000000056seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[self_driving-10] [0m[INFO] [1782517863.510887032] [self_driving]: [CW_STAGE 1] 감속 접근 중... elapsed: 0.58s[0m
+[self_driving-10] [0m[INFO] [1782517863.511622569] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=105.0 lane_x=239.0 filter=jump_reject linear=0.15 angular=-0.45 cw_y=468 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517864.052244272] [self_driving]: [CW_STAGE 1] 감속 접근 중... elapsed: 1.12s[0m
+[self_driving-10] [33m[WARN] [1782517864.057002309] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517864.057869439] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.15 angular=0.00 cw_y=468 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517864.197794995] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517864.264888680] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517864.308584624] [self_driving]: [OBJECTS] msg_count=85 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782517864.312791606] [self_driving]: [TRAFFIC_CLEAR_STOP] clear stale red stop -> resume slow/line follow[0m
+[self_driving-10] [0m[INFO] [1782517864.427925717] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517864.462376957] [self_driving]: [IMAGE] received count=581 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782517864.469874402] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517864.536815254] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517864.601275272] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517864.602342161] [self_driving]: [1;31m[CW_STAGE 2] 정지선 앞 완전 정지 (브레이크 작동 중)[0m[0m
+[self_driving-10] [33m[WARN] [1782517864.603862161] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=True[0m
+[self_driving-10] [0m[INFO] [1782517864.604749735] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.00 angular=0.00 cw_y=239 stop=True[0m
+[self_driving-10] [0m[INFO] [1782517864.666053846] [self_driving]: [TRAFFIC_CLEAR_STOP] clear stale red stop -> resume slow/line follow[0m
+[self_driving-10] [0m[INFO] [1782517864.753415124] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517864.813507568] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517864.873833235] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517864.941130216] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517865.000255624] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517865.058006327] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517865.068699068] [self_driving]: [OBJECTS] msg_count=89 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782517865.069180253] [self_driving]: [TRAFFIC_CLEAR_STOP] clear stale red stop -> resume slow/line follow[0m
+[self_driving-10] [0m[INFO] [1782517865.150543364] [self_driving]: [1;31m[CW_STAGE 2] 정지선 앞 완전 정지 (브레이크 작동 중)[0m[0m
+[self_driving-10] [33m[WARN] [1782517865.151485698] [self_driving]: [LANE_LOST] lane_x=94.0 filter=stable stop_flag=True[0m
+[self_driving-10] [0m[INFO] [1782517865.152124753] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=94.0 lane_x=94.0 filter=stable linear=0.00 angular=0.00 cw_y=20 stop=True[0m
+[self_driving-10] [0m[INFO] [1782517865.216390290] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517865.279070105] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517865.351265457] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517865.405182216] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517865.440493586] [self_driving]: [TRAFFIC_CLEAR_STOP] clear stale red stop -> resume slow/line follow[0m
+[self_driving-10] [0m[INFO] [1782517865.537850160] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517865.602193253] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517865.678287531] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517865.680256771] [self_driving]: [1;31m[CW_STAGE 2] 정지선 앞 완전 정지 (브레이크 작동 중)[0m[0m
+[self_driving-10] [33m[WARN] [1782517865.681048586] [self_driving]: [LANE_LOST] lane_x=94.5 filter=stable stop_flag=True[0m
+[self_driving-10] [0m[INFO] [1782517865.681734568] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=94.5 lane_x=94.5 filter=stable linear=0.00 angular=0.00 cw_y=192 stop=True[0m
+[self_driving-10] [0m[INFO] [1782517865.752462549] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517865.808040864] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517865.812544679] [self_driving]: [OBJECTS] msg_count=93 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782517865.815938197] [self_driving]: [TRAFFIC_CLEAR_STOP] clear stale red stop -> resume slow/line follow[0m
+[self_driving-10] [0m[INFO] [1782517865.934201105] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517866.008877512] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517866.076696197] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517866.148068586] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517866.149599512] [self_driving]: [1;32m[CW_STAGE 3] 정지 완료 후 출발! (6초간 재감지 방지 락 가동)[0m[0m
+[self_driving-10] [0m[INFO] [1782517866.227417567] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=94.5 lane_x=94.5 filter=stable linear=0.30 angular=0.10 cw_y=224 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517866.477464771] [self_driving]: [IMAGE] received count=611 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782517866.577854678] [self_driving]: [OBJECTS] msg_count=98 n=1 names=['go'][0m
+[self_driving-10] [0m[INFO] [1782517866.739251400] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=131.0 lane_x=131.0 filter=stable linear=0.30 angular=-0.10 cw_y=224 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517867.287940733] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=135.0 lane_x=135.0 filter=stable linear=0.30 angular=-0.10 cw_y=224 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517867.387061363] [self_driving]: [OBJECTS] msg_count=102 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782517867.835378270] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=128.5 lane_x=128.5 filter=stable linear=0.30 angular=0.10 cw_y=193 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517868.120067640] [self_driving]: [OBJECTS] msg_count=106 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782517868.368710492] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=124.0 lane_x=124.0 filter=stable linear=0.30 angular=0.10 cw_y=200 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517868.483284455] [self_driving]: [IMAGE] received count=641 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782517868.852005640] [self_driving]: [OBJECTS] msg_count=111 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782517868.962852825] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=130.5 lane_x=130.5 filter=stable linear=0.30 angular=-0.10 cw_y=0 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517869.511903825] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=122.5 lane_x=122.5 filter=stable linear=0.30 angular=0.10 cw_y=468 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517869.645133139] [self_driving]: [OBJECTS] msg_count=117 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782517870.069116047] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=136.5 lane_x=136.5 filter=stable linear=0.30 angular=-0.10 cw_y=272 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517870.389300491] [self_driving]: [OBJECTS] msg_count=119 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782517870.501144972] [self_driving]: [IMAGE] received count=671 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782517870.577026546] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=139.5 lane_x=139.5 filter=stable linear=0.30 angular=-0.10 cw_y=308 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517871.121091972] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=129.5 lane_x=129.5 filter=stable linear=0.30 angular=0.10 cw_y=391 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517871.127985120] [self_driving]: [OBJECTS] msg_count=121 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782517871.651072157] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=125.0 lane_x=125.0 filter=stable linear=0.30 angular=0.10 cw_y=383 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517872.152814231] [self_driving]: [CROSSWALK_LOCK] 잠금 해제 완료. 이제 다음 횡단보도 정상 감지가 가능합니다.[0m
+[self_driving-10] [0m[INFO] [1782517872.188818971] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=122.5 lane_x=122.5 filter=stable linear=0.30 angular=0.10 cw_y=383 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517872.396789341] [self_driving]: [1;33m[CROSSWALK_DETECT] 최초 감지! 정지선 접근 시퀀스 작동[0m[0m
+[self_driving-10] [0m[INFO] [1782517872.528214249] [self_driving]: [IMAGE] received count=701 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782517872.694336341] [self_driving]: [CW_STAGE 1] 감속 접근 중... elapsed: 0.30s[0m
+[self_driving-10] [0m[INFO] [1782517872.696794304] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=135.0 lane_x=135.0 filter=stable linear=0.15 angular=-0.10 cw_y=383 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517873.282406063] [self_driving]: [CW_STAGE 1] 감속 접근 중... elapsed: 0.89s[0m
+[self_driving-10] [0m[INFO] [1782517873.285358341] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=257.0 lane_x=257.0 filter=stable linear=0.15 angular=-0.45 cw_y=383 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517873.606538007] [self_driving]: [LANE_LOST] lane_x=294.5 filter=stable stop_flag=True[0m
+[self_driving-10] [0m[INFO] [1782517873.677401970] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517873.737877618] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517873.816850711] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517873.822207081] [self_driving]: [1;31m[CW_STAGE 2] 정지선 앞 완전 정지 (브레이크 작동 중)[0m[0m
+[self_driving-10] [0m[INFO] [1782517873.827975878] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=235.0 lane_x=235.0 filter=stable linear=0.00 angular=0.00 cw_y=383 stop=True[0m
+[self_driving-10] [0m[INFO] [1782517873.880162952] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517873.943215155] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517874.008924211] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517874.072664433] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517874.143971952] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [33m[WARN] [1782517874.145907989] [self_driving]: [LANE_LOST] lane_x=272.0 filter=stable stop_flag=True[0m
+[self_driving-10] [0m[INFO] [1782517874.214512266] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517874.282919007] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517874.352720618] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517874.353188951] [self_driving]: [1;31m[CW_STAGE 2] 정지선 앞 완전 정지 (브레이크 작동 중)[0m[0m
+[self_driving-10] [0m[INFO] [1782517874.353591692] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=255.0 lane_x=255.0 filter=stable linear=0.00 angular=0.00 cw_y=383 stop=True[0m
+[self_driving-10] [0m[INFO] [1782517874.413700377] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517874.472539562] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517874.524508933] [self_driving]: [OBJECTS] msg_count=124 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782517874.525841451] [self_driving]: [TRAFFIC_CLEAR_STOP] clear stale red stop -> resume slow/line follow[0m
+[self_driving-10] [0m[INFO] [1782517874.550128951] [self_driving]: [IMAGE] received count=731 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782517874.624630914] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517874.672812655] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [33m[WARN] [1782517874.673558729] [self_driving]: [LANE_LOST] lane_x=184.0 filter=stable stop_flag=True[0m
+[self_driving-10] [0m[INFO] [1782517874.747396136] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517874.814342840] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517874.875463025] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517874.875954840] [self_driving]: [1;31m[CW_STAGE 2] 정지선 앞 완전 정지 (브레이크 작동 중)[0m[0m
+[self_driving-10] [0m[INFO] [1782517874.876498896] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=158.0 lane_x=158.0 filter=stable linear=0.00 angular=0.00 cw_y=296 stop=True[0m
+[self_driving-10] [0m[INFO] [1782517874.978425636] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517875.015018673] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517875.079429470] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517875.143123599] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517875.208169710] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [33m[WARN] [1782517875.209105562] [self_driving]: [LANE_LOST] lane_x=74.0 filter=stable stop_flag=True[0m
+[self_driving-10] [0m[INFO] [1782517875.280090229] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517875.367873599] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517875.428311173] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517875.430505636] [self_driving]: [1;31m[CW_STAGE 2] 정지선 앞 완전 정지 (브레이크 작동 중)[0m[0m
+[self_driving-10] [0m[INFO] [1782517875.431804062] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=82.0 lane_x=82.0 filter=stable linear=0.00 angular=0.00 cw_y=296 stop=True[0m
+[self_driving-10] [0m[INFO] [1782517875.489032562] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517875.553950266] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517875.625406617] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517875.626354821] [self_driving]: [1;32m[CW_STAGE 3] 정지 완료 후 출발! (6초간 재감지 방지 락 가동)[0m[0m
+[self_driving-10] [0m[INFO] [1782517875.658030340] [self_driving]: [OBJECTS] msg_count=125 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782517875.949501395] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=211.5 lane_x=211.5 filter=stable linear=0.30 angular=-0.45 cw_y=462 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517876.477353598] [self_driving]: [OBJECTS] msg_count=128 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782517876.517945580] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=96.5 lane_x=96.5 filter=stable linear=0.30 angular=0.10 cw_y=421 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517876.563934598] [self_driving]: [IMAGE] received count=761 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782517877.028492024] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=148.0 lane_x=148.0 filter=stable linear=0.30 angular=-0.10 cw_y=227 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517877.240608135] [self_driving]: [OBJECTS] msg_count=133 n=1 names=['go'][0m
+[self_driving-10] [0m[INFO] [1782517877.566627764] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=124.0 lane_x=124.0 filter=stable linear=0.30 angular=0.10 cw_y=179 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517878.022090838] [self_driving]: [OBJECTS] msg_count=139 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782517878.119841357] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=132.5 lane_x=132.5 filter=stable linear=0.30 angular=0.10 cw_y=197 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517878.567533856] [self_driving]: [IMAGE] received count=791 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782517878.639109004] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=129.5 lane_x=129.5 filter=stable linear=0.30 angular=0.10 cw_y=0 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517878.795953690] [self_driving]: [OBJECTS] msg_count=145 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782517879.185140578] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=133.5 lane_x=133.5 filter=stable linear=0.30 angular=0.10 cw_y=210 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517879.602761615] [self_driving]: [OBJECTS] msg_count=151 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782517879.720219041] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=136.0 lane_x=136.0 filter=stable linear=0.30 angular=-0.10 cw_y=240 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517880.265073540] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=125.0 lane_x=125.0 filter=stable linear=0.30 angular=0.10 cw_y=266 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517880.377070615] [self_driving]: [OBJECTS] msg_count=153 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782517880.586310355] [self_driving]: [IMAGE] received count=821 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782517880.820054299] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=123.5 lane_x=123.5 filter=stable linear=0.30 angular=0.10 cw_y=391 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517881.141117410] [self_driving]: [OBJECTS] msg_count=155 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782517881.330725855] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=139.5 lane_x=139.5 filter=stable linear=0.30 angular=-0.10 cw_y=451 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517881.635613040] [self_driving]: [CROSSWALK_LOCK] 잠금 해제 완료. 이제 다음 횡단보도 정상 감지가 가능합니다.[0m
+[self_driving-10] [0m[INFO] [1782517881.856903540] [self_driving]: [1;33m[CROSSWALK_DETECT] 최초 감지! 정지선 접근 시퀀스 작동[0m[0m
+[self_driving-10] [0m[INFO] [1782517881.857673447] [self_driving]: [CW_STAGE 1] 감속 접근 중... elapsed: 0.00s[0m
+[self_driving-10] [0m[INFO] [1782517881.861106447] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=129.0 lane_x=129.0 filter=stable linear=0.15 angular=-0.10 cw_y=387 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517882.413886947] [self_driving]: [CW_STAGE 1] 감속 접근 중... elapsed: 0.56s[0m
+[self_driving-10] [0m[INFO] [1782517882.415058039] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=121.5 lane_x=121.5 filter=stable linear=0.15 angular=0.10 cw_y=387 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517882.602457817] [self_driving]: [IMAGE] received count=851 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782517882.954497539] [self_driving]: [CW_STAGE 1] 감속 접근 중... elapsed: 1.10s[0m
+[self_driving-10] [0m[INFO] [1782517882.955953224] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=135.5 lane_x=135.5 filter=stable linear=0.15 angular=-0.10 cw_y=387 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517883.085665372] [self_driving]: [LANE_LOST] lane_x=138.0 filter=stable stop_flag=True[0m
+[self_driving-10] [0m[INFO] [1782517883.154745891] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517883.228146983] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517883.278967131] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517883.336363168] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517883.405802594] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517883.506962279] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517883.507447502] [self_driving]: [1;31m[CW_STAGE 2] 정지선 앞 완전 정지 (브레이크 작동 중)[0m[0m
+[self_driving-10] [0m[INFO] [1782517883.512033446] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=123.0 lane_x=123.0 filter=stable linear=0.00 angular=0.00 cw_y=387 stop=True[0m
+[self_driving-10] [0m[INFO] [1782517883.541706816] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517883.611095372] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [33m[WARN] [1782517883.611761020] [self_driving]: [LANE_LOST] lane_x=124.5 filter=stable stop_flag=True[0m
+[self_driving-10] [0m[INFO] [1782517883.685886427] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517883.755634779] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517883.819452705] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517883.904819612] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517883.957429520] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517884.028027890] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517884.029691594] [self_driving]: [1;31m[CW_STAGE 2] 정지선 앞 완전 정지 (브레이크 작동 중)[0m[0m
+[self_driving-10] [0m[INFO] [1782517884.030162612] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=137.5 lane_x=137.5 filter=stable linear=0.00 angular=0.00 cw_y=387 stop=True[0m
+[self_driving-10] [0m[INFO] [1782517884.086164723] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517884.166613631] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [33m[WARN] [1782517884.167352260] [self_driving]: [LANE_LOST] lane_x=159.0 filter=stable stop_flag=True[0m
+[self_driving-10] [0m[INFO] [1782517884.220011520] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517884.307280112] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517884.370145223] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517884.418626223] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517884.490242149] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517884.551286353] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517884.554837779] [self_driving]: [1;31m[CW_STAGE 2] 정지선 앞 완전 정지 (브레이크 작동 중)[0m[0m
+[self_driving-10] [0m[INFO] [1782517884.555409316] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=190.5 lane_x=190.5 filter=stable linear=0.00 angular=0.00 cw_y=387 stop=True[0m
+[self_driving-10] [0m[INFO] [1782517884.617083223] [self_driving]: [IMAGE] received count=881 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782517884.658974464] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517884.705464353] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [33m[WARN] [1782517884.709264593] [self_driving]: [LANE_LOST] lane_x=197.5 filter=stable stop_flag=True[0m
+[self_driving-10] [0m[INFO] [1782517884.762396279] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517884.836682334] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517884.893668760] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517884.967628982] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517885.046371130] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517885.102176797] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517885.103701223] [self_driving]: [1;32m[CW_STAGE 3] 정지 완료 후 출발! (6초간 재감지 방지 락 가동)[0m[0m
+[self_driving-10] [0m[INFO] [1782517885.105231278] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=268.0 lane_x=268.0 filter=stable linear=0.30 angular=-0.45 cw_y=387 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517885.645896982] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=287.0 lane_x=287.0 filter=stable linear=0.30 angular=-0.45 cw_y=387 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517886.180037889] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=215.0 lane_x=215.0 filter=stable linear=0.30 angular=-0.45 cw_y=387 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517886.671633537] [self_driving]: [IMAGE] received count=911 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782517886.680675963] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=310.0 lane_x=310.0 filter=stable linear=0.30 angular=-0.45 cw_y=387 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517887.181682370] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=126.5 lane_x=126.5 filter=stable linear=0.30 angular=0.00 cw_y=387 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517887.742587943] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=302.0 lane_x=302.0 filter=jump_accept linear=0.30 angular=-0.45 cw_y=387 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517888.073487351] [self_driving]: [OBJECTS] msg_count=157 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782517888.258739554] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=296.5 filter=hold_last linear=0.30 angular=-0.45 cw_y=228 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517888.318185054] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517888.730226869] [self_driving]: [IMAGE] received count=942 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782517888.798635258] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=265.0 lane_x=265.0 filter=stable linear=0.30 angular=-0.45 cw_y=380 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517889.358911294] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=186.5 lane_x=186.5 filter=stable linear=0.30 angular=0.00 cw_y=380 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517889.877039590] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=170.0 lane_x=308.5 filter=jump_reject linear=0.30 angular=-0.45 cw_y=380 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517890.090461331] [self_driving]: [OBJECTS] msg_count=159 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782517890.411611257] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=178.5 lane_x=283.0 filter=jump_reject linear=0.30 angular=-0.45 cw_y=74 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517890.739144460] [self_driving]: [IMAGE] received count=972 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [33m[WARN] [1782517891.004777293] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517891.005395275] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=334 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517891.110934719] [self_driving]: [CROSSWALK_LOCK] 잠금 해제 완료. 이제 다음 횡단보도 정상 감지가 가능합니다.[0m
+[self_driving-10] [0m[INFO] [1782517891.364453867] [self_driving]: [1;33m[CROSSWALK_DETECT] 최초 감지! 정지선 접근 시퀀스 작동[0m[0m
+[self_driving-10] [0m[INFO] [1782517891.559418441] [self_driving]: [CW_STAGE 1] 감속 접근 중... elapsed: 0.20s[0m
+[self_driving-10] [0m[INFO] [1782517891.561451589] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=262.5 lane_x=262.5 filter=stable linear=0.15 angular=-0.45 cw_y=334 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517892.077838941] [self_driving]: [CW_STAGE 1] 감속 접근 중... elapsed: 0.71s[0m
+[self_driving-10] [0m[INFO] [1782517892.079359793] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=146.0 lane_x=63.5 filter=jump_reject linear=0.15 angular=0.00 cw_y=334 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517892.561576404] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517892.619043811] [self_driving]: [1;31m[CW_STAGE 2] 정지선 앞 완전 정지 (브레이크 작동 중)[0m[0m
+[self_driving-10] [0m[INFO] [1782517892.619635218] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.00 angular=0.00 cw_y=334 stop=True[0m
+[self_driving-10] [0m[INFO] [1782517892.688581440] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517892.751699459] [self_driving]: [IMAGE] received count=1002 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782517892.758120996] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517892.812762422] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517892.904099329] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517892.962575237] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517893.029581348] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517893.087511588] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [33m[WARN] [1782517893.088096755] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=True[0m
+[self_driving-10] [0m[INFO] [1782517893.165089514] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517893.165855237] [self_driving]: [1;31m[CW_STAGE 2] 정지선 앞 완전 정지 (브레이크 작동 중)[0m[0m
+[self_driving-10] [0m[INFO] [1782517893.166486014] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.00 angular=0.00 cw_y=334 stop=True[0m
+[self_driving-10] [0m[INFO] [1782517893.227682236] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517893.296999848] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517893.373242310] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517893.429721014] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517893.495085773] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517893.568274940] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517893.661972070] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [33m[WARN] [1782517893.663104514] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=True[0m
+[self_driving-10] [0m[INFO] [1782517893.707240236] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517893.708972366] [self_driving]: [1;31m[CW_STAGE 2] 정지선 앞 완전 정지 (브레이크 작동 중)[0m[0m
+[self_driving-10] [0m[INFO] [1782517893.710696940] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.00 angular=0.00 cw_y=334 stop=True[0m
+[self_driving-10] [0m[INFO] [1782517893.762120458] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517893.835686792] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517893.888693069] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517893.988662199] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517894.032429958] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517894.106340680] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517894.161794699] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517894.244194717] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517894.244868903] [self_driving]: [1;31m[CW_STAGE 2] 정지선 앞 완전 정지 (브레이크 작동 중)[0m[0m
+[self_driving-10] [33m[WARN] [1782517894.245834032] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=True[0m
+[self_driving-10] [0m[INFO] [1782517894.247079662] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.00 angular=0.00 cw_y=334 stop=True[0m
+[self_driving-10] [0m[INFO] [1782517894.302024940] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517894.396178995] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517894.431565514] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517894.497678551] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517894.567571865] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517894.569114310] [self_driving]: [1;32m[CW_STAGE 3] 정지 완료 후 출발! (6초간 재감지 방지 락 가동)[0m[0m
+[self_driving-10] [0m[INFO] [1782517894.782014773] [self_driving]: [IMAGE] received count=1032 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [33m[WARN] [1782517894.793225921] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517894.801031013] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=334 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517895.311435402] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517895.311988791] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=334 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517895.481190235] [self_driving]: [OBJECTS] msg_count=161 n=1 names=['crosswalk'][0m
+[self_driving-10] [33m[WARN] [1782517895.848115531] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517895.849576328] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=33 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517896.383235809] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517896.383742531] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=33 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517896.785330475] [self_driving]: [IMAGE] received count=1062 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [33m[WARN] [1782517896.922892216] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517896.925516364] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=33 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517897.468772252] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517897.469397530] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=33 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517897.991331067] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517897.994927623] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=33 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517898.570451122] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517898.571062307] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=33 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517898.788486585] [self_driving]: [IMAGE] received count=1092 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [33m[WARN] [1782517899.071866714] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517899.072364048] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=33 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517899.614810473] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517899.615322233] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=33 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517899.724225547] [self_driving]: [OBJECTS] msg_count=162 n=1 names=['crosswalk'][0m
+[self_driving-10] [33m[WARN] [1782517900.161071732] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517900.161586769] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=200 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517900.571633084] [self_driving]: [CROSSWALK_LOCK] 잠금 해제 완료. 이제 다음 횡단보도 정상 감지가 가능합니다.[0m
+[self_driving-10] [33m[WARN] [1782517900.691095176] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517900.693354436] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=200 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517900.803035991] [self_driving]: [IMAGE] received count=1122 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782517900.808467084] [self_driving]: [1;33m[CROSSWALK_DETECT] 최초 감지! 정지선 접근 시퀀스 작동[0m[0m
+[self_driving-10] [0m[INFO] [1782517901.222128065] [self_driving]: [CW_STAGE 1] 감속 접근 중... elapsed: 0.41s[0m
+[self_driving-10] [33m[WARN] [1782517901.223114139] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517901.225068695] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.15 angular=0.00 cw_y=200 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517901.792635509] [self_driving]: [CW_STAGE 1] 감속 접근 중... elapsed: 0.98s[0m
+[self_driving-10] [33m[WARN] [1782517901.794398046] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517901.795750157] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.15 angular=0.00 cw_y=200 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517902.103657472] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517902.179642472] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517902.258086990] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517902.363190620] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517902.369500787] [self_driving]: [1;31m[CW_STAGE 2] 정지선 앞 완전 정지 (브레이크 작동 중)[0m[0m
+[self_driving-10] [33m[WARN] [1782517902.371722064] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=True[0m
+[self_driving-10] [0m[INFO] [1782517902.373125509] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.00 angular=0.00 cw_y=200 stop=True[0m
+[self_driving-10] [0m[INFO] [1782517902.442037546] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517902.507997675] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517902.591659842] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517902.665228064] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517902.768330601] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517902.823692379] [self_driving]: [IMAGE] received count=1147 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782517902.832447897] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517902.917854008] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517902.918392842] [self_driving]: [1;31m[CW_STAGE 2] 정지선 앞 완전 정지 (브레이크 작동 중)[0m[0m
+[self_driving-10] [33m[WARN] [1782517902.919119564] [self_driving]: [LANE_LOST] lane_x=89.5 filter=jump_reject stop_flag=True[0m
+[self_driving-10] [0m[INFO] [1782517902.919579397] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=301.5 lane_x=89.5 filter=jump_reject linear=0.00 angular=0.00 cw_y=200 stop=True[0m
+[self_driving-10] [0m[INFO] [1782517902.996029842] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517903.092723194] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517903.174063175] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517903.245961119] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517903.318275712] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517903.388476045] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517903.475211193] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517903.477442267] [self_driving]: [1;31m[CW_STAGE 2] 정지선 앞 완전 정지 (브레이크 작동 중)[0m[0m
+[self_driving-10] [33m[WARN] [1782517903.479198249] [self_driving]: [LANE_LOST] lane_x=263.0 filter=hold_last stop_flag=True[0m
+[self_driving-10] [0m[INFO] [1782517903.480147323] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=263.0 filter=hold_last linear=0.00 angular=0.00 cw_y=200 stop=True[0m
+[self_driving-10] [0m[INFO] [1782517903.534768119] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517903.582545471] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517903.652135767] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517903.719334915] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517903.797820360] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517903.856789508] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517903.939087712] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517903.985777286] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517903.986841749] [self_driving]: [1;31m[CW_STAGE 2] 정지선 앞 완전 정지 (브레이크 작동 중)[0m[0m
+[self_driving-10] [33m[WARN] [1782517903.987431563] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=True[0m
+[self_driving-10] [0m[INFO] [1782517903.988303786] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.00 angular=0.00 cw_y=200 stop=True[0m
+[self_driving-10] [0m[INFO] [1782517904.054471841] [self_driving]: [TRAFFIC_NONE_RELEASE] no valid traffic -> stop=False[0m
+[self_driving-10] [0m[INFO] [1782517904.059570100] [self_driving]: [1;32m[CW_STAGE 3] 정지 완료 후 출발! (6초간 재감지 방지 락 가동)[0m[0m
+[self_driving-10] [33m[WARN] [1782517904.538743804] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517904.539258841] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=200 stop=False[0m
+[self_driving-10] [0m[INFO] [1782517904.871011063] [self_driving]: [IMAGE] received count=1176 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [33m[WARN] [1782517905.071961322] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517905.072531637] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=200 stop=False[0m
+[self_driving-10] [33m[WARN] [1782517905.595624655] [self_driving]: [LANE_LOST] lane_x=-1 filter=lost stop_flag=False[0m
+[self_driving-10] [0m[INFO] [1782517905.597544692] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=200 stop=False[0m

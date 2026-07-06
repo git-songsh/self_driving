@@ -1,0 +1,994 @@
+[INFO] [launch]: All log files can be found below /home/ubuntu/.ros/log/2026-06-27-10-02-36-860657-raspberrypi-71659
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ascamera_node-1]: process started with pid [71675]
+[INFO] [static_transform_publisher-2]: process started with pid [71677]
+[INFO] [static_transform_publisher-3]: process started with pid [71679]
+[INFO] [joint_state_publisher-4]: process started with pid [71681]
+[INFO] [robot_state_publisher-5]: process started with pid [71683]
+[INFO] [ros_robot_controller-6]: process started with pid [71685]
+[INFO] [odom_publisher-7]: process started with pid [71691]
+[INFO] [ekf_node-8]: process started with pid [71701]
+[INFO] [yolo_detect-9]: process started with pid [71709]
+[INFO] [self_driving-10]: process started with pid [71711]
+[static_transform_publisher-2] [33m[WARN] [1782554557.674876585] []: Old-style arguments are deprecated; see --help for new-style arguments[0m
+[static_transform_publisher-3] [33m[WARN] [1782554557.673339215] []: Old-style arguments are deprecated; see --help for new-style arguments[0m
+[static_transform_publisher-3] [0m[INFO] [1782554557.691774066] [static_transform_publisher_I0ixB9jsFrI5tiQx]: Spinning until stopped - publishing transform
+[static_transform_publisher-3] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-3] rotation: ('-0.500000', '0.499602', '-0.500000', '0.500398')
+[static_transform_publisher-3] from 'depth_cam' to 'ascamera_color_0'[0m
+[ascamera_node-1] [0m[INFO] [1782554557.706210344] [as_logger]: hello world angstrong camera ros2 node[0m
+[static_transform_publisher-2] [0m[INFO] [1782554557.732393678] [static_transform_publisher_RZRoeNnYcaeQ9kL4]: Spinning until stopped - publishing transform
+[static_transform_publisher-2] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-2] rotation: ('-0.500000', '0.499602', '-0.500000', '0.500398')
+[static_transform_publisher-2] from 'depth_cam' to 'ascamera_camera_link_0'[0m
+[ascamera_node-1] 2026-06-27 10:02:37[INFO] [CameraPublisher.cpp] [1558] [printLaunchParams] get depth_width 640
+[ascamera_node-1] 2026-06-27 10:02:37[INFO] [CameraPublisher.cpp] [1559] [printLaunchParams] get depth_height 480
+[ascamera_node-1] 2026-06-27 10:02:37[INFO] [CameraPublisher.cpp] [1561] [printLaunchParams] get rgb_width 640
+[ascamera_node-1] 2026-06-27 10:02:37[INFO] [CameraPublisher.cpp] [1562] [printLaunchParams] get rgb_height 480
+[ascamera_node-1] 2026-06-27 10:02:37[INFO] [CameraPublisher.cpp] [1570] [printLaunchParams] get set_fps 15
+[ascamera_node-1] 2026-06-27 10:02:37[INFO] [CameraPublisher.cpp] [1578] [printLaunchParams] get color_pcl 1
+[ascamera_node-1] 2026-06-27 10:02:37[INFO] [CameraPublisher.cpp] [1582] [printLaunchParams] get pub_tfTree 1
+[ascamera_node-1] 2026-06-27 10:02:37[INFO] [CameraSrv.cpp] [35] [CameraSrv] Angstrong camera server
+[ascamera_node-1] 2026-06-27 10:02:37[INFO] [CameraSrv.cpp] [45] [CameraSrv] Angstrong camera sdk version:v1.2.22.20240516
+[robot_state_publisher-5] [0m[INFO] [1782554557.793482474] [robot_state_publisher]: got segment base_footprint[0m
+[robot_state_publisher-5] [0m[INFO] [1782554557.793664474] [robot_state_publisher]: got segment base_link[0m
+[robot_state_publisher-5] [0m[INFO] [1782554557.798077733] [robot_state_publisher]: got segment depth_cam[0m
+[robot_state_publisher-5] [0m[INFO] [1782554557.798367992] [robot_state_publisher]: got segment imu_link[0m
+[robot_state_publisher-5] [0m[INFO] [1782554557.798379381] [robot_state_publisher]: got segment lidar_frame[0m
+[robot_state_publisher-5] [0m[INFO] [1782554557.798388363] [robot_state_publisher]: got segment wheel_lb_Link[0m
+[robot_state_publisher-5] [0m[INFO] [1782554557.798397326] [robot_state_publisher]: got segment wheel_lf_Link[0m
+[robot_state_publisher-5] [0m[INFO] [1782554557.798404918] [robot_state_publisher]: got segment wheel_rb_Link[0m
+[robot_state_publisher-5] [0m[INFO] [1782554557.798412622] [robot_state_publisher]: got segment wheel_rf_Link[0m
+[joint_state_publisher-4] [0m[INFO] [1782554558.553377436] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...[0m
+[odom_publisher-7] [0m[INFO] [1782554558.713183232] [odom_publisher]: [1;32m0.930000 1.010000[0m[0m
+[odom_publisher-7] [0m[INFO] [1782554558.728679899] [odom_publisher]: [1;32mstart[0m[0m
+[ascamera_node-1] 2026-06-27 10:02:38[INFO] [CameraSrv.cpp] [114] [onAttached] attached
+[ascamera_node-1] 2026-06-27 10:02:38[INFO] [CameraSrv.cpp] [145] [onAttached] this is a new attach device, create and open it
+[ros_robot_controller-6] [0m[INFO] [1782554559.362075621] [ros_robot_controller]: 已设置舵机 1 的偏移量为 0[0m
+[ros_robot_controller-6] [0m[INFO] [1782554559.362870177] [ros_robot_controller]: 已设置舵机 2 的偏移量为 0[0m
+[ros_robot_controller-6] [0m[INFO] [1782554559.363679677] [ros_robot_controller]: 已设置舵机 3 的偏移量为 4[0m
+[ros_robot_controller-6] [0m[INFO] [1782554559.364568269] [ros_robot_controller]: 已设置舵机 4 的偏移量为 0[0m
+[ros_robot_controller-6] [0m[INFO] [1782554559.369843621] [ros_robot_controller]: [1;32mstart[0m[0m
+[self_driving-10] [0m[INFO] [1782554559.539698713] [self_driving]: [INIT] init_process started[0m
+[self_driving-10] [0m[INFO] [1782554559.540464899] [self_driving]: [INIT] only_line_follow=False[0m
+[self_driving-10] [0m[INFO] [1782554559.541115788] [self_driving]: [INIT] request /yolov5/start[0m
+[ascamera_node-1] 2026-06-27 10:02:39[INFO] [CameraSrv.cpp] [154] [onAttached] get model type 9
+[ascamera_node-1] 2026-06-27 10:02:39[INFO] [CameraSrv.cpp] [342] [getConfigFile] get file: /home/ubuntu/third_party_ros2/third_party_ws/src/ascamera/configurationfiles/hp60c_v2_00_20230704_configEncrypt.json
+[ascamera_node-1] 2026-06-27 10:02:39[INFO] [CameraPublisher.cpp] [1501] [logCameraPathInfo] usb camera
+[ascamera_node-1] 2026-06-27 10:02:39[INFO] [CameraPublisher.cpp] [1502] [logCameraPathInfo] bnum:1
+[ascamera_node-1] 2026-06-27 10:02:39[INFO] [CameraPublisher.cpp] [1503] [logCameraPathInfo] dnum:3
+[ascamera_node-1] 2026-06-27 10:02:39[INFO] [CameraPublisher.cpp] [1504] [logCameraPathInfo] port_numbers:2
+[ascamera_node-1] 2026-06-27 10:02:39[INFO] [CameraPublisher.cpp] [171] [onCameraAttached] create a new publisher info set
+[ascamera_node-1] 2026-06-27 10:02:39[INFO] [TfTreeFrameIdInfo.cpp] [11] [TfTreeFrameIdInfo] Namespace /ascamera
+[ascamera_node-1] 2026-06-27 10:02:39[INFO] [CameraHp60c.cpp] [128] [open] according to the configuration file.
+[ascamera_node-1] 2026-06-27 10:02:39[INFO] [CameraHp60c.cpp] [1528] [parseConfigFileParameter] moduleName:AS_CAM_HP60C
+[ascamera_node-1] 2026-06-27 10:02:39[INFO] [CameraHp60c.cpp] [1555] [parseConfigFileParameter] Parsing config file /home/ubuntu/third_party_ros2/third_party_ws/src/ascamera/configurationfiles/hp60c_v2_00_20230704_configEncrypt.json
+[ascamera_node-1] 2026-06-27 10:02:39[INFO] [CameraHp60c.cpp] [1620] [parseConfigFileParameter] configuration protocol Version: v2.x
+[ascamera_node-1] 2026-06-27 10:02:39[INFO] [CameraHp60c.cpp] [1631] [parseConfigFileParameter] configuration Version: v2.0.0.20230704
+[ascamera_node-1] 2026-06-27 10:02:39[INFO] [CameraHp60c.cpp] [1796] [setParamersAfterOpenCam] Camera confiParaEnable true, setting configuration parameter
+[ascamera_node-1] 2026-06-27 10:02:41[ERROR] [XuCmdCameraHp60c.cpp] [454] [getMjpegSize] get mjpeg from xu command failed
+[ascamera_node-1] 2026-06-27 10:02:41[INFO] [XuCmdCameraHp60c.cpp] [458] [getMjpegSize] mjpeg size:640x480
+[ascamera_node-1] 2026-06-27 10:02:41[INFO] [CameraPublisher.cpp] [356] [onCameraOpen] camera opened
+[ascamera_node-1] 2026-06-27 10:02:41[INFO] [CameraPublisher.cpp] [370] [onCameraOpen] get config info, ret 0, is_Registration 1
+[ascamera_node-1] 2026-06-27 10:02:41[INFO] [Camera.cpp] [61] [init] #camera[0x5556095c2710] SN[ASC60CF08000515]'s firmware version:DLS_VERc20865=:V01.09_2024110714:V01.19_2024110714:L01
+[ascamera_node-1] 2026-06-27 10:02:41[INFO] [CameraPublisher.cpp] [1183] [setResolution] set depth resolution: 640 x 480 @ 15fps
+[ascamera_node-1] 2026-06-27 10:02:41[INFO] [CameraPublisher.cpp] [1197] [setResolution] set rgb resolution: 640 x 480 @ 15fps
+[ascamera_node-1] 2026-06-27 10:02:41[INFO] [CameraHp60c.cpp] [260] [startStreaming] start streaming
+[ascamera_node-1] 2026-06-27 10:02:41[INFO] [CameraSrv.cpp] [202] [onAttached] attached end
+[self_driving-10] [33m[WARN] [1782554561.544155509] [self_driving]: [YOLO_SERVICE] service not ready, continue without blocking[0m
+[self_driving-10] [0m[INFO] [1782554562.045354397] [self_driving]: [INIT] enter + set_running start[0m
+[self_driving-10] [0m[INFO] [1782554562.045998712] [self_driving]: [1;32mself driving enter[0m[0m
+[self_driving-10] [0m[INFO] [1782554562.063041934] [self_driving]: [SUB] image=/ascamera/camera_publisher/rgb0/image object=/yolov5_ros2/object_detect[0m
+[self_driving-10] [0m[INFO] [1782554562.065031453] [self_driving]: [1;32mset_running[0m[0m
+[self_driving-10] [0m[INFO] [1782554562.400191434] [self_driving]: [1;32m[START] hybrid self_driving start: auto LINE_FOLLOW[0m[0m
+[INFO] [apply_calib-11]: process started with pid [71860]
+[INFO] [complementary_filter_node-12]: process started with pid [71862]
+[ascamera_node-1] 2026-06-27 10:02:43[INFO] [CameraHp60c.cpp] [912] [setInternalParameter] mjpeg info: size(640x480)
+[apply_calib-11] [0m[INFO] [1782554563.097183008] [imu_calib]: Calibrating gyros; do not move the IMU[0m
+[complementary_filter_node-12] [0m[INFO] [1782554563.112706341] [imu_filter]: Starting ComplementaryFilterROS[0m
+[ascamera_node-1] 2026-06-27 10:02:43[INFO] [Camera.cpp] [127] [backgroundThread] SN [ ASC60CF08000515 ]'s parameter:
+[ascamera_node-1] 2026-06-27 10:02:43[INFO] [Camera.cpp] [128] [backgroundThread] irfx: 426.962
+[ascamera_node-1] 2026-06-27 10:02:43[INFO] [Camera.cpp] [129] [backgroundThread] irfy: 426.374
+[ascamera_node-1] 2026-06-27 10:02:43[INFO] [Camera.cpp] [130] [backgroundThread] ircx: 315.403
+[ascamera_node-1] 2026-06-27 10:02:43[INFO] [Camera.cpp] [131] [backgroundThread] ircy: 240.933
+[ascamera_node-1] 2026-06-27 10:02:43[INFO] [Camera.cpp] [132] [backgroundThread] rgbfx: 570.48
+[ascamera_node-1] 2026-06-27 10:02:43[INFO] [Camera.cpp] [133] [backgroundThread] rgbfy: 569.949
+[ascamera_node-1] 2026-06-27 10:02:43[INFO] [Camera.cpp] [134] [backgroundThread] rgbcx: 329.75
+[ascamera_node-1] 2026-06-27 10:02:43[INFO] [Camera.cpp] [135] [backgroundThread] rgbcy: 238.406
+[ascamera_node-1] 
+[ascamera_node-1] 2026-06-27 10:02:43[INFO] [CameraHp60c.cpp] [1149] [streamCallback] set gain ret 0, gain 4
+[self_driving-10] [0m[INFO] [1782554563.617838396] [self_driving]: [IMAGE] received count=1 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [33m[WARN] [1782554563.806610433] [self_driving]: [IMAGE] queue full -> drop oldest frame[0m
+[self_driving-10] [33m[WARN] [1782554563.814076192] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554563.814783600] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554564.326047822] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554564.326664840] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554564.861598007] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554564.862972821] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[apply_calib-11] [0m[INFO] [1782554565.153550321] [imu_calib]: Gyro calibration complete! (bias = [-0.011, 0.030, 0.000])[0m
+[self_driving-10] [33m[WARN] [1782554565.401430340] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554565.402570747] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554565.682985506] [self_driving]: [IMAGE] received count=32 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [33m[WARN] [1782554565.940223524] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554565.941542876] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554566.478915080] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554566.479627561] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554567.043568024] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554567.044521746] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[yolo_detect-9] [0m[INFO] [1782554567.420364950] [yolov5_ros2]: Current ROS 2 distribution: humble[0m
+[self_driving-10] [33m[WARN] [1782554567.549971412] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554567.550666764] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554567.747394635] [self_driving]: [IMAGE] received count=63 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [33m[WARN] [1782554568.088456597] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554568.089214264] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[ekf_node-8] Failed to meet update rate! Took 0.011997185000000000488seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[self_driving-10] [33m[WARN] [1782554568.647057912] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554568.649300097] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554569.172064930] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554569.172593467] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554569.684527300] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554569.690666744] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554569.784808559] [self_driving]: [IMAGE] received count=93 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [33m[WARN] [1782554570.263380522] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554570.264029429] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554570.796542040] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554570.800709225] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554571.328394503] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554571.330118040] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554571.798817188] [self_driving]: [IMAGE] received count=123 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [33m[WARN] [1782554571.896018058] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554571.898463595] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554572.404194224] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554572.405001928] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554572.945436891] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554572.946406280] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554573.473341724] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554573.473966001] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554573.878313760] [self_driving]: [IMAGE] received count=154 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [33m[WARN] [1782554574.045494909] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554574.051211723] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554574.573262297] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554574.574724019] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554575.095922297] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554575.097442093] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554575.651236796] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554575.661760630] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554575.892775426] [self_driving]: [IMAGE] received count=184 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [33m[WARN] [1782554576.165320518] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554576.165912870] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554576.698163981] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554576.698717592] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554577.233504610] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554577.236068092] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554577.745831814] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554577.746548906] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554577.909432851] [self_driving]: [IMAGE] received count=214 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554578.090462702] [self_driving]: [OBJECTS] msg_count=1 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554578.248195221] [self_driving]: [CROSSWALK_IGNORE] y=117 < th=180[0m
+[self_driving-10] [33m[WARN] [1782554578.250948350] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554578.251544239] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=117 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554578.787676035] [self_driving]: [CROSSWALK_IGNORE] y=117 < th=180[0m
+[self_driving-10] [33m[WARN] [1782554578.788936702] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554578.789606795] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=117 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554579.334680942] [self_driving]: [CROSSWALK_IGNORE] y=117 < th=180[0m
+[self_driving-10] [33m[WARN] [1782554579.335633905] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554579.336143609] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=117 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554579.853026553] [self_driving]: [CROSSWALK_IGNORE] y=117 < th=180[0m
+[self_driving-10] [33m[WARN] [1782554579.856231183] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554579.858184035] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=117 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554579.928306646] [self_driving]: [IMAGE] received count=244 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554580.393538553] [self_driving]: [CROSSWALK_IGNORE] y=117 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554580.396412257] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=7.0 filter=hold_last linear=0.30 angular=0.10 cw_y=117 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554580.742833053] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554580.810856701] [self_driving]: [OBJECTS] msg_count=2 n=1 names=['right'][0m
+[self_driving-10] [0m[INFO] [1782554580.811692479] [self_driving]: [RIGHT_CANDIDATE] valid=False reject=['low_score', 'small_area'] cnt=0 cx=555 cy=45 area=575 score=0.32 done=False[0m
+[self_driving-10] [0m[INFO] [1782554580.948227701] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554581.281994219] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554581.531657663] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554581.844595126] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554581.976024867] [self_driving]: [IMAGE] received count=273 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554582.065502904] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554582.402077478] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554582.595324126] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554582.922006514] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554583.158710070] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554583.486013903] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554583.655678569] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554584.006361940] [self_driving]: [IMAGE] received count=303 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [33m[WARN] [1782554584.017278810] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554584.201573847] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554584.535555162] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554584.765584050] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554585.083688717] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554585.279580550] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554585.609990457] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554585.823158346] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554586.068719827] [self_driving]: [IMAGE] received count=334 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [33m[WARN] [1782554586.144374938] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554586.358763512] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554586.430086975] [self_driving]: [LANE_X_JUMP_REJECT] raw=312.0 last=7.0 diff=305.0 candidate=312.0 cnt=1/4[0m
+[self_driving-10] [33m[WARN] [1782554586.694936068] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554586.896167605] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554587.298058827] [self_driving]: [LANE_X_JUMP_REJECT] raw=186.0 last=7.5 diff=178.5 candidate=186.0 cnt=1/4[0m
+[self_driving-10] [0m[INFO] [1782554587.435392660] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=7.5 filter=hold_last linear=0.30 angular=0.10 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554587.494868493] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [33m[WARN] [1782554587.835182771] [self_driving]: [LANE_X_JUMP_REJECT] raw=264.0 last=7.5 diff=256.5 candidate=284.0 cnt=2/4[0m
+[self_driving-10] [0m[INFO] [1782554587.970677734] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554588.052497234] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554588.101269345] [self_driving]: [IMAGE] received count=364 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [33m[WARN] [1782554588.361525622] [self_driving]: [LANE_X_JUMP_REJECT] raw=185.5 last=7.5 diff=178.0 candidate=185.5 cnt=1/4[0m
+[self_driving-10] [0m[INFO] [1782554588.522248807] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=177.0 lane_x=7.5 filter=jump_reject linear=0.30 angular=0.10 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554588.904709826] [self_driving]: [LANE_X_JUMP_REJECT] raw=198.5 last=7.5 diff=191.0 candidate=198.5 cnt=1/4[0m
+[self_driving-10] [0m[INFO] [1782554589.039448974] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=160.5 lane_x=7.5 filter=jump_reject linear=0.30 angular=0.10 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554589.516148288] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554589.591761381] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554589.651967566] [self_driving]: [LANE_X_JUMP_REJECT] raw=248.0 last=24.5 diff=223.5 candidate=248.0 cnt=1/4[0m
+[self_driving-10] [0m[INFO] [1782554589.856585344] [self_driving]: [OBJECTS] msg_count=3 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554590.055483547] [self_driving]: [CROSSWALK_SLOW] y=467 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554590.102597325] [self_driving]: [IMAGE] received count=394 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554590.110506436] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=15.5 lane_x=160.0 filter=jump_reject linear=0.15 angular=-0.10 cw_y=467 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554590.175900362] [self_driving]: [LANE_X_JUMP_REJECT] raw=7.5 last=160.0 diff=152.5 candidate=7.5 cnt=1/4[0m
+[self_driving-10] [33m[WARN] [1782554590.379959880] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554590.671532676] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=173.0 lane_x=173.0 filter=stable linear=0.15 angular=-0.10 cw_y=467 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554590.968608047] [self_driving]: [OBJECTS] msg_count=4 n=1 names=['crosswalk'][0m
+[self_driving-10] [33m[WARN] [1782554591.014968065] [self_driving]: [LANE_X_JUMP_REJECT] raw=7.5 last=314.5 diff=307.0 candidate=7.5 cnt=1/4[0m
+[self_driving-10] [0m[INFO] [1782554591.202869695] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=131.0 lane_x=314.5 filter=jump_reject linear=0.15 angular=-0.45 cw_y=348 right_done=False start_turn=True count_turn=2 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554591.389634954] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554591.749213324] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.15 angular=0.00 cw_y=348 right_done=False start_turn=True count_turn=4 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554591.935948731] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554592.123430546] [self_driving]: [IMAGE] received count=424 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554592.267697324] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.15 angular=0.00 cw_y=348 right_done=False start_turn=True count_turn=4 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554592.395947212] [self_driving]: [OBJECTS] msg_count=6 n=1 names=['crosswalk'][0m
+[self_driving-10] [33m[WARN] [1782554592.469338027] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=False[0m
+[self_driving-10] [0m[INFO] [1782554592.743123768] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554592.814651342] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=455 right_done=False start_turn=True count_turn=4 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554592.930913731] [self_driving]: [LANE_X_JUMP_REJECT] raw=155.0 last=314.5 diff=159.5 candidate=155.0 cnt=1/4[0m
+[self_driving-10] [0m[INFO] [1782554593.009385508] [self_driving]: [CROSSWALK_SLOW] y=455 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554593.156935249] [self_driving]: [LANE_X_JUMP_ACCEPT] raw=170.0 last=170.0 cnt=4/4[0m
+[self_driving-10] [0m[INFO] [1782554593.341007119] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=44.0 lane_x=44.0 filter=stable linear=0.15 angular=0.10 cw_y=455 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554593.895046878] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=44.0 lane_x=44.0 filter=stable linear=0.15 angular=0.10 cw_y=455 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554594.135058526] [self_driving]: [IMAGE] received count=454 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554594.168009841] [self_driving]: [OBJECTS] msg_count=10 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554594.418765970] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=92.5 lane_x=92.5 filter=stable linear=0.15 angular=0.10 cw_y=186 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554594.907956618] [self_driving]: [OBJECTS] msg_count=14 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554594.957533989] [self_driving]: [CROSSWALK_IGNORE] y=173 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554594.958847989] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=131.5 lane_x=131.5 filter=stable linear=0.15 angular=-0.10 cw_y=173 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554595.508954266] [self_driving]: [CROSSWALK_IGNORE] y=179 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554595.511900136] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=139.0 lane_x=139.0 filter=stable linear=0.15 angular=-0.10 cw_y=179 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554595.642378692] [self_driving]: [OBJECTS] msg_count=18 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554595.709512618] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554595.954866636] [self_driving]: [CROSSWALK_SLOW] y=182 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554596.050627136] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=136.0 lane_x=136.0 filter=stable linear=0.15 angular=-0.10 cw_y=185 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554596.163726803] [self_driving]: [IMAGE] received count=484 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554596.352170284] [self_driving]: [OBJECTS] msg_count=22 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554596.565464080] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=139.0 lane_x=139.0 filter=stable linear=0.15 angular=-0.10 cw_y=187 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554597.086201765] [self_driving]: [OBJECTS] msg_count=26 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554597.120407839] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=131.0 lane_x=131.0 filter=stable linear=0.15 angular=0.10 cw_y=197 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554597.637558506] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=133.0 lane_x=133.0 filter=stable linear=0.15 angular=0.10 cw_y=200 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554597.776311172] [self_driving]: [OBJECTS] msg_count=30 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554598.184863468] [self_driving]: [IMAGE] received count=514 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554598.197195820] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=130.5 lane_x=130.5 filter=stable linear=0.15 angular=0.01 cw_y=413 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554598.488492894] [self_driving]: [OBJECTS] msg_count=34 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554598.638511579] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554598.721879986] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=122.5 lane_x=122.5 filter=stable linear=0.30 angular=0.10 cw_y=428 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554598.925937468] [self_driving]: [CROSSWALK_SLOW] y=457 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554599.239549875] [self_driving]: [OBJECTS] msg_count=38 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554599.271367319] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=160.0 lane_x=160.0 filter=stable linear=0.15 angular=-0.10 cw_y=223 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554599.819239652] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=139.0 lane_x=139.0 filter=stable linear=0.15 angular=-0.10 cw_y=231 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554599.995959430] [self_driving]: [OBJECTS] msg_count=40 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554600.185751319] [self_driving]: [IMAGE] received count=544 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554600.341839430] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=145.5 lane_x=145.5 filter=stable linear=0.15 angular=-0.10 cw_y=266 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554600.688397078] [self_driving]: [OBJECTS] msg_count=42 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554600.861284874] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=140.0 lane_x=140.0 filter=stable linear=0.15 angular=-0.10 cw_y=281 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554601.393526892] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=111.0 lane_x=111.0 filter=stable linear=0.15 angular=0.10 cw_y=314 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554601.403353818] [self_driving]: [OBJECTS] msg_count=44 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554601.613819503] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554601.889112688] [self_driving]: [CROSSWALK_SLOW] y=413 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554601.942455299] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=135.0 lane_x=135.0 filter=stable linear=0.15 angular=-0.10 cw_y=413 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554602.105213688] [self_driving]: [OBJECTS] msg_count=46 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554602.210311188] [self_driving]: [IMAGE] received count=574 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554602.492594595] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=136.0 lane_x=136.0 filter=stable linear=0.15 angular=-0.10 cw_y=445 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554603.028467762] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=124.5 lane_x=124.5 filter=stable linear=0.15 angular=0.10 cw_y=445 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554603.561020984] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=128.5 lane_x=128.5 filter=stable linear=0.15 angular=0.10 cw_y=445 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554604.090508039] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=142.0 lane_x=142.0 filter=stable linear=0.15 angular=-0.10 cw_y=445 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554604.212949631] [self_driving]: [IMAGE] received count=604 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554604.637373501] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554604.642853927] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=122.0 lane_x=122.0 filter=stable linear=0.15 angular=0.10 cw_y=445 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554604.912181223] [self_driving]: [CROSSWALK_SLOW] y=445 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554605.159883409] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=166.0 lane_x=166.0 filter=stable linear=0.15 angular=-0.10 cw_y=445 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554605.711965427] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=196.5 lane_x=196.5 filter=stable linear=0.15 angular=-0.10 cw_y=445 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554606.250912519] [self_driving]: [IMAGE] received count=634 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554606.256924686] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=236.0 lane_x=236.0 filter=stable linear=0.15 angular=-0.45 cw_y=445 right_done=False start_turn=True count_turn=1 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554606.784432222] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=272.5 lane_x=272.5 filter=stable linear=0.15 angular=-0.45 cw_y=445 right_done=False start_turn=True count_turn=9 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554607.123710870] [self_driving]: [LANE_X_JUMP_REJECT] raw=135.5 last=309.0 diff=173.5 candidate=135.5 cnt=1/4[0m
+[self_driving-10] [0m[INFO] [1782554607.331811629] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=303.5 lane_x=303.5 filter=stable linear=0.15 angular=-0.45 cw_y=445 right_done=False start_turn=True count_turn=17 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554607.603894740] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554607.857757129] [self_driving]: [CROSSWALK_SLOW] y=445 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554607.859701481] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=277.0 lane_x=277.0 filter=stable linear=0.15 angular=-0.45 cw_y=445 right_done=False start_turn=True count_turn=25 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554608.254937999] [self_driving]: [IMAGE] received count=664 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554608.418095110] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=251.0 lane_x=251.0 filter=stable linear=0.15 angular=-0.45 cw_y=445 right_done=False start_turn=True count_turn=33 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554608.718404518] [self_driving]: [OBJECTS] msg_count=48 n=1 names=['go'][0m
+[self_driving-10] [0m[INFO] [1782554608.934849073] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=153.0 lane_x=153.0 filter=stable linear=0.15 angular=-0.10 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554609.426145869] [self_driving]: [OBJECTS] msg_count=51 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554609.480993350] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=135.5 lane_x=135.5 filter=stable linear=0.15 angular=-0.10 cw_y=191 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554610.009481183] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=143.0 lane_x=143.0 filter=stable linear=0.15 angular=-0.10 cw_y=192 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554610.166594850] [self_driving]: [OBJECTS] msg_count=55 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554610.268593183] [self_driving]: [IMAGE] received count=694 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554610.532504183] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554610.537224294] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=126.5 lane_x=126.5 filter=stable linear=0.15 angular=0.10 cw_y=196 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554610.884359850] [self_driving]: [OBJECTS] msg_count=61 n=1 names=['go'][0m
+[self_driving-10] [0m[INFO] [1782554611.086802294] [self_driving]: [CROSSWALK_IGNORE] y=6 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554611.088181609] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=137.0 lane_x=137.0 filter=stable linear=0.30 angular=0.10 cw_y=6 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554611.589450090] [self_driving]: [OBJECTS] msg_count=67 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554611.649386368] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=136.0 lane_x=136.0 filter=stable linear=0.30 angular=-0.10 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554612.161888127] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=138.5 lane_x=138.5 filter=stable linear=0.30 angular=-0.10 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554612.290265664] [self_driving]: [IMAGE] received count=724 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554612.347906682] [self_driving]: [OBJECTS] msg_count=73 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554612.564567737] [self_driving]: [CROSSWALK_SLOW] y=233 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554612.719287478] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=140.0 lane_x=140.0 filter=stable linear=0.15 angular=-0.10 cw_y=257 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554613.034786922] [self_driving]: [OBJECTS] msg_count=75 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554613.243173959] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=124.5 lane_x=124.5 filter=stable linear=0.15 angular=0.10 cw_y=289 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554613.725610848] [self_driving]: [OBJECTS] msg_count=77 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554613.786835552] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=135.0 lane_x=135.0 filter=stable linear=0.15 angular=-0.10 cw_y=417 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554614.319901107] [self_driving]: [IMAGE] received count=754 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554614.326790477] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=133.0 lane_x=133.0 filter=stable linear=0.15 angular=0.10 cw_y=438 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554614.849118681] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=118.0 lane_x=118.0 filter=stable linear=0.15 angular=0.10 cw_y=438 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554614.869869440] [self_driving]: [OBJECTS] msg_count=79 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554615.265524847] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554615.376225551] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=130.5 lane_x=130.5 filter=stable linear=0.30 angular=0.10 cw_y=414 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554615.510657439] [self_driving]: [CROSSWALK_SLOW] y=414 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554615.935123698] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=151.0 lane_x=151.0 filter=stable linear=0.15 angular=-0.10 cw_y=414 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554616.327075513] [self_driving]: [IMAGE] received count=784 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554616.462554346] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=132.0 lane_x=132.0 filter=stable linear=0.15 angular=-0.10 cw_y=414 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554617.010911661] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=128.0 lane_x=128.0 filter=stable linear=0.15 angular=-0.10 cw_y=414 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554617.527227494] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=135.0 lane_x=135.0 filter=stable linear=0.15 angular=-0.10 cw_y=414 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554617.694917438] [self_driving]: [OBJECTS] msg_count=81 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554618.074693345] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=137.0 lane_x=137.0 filter=stable linear=0.15 angular=-0.10 cw_y=323 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554618.216819160] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554618.392696715] [self_driving]: [IMAGE] received count=815 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554618.492591252] [self_driving]: [CROSSWALK_SLOW] y=360 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554618.604074623] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=153.5 lane_x=153.5 filter=stable linear=0.15 angular=-0.10 cw_y=360 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554619.136891808] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=190.0 lane_x=190.0 filter=stable linear=0.15 angular=-0.10 cw_y=360 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554619.685097178] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=231.0 lane_x=231.0 filter=stable linear=0.15 angular=-0.45 cw_y=360 right_done=False start_turn=False count_turn=3 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554620.024445270] [self_driving]: [LANE_X_JUMP_REJECT] raw=129.5 last=302.5 diff=173.0 candidate=129.5 cnt=1/4[0m
+[self_driving-10] [0m[INFO] [1782554620.212120381] [self_driving]: [LANE_X_JUMP_ACCEPT] raw=158.0 last=158.0 cnt=4/4[0m
+[self_driving-10] [0m[INFO] [1782554620.213138103] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=158.0 lane_x=158.0 filter=jump_accept linear=0.15 angular=0.00 cw_y=360 right_done=False start_turn=True count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554620.426393733] [self_driving]: [IMAGE] received count=845 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554620.765002918] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=255.0 lane_x=255.0 filter=stable linear=0.15 angular=-0.45 cw_y=360 right_done=False start_turn=True count_turn=5 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554621.165831936] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554621.313457121] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=280.0 lane_x=280.0 filter=stable linear=0.30 angular=-0.45 cw_y=360 right_done=False start_turn=True count_turn=13 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554621.424287677] [self_driving]: [CROSSWALK_SLOW] y=360 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554621.841313139] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=305.5 lane_x=305.5 filter=stable linear=0.15 angular=-0.45 cw_y=360 right_done=False start_turn=True count_turn=21 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554622.373384102] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=295.0 lane_x=295.0 filter=stable linear=0.15 angular=-0.45 cw_y=360 right_done=False start_turn=True count_turn=29 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554622.437982509] [self_driving]: [IMAGE] received count=875 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554622.913411953] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=173.5 lane_x=173.5 filter=stable linear=0.15 angular=-0.10 cw_y=360 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554623.014382639] [self_driving]: [OBJECTS] msg_count=84 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554623.444025712] [self_driving]: [CROSSWALK_IGNORE] y=177 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554623.446630509] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=129.0 lane_x=129.0 filter=stable linear=0.15 angular=0.10 cw_y=177 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554623.714820157] [self_driving]: [OBJECTS] msg_count=87 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554623.972463694] [self_driving]: [CROSSWALK_IGNORE] y=176 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554623.974847527] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=125.0 lane_x=125.0 filter=stable linear=0.15 angular=0.10 cw_y=176 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554624.138017342] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554624.450798508] [self_driving]: [IMAGE] received count=905 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554624.468005582] [self_driving]: [OBJECTS] msg_count=92 n=1 names=['go'][0m
+[self_driving-10] [0m[INFO] [1782554624.541103471] [self_driving]: [CROSSWALK_IGNORE] y=177 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554624.542940341] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=131.5 lane_x=131.5 filter=stable linear=0.30 angular=0.10 cw_y=177 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554625.067591119] [self_driving]: [CROSSWALK_IGNORE] y=179 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554625.068623711] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=130.5 lane_x=130.5 filter=stable linear=0.30 angular=-0.10 cw_y=179 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554625.193240211] [self_driving]: [OBJECTS] msg_count=98 n=1 names=['go'][0m
+[self_driving-10] [0m[INFO] [1782554625.457542767] [self_driving]: [CROSSWALK_SLOW] y=181 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554625.606354489] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=133.5 lane_x=133.5 filter=stable linear=0.15 angular=-0.10 cw_y=183 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554625.871055822] [self_driving]: [OBJECTS] msg_count=103 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554626.146577692] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=121.5 lane_x=121.5 filter=stable linear=0.15 angular=0.10 cw_y=188 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554626.459571525] [self_driving]: [IMAGE] received count=935 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554626.569730877] [self_driving]: [OBJECTS] msg_count=108 n=1 names=['go'][0m
+[self_driving-10] [0m[INFO] [1782554626.684164618] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=136.5 lane_x=136.5 filter=stable linear=0.15 angular=-0.10 cw_y=198 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554627.212323525] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=128.5 lane_x=128.5 filter=stable linear=0.15 angular=0.10 cw_y=201 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554627.267543914] [self_driving]: [OBJECTS] msg_count=111 n=1 names=['go'][0m
+[self_driving-10] [0m[INFO] [1782554627.756980284] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=118.0 lane_x=118.0 filter=stable linear=0.15 angular=0.10 cw_y=358 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554627.988273913] [self_driving]: [OBJECTS] msg_count=117 n=1 names=['go'][0m
+[self_driving-10] [0m[INFO] [1782554628.155301006] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554628.281600932] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=138.5 lane_x=138.5 filter=stable linear=0.30 angular=-0.10 cw_y=400 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554628.424762543] [self_driving]: [CROSSWALK_SLOW] y=215 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554628.478622784] [self_driving]: [IMAGE] received count=965 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554628.725900987] [self_driving]: [OBJECTS] msg_count=123 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554628.833089098] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=135.0 lane_x=135.0 filter=stable linear=0.15 angular=-0.10 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554629.367198801] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=104.0 lane_x=104.0 filter=stable linear=0.15 angular=0.10 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554629.432358709] [self_driving]: [OBJECTS] msg_count=127 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554629.907485005] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=156.5 lane_x=156.5 filter=stable linear=0.15 angular=-0.10 cw_y=253 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554630.133518357] [self_driving]: [OBJECTS] msg_count=131 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554630.446555153] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=121.5 lane_x=121.5 filter=stable linear=0.15 angular=0.10 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554630.511878467] [self_driving]: [IMAGE] received count=995 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554630.863933875] [self_driving]: [OBJECTS] msg_count=135 n=1 names=['go'][0m
+[self_driving-10] [0m[INFO] [1782554630.985688838] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=132.0 lane_x=132.0 filter=stable linear=0.15 angular=-0.10 cw_y=302 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554631.108827115] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554631.523141559] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=128.0 lane_x=128.0 filter=stable linear=0.30 angular=0.10 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554631.584182374] [self_driving]: [OBJECTS] msg_count=139 n=1 names=['go'][0m
+[self_driving-10] [0m[INFO] [1782554632.056584930] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=136.0 lane_x=136.0 filter=stable linear=0.30 angular=-0.10 cw_y=419 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554632.175797392] [self_driving]: [CROSSWALK_SLOW] y=419 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554632.266324503] [self_driving]: [OBJECTS] msg_count=141 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554632.584198485] [self_driving]: [IMAGE] received count=1026 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554632.590395670] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=126.5 lane_x=126.5 filter=stable linear=0.15 angular=0.10 cw_y=443 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554633.127672429] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=133.0 lane_x=133.0 filter=stable linear=0.15 angular=0.10 cw_y=443 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554633.660817817] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=131.0 lane_x=131.0 filter=stable linear=0.15 angular=0.10 cw_y=443 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554634.208399002] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=177.5 lane_x=177.5 filter=stable linear=0.15 angular=-0.10 cw_y=443 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554634.585928335] [self_driving]: [IMAGE] received count=1056 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554634.729224483] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=194.5 lane_x=194.5 filter=stable linear=0.15 angular=-0.10 cw_y=443 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554634.879039854] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554635.152772520] [self_driving]: [CROSSWALK_SLOW] y=443 th=180 confirm=4[0m
+[self_driving-10] [33m[WARN] [1782554635.287294465] [self_driving]: [LANE_X_JUMP_REJECT] raw=134.0 last=300.5 diff=166.5 candidate=134.0 cnt=1/4[0m
+[self_driving-10] [0m[INFO] [1782554635.290519076] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=134.0 lane_x=300.5 filter=jump_reject linear=0.15 angular=-0.45 cw_y=443 right_done=False start_turn=True count_turn=1 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554635.824559464] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=255.0 lane_x=255.0 filter=stable linear=0.15 angular=-0.45 cw_y=443 right_done=False start_turn=True count_turn=9 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554636.347413927] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=276.5 lane_x=276.5 filter=stable linear=0.15 angular=-0.45 cw_y=443 right_done=False start_turn=True count_turn=17 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554636.618683149] [self_driving]: [IMAGE] received count=1086 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554636.895160760] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=259.0 lane_x=259.0 filter=stable linear=0.15 angular=-0.45 cw_y=443 right_done=False start_turn=True count_turn=25 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554637.446565482] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=272.5 lane_x=272.5 filter=stable linear=0.15 angular=-0.45 cw_y=443 right_done=False start_turn=True count_turn=33 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554637.839044037] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554637.970459296] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=162.5 lane_x=162.5 filter=stable linear=0.30 angular=-0.10 cw_y=443 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554638.096169296] [self_driving]: [CROSSWALK_SLOW] y=443 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554638.216723907] [self_driving]: [OBJECTS] msg_count=142 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554638.218807741] [self_driving]: [RIGHT_CANDIDATE] valid=False reject=['small_area'] cnt=0 cx=466 cy=124 area=667 score=0.85 done=False[0m
+[self_driving-10] [0m[INFO] [1782554638.501650944] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=146.0 lane_x=146.0 filter=stable linear=0.15 angular=-0.10 cw_y=183 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554638.645400685] [self_driving]: [IMAGE] received count=1116 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554638.923010240] [self_driving]: [OBJECTS] msg_count=147 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554638.925039000] [self_driving]: [RIGHT_CANDIDATE] valid=False reject=['small_area'] cnt=0 cx=272 cy=123 area=875 score=0.86 done=False[0m
+[self_driving-10] [0m[INFO] [1782554639.040891314] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=123.5 lane_x=123.5 filter=stable linear=0.15 angular=0.10 cw_y=183 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554639.315251425] [self_driving]: [RIGHT_CANDIDATE] valid=False reject=['small_area'] cnt=0 cx=249 cy=121 area=1053 score=0.84 done=False[0m
+[self_driving-10] [0m[INFO] [1782554639.569437388] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=132.5 lane_x=132.5 filter=stable linear=0.15 angular=0.10 cw_y=186 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554639.667093129] [self_driving]: [OBJECTS] msg_count=153 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554640.017906703] [self_driving]: [RIGHT_CANDIDATE] valid=False reject=['small_area'] cnt=0 cx=205 cy=115 area=1320 score=0.85 done=False[0m
+[self_driving-10] [0m[INFO] [1782554640.075157295] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=135.5 lane_x=135.5 filter=stable linear=0.15 angular=-0.10 cw_y=186 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554640.378535721] [self_driving]: [OBJECTS] msg_count=158 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554640.592258276] [self_driving]: [CROSSWALK_IGNORE] y=9 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554640.592937239] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=136.5 lane_x=136.5 filter=stable linear=0.15 angular=-0.10 cw_y=9 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554640.719453924] [self_driving]: [IMAGE] received count=1147 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554640.734413887] [self_driving]: [RIGHT_CANDIDATE] valid=False reject=['small_area'] cnt=0 cx=183 cy=113 area=1584 score=0.85 done=False[0m
+[self_driving-10] [0m[INFO] [1782554640.796801035] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554641.047004202] [self_driving]: [CROSSWALK_SLOW] y=193 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554641.083258517] [self_driving]: [OBJECTS] msg_count=164 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554641.085616739] [self_driving]: [RIGHT_CANDIDATE] valid=False reject=['small_area'] cnt=0 cx=177 cy=110 area=1800 score=0.85 done=False[0m
+[self_driving-10] [0m[INFO] [1782554641.139426535] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=141.5 lane_x=141.5 filter=stable linear=0.15 angular=-0.10 cw_y=437 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554641.471997924] [self_driving]: [RIGHT_CANDIDATE] valid=False reject=['small_area'] cnt=0 cx=158 cy=109 area=1976 score=0.87 done=False[0m
+[self_driving-10] [0m[INFO] [1782554641.668608016] [self_driving]: [CROSSWALK_IGNORE] y=6 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554641.670944035] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=124.5 lane_x=124.5 filter=stable linear=0.15 angular=0.10 cw_y=6 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554641.832025239] [self_driving]: [OBJECTS] msg_count=172 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554641.834714683] [self_driving]: [RIGHT_CANDIDATE] valid=False reject=['small_area'] cnt=0 cx=127 cy=108 area=2552 score=0.85 done=False[0m
+[self_driving-10] [0m[INFO] [1782554642.198214905] [self_driving]: [RIGHT_CANDIDATE] valid=True reject=[] cnt=0 cx=107 cy=97 area=3763 score=0.86 done=False[0m
+[self_driving-10] [0m[INFO] [1782554642.236293127] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=134.0 lane_x=134.0 filter=stable linear=0.15 angular=-0.10 cw_y=0 right_done=False start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554642.562307720] [self_driving]: [OBJECTS] msg_count=178 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554642.564932608] [self_driving]: [RIGHT_CANDIDATE] valid=True reject=[] cnt=1 cx=57 cy=94 area=4620 score=0.86 done=False[0m
+[self_driving-10] [0m[INFO] [1782554642.567113294] [self_driving]: [RIGHT_READY] cx=57 cy=94 area=4620 score=0.86[0m
+[self_driving-10] [0m[INFO] [1782554642.609849831] [self_driving]: [RIGHT_TRIGGER] enter ARROW_SIGNAL lane_x=130.5 raw_lane_x=130.5 filter=stable cw_y=450 candidate={'cx': 57, 'cy': 94, 'area': 4620, 'score': 0.8600000143051147}[0m
+[self_driving-10] [0m[INFO] [1782554642.611066627] [self_driving]: [1;36m[FSM] LINE_FOLLOW -> ARROW_SIGNAL[0m[0m
+[self_driving-10] [0m[INFO] [1782554642.732555645] [self_driving]: [IMAGE] received count=1177 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554642.737376479] [self_driving]: [ARROW_SIGNAL] waiting elapsed=0.13/0.40 direction=right[0m
+[self_driving-10] [0m[INFO] [1782554642.934888645] [self_driving]: [RIGHT_CANDIDATE] valid=True reject=[] cnt=0 cx=26 cy=89 area=4732 score=0.84 done=False[0m
+[self_driving-10] [0m[INFO] [1782554643.068660127] [self_driving]: [ARROW_SIGNAL] done elapsed=0.46 -> INTERSECTION direction=right[0m
+[self_driving-10] [0m[INFO] [1782554643.069202016] [self_driving]: [1;36m[FSM] ARROW_SIGNAL -> INTERSECTION[0m[0m
+[self_driving-10] [0m[INFO] [1782554643.283391812] [self_driving]: [RIGHT_TURN] elapsed=0.21 cmd=(0.10,-0.50) lane_x=133.0[0m
+[self_driving-10] [0m[INFO] [1782554643.306487682] [self_driving]: [OBJECTS] msg_count=183 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554643.818752626] [self_driving]: [RIGHT_TURN] elapsed=0.75 cmd=(0.10,-0.50) lane_x=-1[0m
+[self_driving-10] [0m[INFO] [1782554644.018368515] [self_driving]: [OBJECTS] msg_count=185 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554644.345018404] [self_driving]: [RIGHT_TURN] elapsed=1.28 cmd=(0.10,-0.50) lane_x=-1[0m
+[self_driving-10] [0m[INFO] [1782554644.708490163] [self_driving]: [OBJECTS] msg_count=187 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554644.755111440] [self_driving]: [IMAGE] received count=1207 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554644.886409792] [self_driving]: [1;36m[FSM] INTERSECTION -> LINE_FOLLOW[0m[0m
+[self_driving-10] [0m[INFO] [1782554644.886988570] [self_driving]: [RIGHT_TURN] done elapsed=1.82 lane_x=240.0 -> LINE_FOLLOW[0m
+[self_driving-10] [0m[INFO] [1782554644.939502089] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554644.941584126] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=157.0 lane_x=157.0 filter=stable linear=0.15 angular=-0.10 cw_y=252 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554645.207918236] [self_driving]: [CROSSWALK_SLOW] y=266 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554645.434326718] [self_driving]: [OBJECTS] msg_count=189 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554645.502976588] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=221.5 lane_x=221.5 filter=stable linear=0.15 angular=-0.45 cw_y=278 right_done=True start_turn=True count_turn=2 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554646.035161829] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=159.0 lane_x=159.0 filter=stable linear=0.15 angular=0.00 cw_y=278 right_done=True start_turn=True count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554646.177201977] [self_driving]: [OBJECTS] msg_count=190 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554646.565261051] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=180.0 lane_x=180.0 filter=stable linear=0.15 angular=0.00 cw_y=399 right_done=True start_turn=True count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554646.821804310] [self_driving]: [IMAGE] received count=1238 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554646.951719939] [self_driving]: [OBJECTS] msg_count=192 n=1 names=['park'][0m
+[self_driving-10] [0m[INFO] [1782554646.953828347] [self_driving]: [PARK_CANDIDATE] valid=False cx=633 cy=128 area=198 score=0.57 right_done=True park_done=False[0m
+[self_driving-10] [0m[INFO] [1782554647.113076976] [self_driving]: [CROSSWALK_IGNORE] y=165 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554647.114131013] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=215.5 lane_x=215.5 filter=stable linear=0.15 angular=-0.45 cw_y=165 right_done=True start_turn=True count_turn=3 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554647.646345013] [self_driving]: [CROSSWALK_IGNORE] y=165 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554647.647164179] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=165.0 lane_x=165.0 filter=stable linear=0.15 angular=-0.10 cw_y=165 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554647.674139235] [self_driving]: [OBJECTS] msg_count=195 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554647.904422290] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554648.172941013] [self_driving]: [CROSSWALK_IGNORE] y=168 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554648.173902790] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=161.5 lane_x=161.5 filter=stable linear=0.30 angular=-0.10 cw_y=168 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554648.378892846] [self_driving]: [OBJECTS] msg_count=197 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554648.381437549] [self_driving]: [PARK_CANDIDATE] valid=True cx=580 cy=126 area=300 score=0.46 right_done=True park_done=False[0m
+[self_driving-10] [0m[INFO] [1782554648.719868123] [self_driving]: [CROSSWALK_IGNORE] y=168 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554648.723276642] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=170.0 lane_x=170.0 filter=stable linear=0.30 angular=-0.10 cw_y=168 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554648.849187679] [self_driving]: [IMAGE] received count=1268 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554649.068071512] [self_driving]: [OBJECTS] msg_count=201 n=1 names=['park'][0m
+[self_driving-10] [0m[INFO] [1782554649.071030975] [self_driving]: [PARK_CANDIDATE] valid=True cx=558 cy=126 area=340 score=0.76 right_done=True park_done=False[0m
+[self_driving-10] [0m[INFO] [1782554649.257328475] [self_driving]: [CROSSWALK_IGNORE] y=168 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554649.258109123] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=141.0 lane_x=141.0 filter=stable linear=0.30 angular=0.10 cw_y=168 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554649.790984141] [self_driving]: [CROSSWALK_IGNORE] y=170 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554649.793186808] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=58.0 lane_x=58.0 filter=stable linear=0.30 angular=0.10 cw_y=170 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554649.867641974] [self_driving]: [OBJECTS] msg_count=205 n=1 names=['park'][0m
+[self_driving-10] [0m[INFO] [1782554649.868728437] [self_driving]: [PARK_CANDIDATE] valid=True cx=552 cy=124 area=414 score=0.84 right_done=True park_done=False[0m
+[self_driving-10] [0m[INFO] [1782554650.320689919] [self_driving]: [CROSSWALK_IGNORE] y=175 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554650.321338585] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=7.5 filter=hold_last linear=0.30 angular=0.10 cw_y=175 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554650.543021733] [self_driving]: [OBJECTS] msg_count=209 n=1 names=['park'][0m
+[self_driving-10] [0m[INFO] [1782554650.544127067] [self_driving]: [PARK_CANDIDATE] valid=True cx=561 cy=125 area=546 score=0.83 right_done=True park_done=False[0m
+[self_driving-10] [33m[WARN] [1782554650.614366344] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [0m[INFO] [1782554650.851426752] [self_driving]: [IMAGE] received count=1298 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554650.862248548] [self_driving]: [CROSSWALK_IGNORE] y=179 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554650.862953529] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=179 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554651.137104640] [self_driving]: [CROSSWALK_SLOW] y=184 th=180 confirm=4[0m
+[self_driving-10] [33m[WARN] [1782554651.138415603] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [0m[INFO] [1782554651.276068937] [self_driving]: [OBJECTS] msg_count=213 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554651.411882862] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.15 angular=0.00 cw_y=186 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554651.677625862] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [0m[INFO] [1782554651.952755344] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.15 angular=0.00 cw_y=192 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554652.022914307] [self_driving]: [OBJECTS] msg_count=215 n=1 names=['crosswalk'][0m
+[self_driving-10] [33m[WARN] [1782554652.216853714] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [0m[INFO] [1782554652.496501436] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.15 angular=0.00 cw_y=341 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554652.752007010] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [0m[INFO] [1782554652.765375454] [self_driving]: [OBJECTS] msg_count=218 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554652.869168547] [self_driving]: [IMAGE] received count=1328 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554653.018987584] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.15 angular=0.00 cw_y=341 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554653.277659213] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [0m[INFO] [1782554653.467785713] [self_driving]: [OBJECTS] msg_count=222 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554653.552389602] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.15 angular=0.00 cw_y=341 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554653.821177491] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [33m[WARN] [1782554653.823225842] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [33m[WARN] [1782554653.963436602] [self_driving]: [LANE_X_JUMP_REJECT] raw=276.0 last=7.5 diff=268.5 candidate=276.0 cnt=1/4[0m
+[self_driving-10] [0m[INFO] [1782554654.093885120] [self_driving]: [CROSSWALK_SLOW] y=341 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554654.094634435] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=246.0 lane_x=7.5 filter=jump_reject linear=0.15 angular=0.10 cw_y=341 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554654.194087861] [self_driving]: [OBJECTS] msg_count=226 n=1 names=['crosswalk'][0m
+[self_driving-10] [33m[WARN] [1782554654.507566490] [self_driving]: [LANE_X_JUMP_REJECT] raw=230.5 last=104.0 diff=126.5 candidate=230.5 cnt=1/4[0m
+[self_driving-10] [0m[INFO] [1782554654.635492379] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=287.0 lane_x=104.0 filter=jump_reject linear=0.15 angular=0.10 cw_y=191 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554654.823371509] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [0m[INFO] [1782554654.895274379] [self_driving]: [IMAGE] received count=1358 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554654.903409601] [self_driving]: [OBJECTS] msg_count=228 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554655.156161675] [self_driving]: [CROSSWALK_IGNORE] y=129 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554655.159102879] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.15 angular=0.00 cw_y=129 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554655.395751138] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [33m[WARN] [1782554655.717643841] [self_driving]: [LANE_X_JUMP_REJECT] raw=303.0 last=104.0 diff=199.0 candidate=303.0 cnt=1/4[0m
+[self_driving-10] [0m[INFO] [1782554655.718569897] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=303.0 lane_x=104.0 filter=jump_reject linear=0.15 angular=0.10 cw_y=343 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554656.300040378] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=68.0 filter=hold_last linear=0.15 angular=0.10 cw_y=343 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554656.767826581] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554656.833909674] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=54.0 lane_x=54.0 filter=stable linear=0.30 angular=0.10 cw_y=343 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554656.920621674] [self_driving]: [IMAGE] received count=1384 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554656.926819767] [self_driving]: [OBJECTS] msg_count=230 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554657.095017526] [self_driving]: [CROSSWALK_SLOW] y=446 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554657.403949488] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=90.5 lane_x=90.5 filter=stable linear=0.15 angular=0.10 cw_y=249 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554657.596376599] [self_driving]: [OBJECTS] msg_count=234 n=1 names=['go'][0m
+[self_driving-10] [0m[INFO] [1782554657.993215266] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=147.5 lane_x=147.5 filter=stable linear=0.15 angular=-0.10 cw_y=195 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554658.303359155] [self_driving]: [OBJECTS] msg_count=240 n=1 names=['go'][0m
+[self_driving-10] [0m[INFO] [1782554658.543438432] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=128.5 lane_x=128.5 filter=stable linear=0.15 angular=0.10 cw_y=287 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554658.938803839] [self_driving]: [IMAGE] received count=1409 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554658.982450784] [self_driving]: [OBJECTS] msg_count=246 n=1 names=['go'][0m
+[self_driving-10] [0m[INFO] [1782554659.104751654] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=124.5 lane_x=124.5 filter=stable linear=0.15 angular=0.10 cw_y=354 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554659.644925728] [self_driving]: [OBJECTS] msg_count=252 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554659.663125469] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=149.0 lane_x=149.0 filter=stable linear=0.15 angular=-0.10 cw_y=0 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554659.763303283] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554660.159629135] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=144.5 lane_x=144.5 filter=stable linear=0.30 angular=-0.10 cw_y=449 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554660.312801542] [self_driving]: [CROSSWALK_SLOW] y=449 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554660.355178524] [self_driving]: [OBJECTS] msg_count=257 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554660.735401561] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=174.0 lane_x=174.0 filter=stable linear=0.15 angular=-0.10 cw_y=0 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554660.960738338] [self_driving]: [IMAGE] received count=1434 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554661.018233949] [self_driving]: [OBJECTS] msg_count=261 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554661.279796727] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=122.0 lane_x=122.0 filter=stable linear=0.15 angular=0.10 cw_y=0 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554661.661865875] [self_driving]: [OBJECTS] msg_count=265 n=1 names=['go'][0m
+[self_driving-10] [0m[INFO] [1782554661.835617023] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=132.0 lane_x=132.0 filter=stable linear=0.15 angular=-0.10 cw_y=295 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554662.334505652] [self_driving]: [OBJECTS] msg_count=269 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554662.413812523] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=133.0 lane_x=133.0 filter=stable linear=0.15 angular=-0.10 cw_y=0 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554662.970145189] [self_driving]: [IMAGE] received count=1459 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554662.976362281] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=129.0 lane_x=129.0 filter=stable linear=0.15 angular=-0.10 cw_y=0 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554663.009371226] [self_driving]: [OBJECTS] msg_count=273 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554663.059278985] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554663.384922781] [self_driving]: [CROSSWALK_SLOW] y=442 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554663.536770300] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=126.0 lane_x=126.0 filter=stable linear=0.15 angular=0.10 cw_y=442 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554664.102932762] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=150.5 lane_x=150.5 filter=stable linear=0.15 angular=-0.10 cw_y=442 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554664.667751910] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=133.0 lane_x=133.0 filter=stable linear=0.15 angular=-0.10 cw_y=442 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554664.981171836] [self_driving]: [IMAGE] received count=1484 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554665.073702132] [self_driving]: [OBJECTS] msg_count=275 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554665.223268725] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=135.0 lane_x=135.0 filter=stable linear=0.15 angular=-0.10 cw_y=366 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554665.804526280] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=151.0 lane_x=151.0 filter=stable linear=0.15 angular=-0.10 cw_y=366 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554666.119844372] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554666.364289520] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=204.5 lane_x=204.5 filter=stable linear=0.30 angular=-0.45 cw_y=366 right_done=True start_turn=False count_turn=1 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554666.443270798] [self_driving]: [CROSSWALK_SLOW] y=366 th=180 confirm=4[0m
+[self_driving-10] [33m[WARN] [1782554666.677531798] [self_driving]: [LANE_X_JUMP_REJECT] raw=137.5 last=252.0 diff=114.5 candidate=137.5 cnt=1/4[0m
+[self_driving-10] [0m[INFO] [1782554666.922942261] [self_driving]: [LANE_X_JUMP_ACCEPT] raw=159.5 last=159.5 cnt=4/4[0m
+[self_driving-10] [0m[INFO] [1782554666.924317501] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=159.5 lane_x=159.5 filter=jump_accept linear=0.15 angular=0.00 cw_y=366 right_done=True start_turn=True count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554666.987418038] [self_driving]: [IMAGE] received count=1509 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554667.435635205] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=256.0 lane_x=256.0 filter=stable linear=0.15 angular=-0.45 cw_y=366 right_done=True start_turn=True count_turn=2 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554667.572426408] [self_driving]: [LANE_X_JUMP_REJECT] raw=157.5 last=263.5 diff=106.0 candidate=157.5 cnt=1/4[0m
+[self_driving-10] [0m[INFO] [1782554667.974569723] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=238.5 lane_x=238.5 filter=stable linear=0.15 angular=-0.45 cw_y=366 right_done=True start_turn=True count_turn=2 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554668.528109093] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=290.5 lane_x=290.5 filter=stable linear=0.15 angular=-0.45 cw_y=366 right_done=True start_turn=True count_turn=9 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554669.017274815] [self_driving]: [IMAGE] received count=1534 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554669.117719630] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554669.118398315] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=281.5 lane_x=281.5 filter=stable linear=0.15 angular=-0.45 cw_y=366 right_done=True start_turn=True count_turn=16 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554669.436771222] [self_driving]: [CROSSWALK_SLOW] y=366 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554669.676756833] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=308.0 lane_x=308.0 filter=stable linear=0.15 angular=-0.45 cw_y=366 right_done=True start_turn=True count_turn=23 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554670.230819370] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=241.5 lane_x=241.5 filter=stable linear=0.15 angular=-0.45 cw_y=366 right_done=True start_turn=True count_turn=30 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554670.436430184] [self_driving]: [OBJECTS] msg_count=276 n=1 names=['right'][0m
+[self_driving-10] [0m[INFO] [1782554670.436937944] [self_driving]: [RIGHT_CANDIDATE] valid=False reject=['small_area', 'right_done'] cnt=0 cx=519 cy=123 area=875 score=0.82 done=True[0m
+[self_driving-10] [0m[INFO] [1782554670.798948481] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=135.5 lane_x=135.5 filter=stable linear=0.15 angular=-0.10 cw_y=189 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554671.031251777] [self_driving]: [IMAGE] received count=1559 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554671.123617295] [self_driving]: [OBJECTS] msg_count=280 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554671.366018295] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=132.5 lane_x=132.5 filter=stable linear=0.15 angular=-0.10 cw_y=228 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554671.767052869] [self_driving]: [OBJECTS] msg_count=282 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554671.933158017] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=130.0 lane_x=130.0 filter=stable linear=0.15 angular=-0.10 cw_y=185 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554672.114901906] [self_driving]: [RIGHT_CANDIDATE] valid=False reject=['small_area', 'right_done'] cnt=0 cx=161 cy=114 area=1364 score=0.84 done=True[0m
+[self_driving-10] [0m[INFO] [1782554672.170240461] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554672.439081257] [self_driving]: [OBJECTS] msg_count=287 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554672.441838072] [self_driving]: [RIGHT_CANDIDATE] valid=False reject=['small_area', 'right_done'] cnt=0 cx=170 cy=113 area=1426 score=0.85 done=True[0m
+[self_driving-10] [0m[INFO] [1782554672.491428146] [self_driving]: [CROSSWALK_SLOW] y=188 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554672.492842498] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=137.5 lane_x=137.5 filter=stable linear=0.15 angular=-0.10 cw_y=188 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554672.768604313] [self_driving]: [RIGHT_CANDIDATE] valid=False reject=['small_area', 'right_done'] cnt=0 cx=152 cy=111 area=1650 score=0.85 done=True[0m
+[self_driving-10] [0m[INFO] [1782554673.051141220] [self_driving]: [IMAGE] received count=1584 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554673.057894016] [self_driving]: [CROSSWALK_IGNORE] y=10 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554673.060825201] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=122.0 lane_x=122.0 filter=stable linear=0.15 angular=0.10 cw_y=10 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554673.150779368] [self_driving]: [OBJECTS] msg_count=293 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554673.483862775] [self_driving]: [RIGHT_CANDIDATE] valid=False reject=['small_area', 'right_done'] cnt=0 cx=137 cy=109 area=2240 score=0.88 done=True[0m
+[self_driving-10] [0m[INFO] [1782554673.630413886] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=119.0 lane_x=119.0 filter=stable linear=0.15 angular=0.10 cw_y=199 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554673.822677664] [self_driving]: [OBJECTS] msg_count=298 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554673.825390201] [self_driving]: [RIGHT_CANDIDATE] valid=True reject=['right_done'] cnt=0 cx=117 cy=102 area=3120 score=0.87 done=True[0m
+[self_driving-10] [0m[INFO] [1782554674.195522441] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=137.0 lane_x=137.0 filter=stable linear=0.15 angular=-0.10 cw_y=210 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554674.490429441] [self_driving]: [OBJECTS] msg_count=303 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554674.493849201] [self_driving]: [RIGHT_CANDIDATE] valid=True reject=['right_done'] cnt=0 cx=45 cy=95 area=4960 score=0.80 done=True[0m
+[self_driving-10] [0m[INFO] [1782554674.743118886] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=130.5 lane_x=130.5 filter=stable linear=0.15 angular=-0.10 cw_y=0 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554674.837240700] [self_driving]: [RIGHT_CANDIDATE] valid=True reject=['right_done'] cnt=0 cx=29 cy=89 area=5278 score=0.84 done=True[0m
+[self_driving-10] [0m[INFO] [1782554675.061823663] [self_driving]: [IMAGE] received count=1609 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554675.197345811] [self_driving]: [OBJECTS] msg_count=308 n=1 names=['right'][0m
+[self_driving-10] [0m[INFO] [1782554675.198279348] [self_driving]: [RIGHT_CANDIDATE] valid=True reject=['right_done'] cnt=0 cx=27 cy=83 area=5400 score=0.83 done=True[0m
+[self_driving-10] [0m[INFO] [1782554675.247708700] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554675.257494145] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=128.5 lane_x=128.5 filter=stable linear=0.15 angular=0.10 cw_y=0 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554675.801124811] [self_driving]: [CROSSWALK_SLOW] y=234 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554675.802155700] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=121.5 lane_x=121.5 filter=stable linear=0.15 angular=0.10 cw_y=234 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554675.865902403] [self_driving]: [OBJECTS] msg_count=310 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554676.367676144] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=132.5 lane_x=132.5 filter=stable linear=0.15 angular=-0.10 cw_y=258 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554676.551834607] [self_driving]: [OBJECTS] msg_count=312 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554676.881838958] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=128.5 lane_x=128.5 filter=stable linear=0.15 angular=-0.10 cw_y=272 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554677.076250366] [self_driving]: [IMAGE] received count=1635 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554677.276005199] [self_driving]: [OBJECTS] msg_count=314 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554677.416182254] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=126.5 lane_x=126.5 filter=stable linear=0.15 angular=-0.10 cw_y=374 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554677.952047976] [self_driving]: [OBJECTS] msg_count=316 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554677.959047624] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=132.5 lane_x=132.5 filter=stable linear=0.15 angular=-0.10 cw_y=450 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554678.495613328] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554678.496961550] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=119.0 lane_x=119.0 filter=stable linear=0.15 angular=0.10 cw_y=450 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554678.766788642] [self_driving]: [CROSSWALK_SLOW] y=450 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554679.020496050] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=97.0 lane_x=97.0 filter=stable linear=0.15 angular=0.10 cw_y=450 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554679.078375939] [self_driving]: [IMAGE] received count=1665 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [33m[WARN] [1782554679.443797883] [self_driving]: [LANE_X_JUMP_REJECT] raw=252.5 last=25.5 diff=227.0 candidate=252.5 cnt=1/4[0m
+[self_driving-10] [0m[INFO] [1782554679.562574753] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=79.0 filter=hold_last linear=0.15 angular=0.10 cw_y=450 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554680.100756586] [self_driving]: [LANE_X_JUMP_REJECT] raw=315.5 last=36.5 diff=279.0 candidate=315.5 cnt=1/4[0m
+[self_driving-10] [0m[INFO] [1782554680.102170271] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=315.5 lane_x=36.5 filter=jump_reject linear=0.15 angular=0.10 cw_y=450 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554680.307202845] [self_driving]: [LANE_X_JUMP_ACCEPT] raw=302.5 last=302.5 cnt=4/4[0m
+[self_driving-10] [0m[INFO] [1782554680.637161123] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=282.5 lane_x=282.5 filter=stable linear=0.15 angular=-0.45 cw_y=450 right_done=True start_turn=True count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554680.716304363] [self_driving]: [LANE_X_JUMP_REJECT] raw=194.0 last=282.5 diff=88.5 candidate=194.0 cnt=1/4[0m
+[self_driving-10] [0m[INFO] [1782554681.101874085] [self_driving]: [IMAGE] received count=1695 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554681.189440845] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=219.5 filter=hold_last linear=0.15 angular=-0.45 cw_y=450 right_done=True start_turn=True count_turn=8 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554681.449337511] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554681.723058067] [self_driving]: [CROSSWALK_SLOW] y=450 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554681.728060900] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=176.5 lane_x=176.5 filter=stable linear=0.15 angular=0.00 cw_y=450 right_done=True start_turn=True count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554682.251908696] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=9.5 filter=hold_last linear=0.15 angular=0.00 cw_y=450 right_done=True start_turn=True count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554682.596408659] [self_driving]: [OBJECTS] msg_count=317 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554682.797892992] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=45.5 lane_x=45.5 filter=stable linear=0.15 angular=0.10 cw_y=355 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554683.113069806] [self_driving]: [IMAGE] received count=1725 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554683.317798325] [self_driving]: [OBJECTS] msg_count=321 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554683.332828825] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=65.5 lane_x=65.5 filter=stable linear=0.15 angular=0.10 cw_y=0 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554683.863997658] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=77.0 lane_x=77.0 filter=stable linear=0.15 angular=0.10 cw_y=360 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554684.064756232] [self_driving]: [OBJECTS] msg_count=327 n=1 names=['go'][0m
+[self_driving-10] [0m[INFO] [1782554684.393005472] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554684.394576343] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=129.0 lane_x=129.0 filter=stable linear=0.15 angular=-0.10 cw_y=400 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554684.675389750] [self_driving]: [CROSSWALK_SLOW] y=215 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554684.810022361] [self_driving]: [OBJECTS] msg_count=333 n=1 names=['go'][0m
+[self_driving-10] [0m[INFO] [1782554684.942117065] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=150.5 lane_x=150.5 filter=stable linear=0.15 angular=-0.10 cw_y=460 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554685.145571472] [self_driving]: [IMAGE] received count=1755 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554685.483322305] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=121.5 lane_x=121.5 filter=stable linear=0.15 angular=0.10 cw_y=221 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554685.543535749] [self_driving]: [OBJECTS] msg_count=337 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554686.016716564] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=173.5 lane_x=173.5 filter=stable linear=0.15 angular=-0.10 cw_y=259 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554686.249053360] [self_driving]: [OBJECTS] msg_count=341 n=1 names=['go'][0m
+[self_driving-10] [0m[INFO] [1782554686.553325564] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=125.0 lane_x=125.0 filter=stable linear=0.15 angular=0.10 cw_y=268 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554687.002224526] [self_driving]: [OBJECTS] msg_count=345 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554687.088852378] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=137.5 lane_x=137.5 filter=stable linear=0.15 angular=-0.10 cw_y=0 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554687.148094619] [self_driving]: [IMAGE] received count=1785 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554687.362597582] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554687.631391804] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=132.0 lane_x=132.0 filter=stable linear=0.30 angular=-0.10 cw_y=0 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554687.768023878] [self_driving]: [OBJECTS] msg_count=349 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554688.181406026] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=133.0 lane_x=133.0 filter=stable linear=0.30 angular=-0.10 cw_y=427 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554688.372684340] [self_driving]: [CROSSWALK_SLOW] y=427 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554688.482307526] [self_driving]: [OBJECTS] msg_count=352 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554688.711864729] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=116.5 lane_x=116.5 filter=stable linear=0.15 angular=0.10 cw_y=456 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554689.158368692] [self_driving]: [IMAGE] received count=1815 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554689.240061636] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=142.5 lane_x=142.5 filter=stable linear=0.15 angular=-0.10 cw_y=456 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554689.776324951] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=126.0 lane_x=126.0 filter=stable linear=0.15 angular=0.10 cw_y=456 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554690.332052191] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=167.5 lane_x=167.5 filter=stable linear=0.15 angular=-0.10 cw_y=456 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554690.850457432] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=202.5 lane_x=202.5 filter=stable linear=0.15 angular=-0.45 cw_y=456 right_done=True start_turn=False count_turn=5 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554691.067068783] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554691.188140561] [self_driving]: [IMAGE] received count=1845 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554691.318969450] [self_driving]: [CROSSWALK_SLOW] y=456 th=180 confirm=4[0m
+[self_driving-10] [33m[WARN] [1782554691.403516283] [self_driving]: [LANE_X_JUMP_REJECT] raw=108.0 last=275.5 diff=167.5 candidate=108.0 cnt=1/4[0m
+[self_driving-10] [0m[INFO] [1782554691.407251727] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=108.0 lane_x=275.5 filter=jump_reject linear=0.15 angular=-0.45 cw_y=456 right_done=True start_turn=True count_turn=7 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554691.940031949] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=239.5 lane_x=239.5 filter=stable linear=0.15 angular=-0.45 cw_y=456 right_done=True start_turn=True count_turn=4 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554692.478212875] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=259.5 lane_x=259.5 filter=stable linear=0.15 angular=-0.45 cw_y=456 right_done=True start_turn=True count_turn=12 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554693.001048060] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=311.0 lane_x=311.0 filter=stable linear=0.15 angular=-0.45 cw_y=456 right_done=True start_turn=True count_turn=20 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554693.207376375] [self_driving]: [IMAGE] received count=1875 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554693.556109708] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=250.5 lane_x=250.5 filter=stable linear=0.15 angular=-0.45 cw_y=456 right_done=True start_turn=True count_turn=28 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554693.872316726] [self_driving]: [OBJECTS] msg_count=353 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554694.036897337] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554694.082680189] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=142.5 lane_x=142.5 filter=stable linear=0.30 angular=-0.10 cw_y=211 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554694.250352744] [self_driving]: [RIGHT_CANDIDATE] valid=False reject=['small_area', 'right_done'] cnt=0 cx=460 cy=124 area=621 score=0.62 done=True[0m
+[self_driving-10] [0m[INFO] [1782554694.600643077] [self_driving]: [OBJECTS] msg_count=357 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554694.634108670] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=127.0 lane_x=127.0 filter=stable linear=0.30 angular=0.10 cw_y=182 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554694.823094318] [self_driving]: [CROSSWALK_SLOW] y=182 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554695.162063873] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=146.5 lane_x=146.5 filter=stable linear=0.15 angular=-0.10 cw_y=182 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554695.212989577] [self_driving]: [IMAGE] received count=1905 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554695.358868281] [self_driving]: [OBJECTS] msg_count=360 n=1 names=['right'][0m
+[self_driving-10] [0m[INFO] [1782554695.359593225] [self_driving]: [RIGHT_CANDIDATE] valid=False reject=['small_area', 'right_done'] cnt=0 cx=236 cy=121 area=1053 score=0.85 done=True[0m
+[self_driving-10] [0m[INFO] [1782554695.686179003] [self_driving]: [CROSSWALK_IGNORE] y=13 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554695.688208540] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=133.0 lane_x=133.0 filter=stable linear=0.15 angular=-0.10 cw_y=13 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554695.702718299] [self_driving]: [RIGHT_CANDIDATE] valid=False reject=['small_area', 'right_done'] cnt=0 cx=216 cy=115 area=1320 score=0.84 done=True[0m
+[self_driving-10] [0m[INFO] [1782554696.054872095] [self_driving]: [OBJECTS] msg_count=367 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554696.059236688] [self_driving]: [RIGHT_CANDIDATE] valid=False reject=['small_area', 'right_done'] cnt=0 cx=204 cy=113 area=1536 score=0.85 done=True[0m
+[self_driving-10] [0m[INFO] [1782554696.223700965] [self_driving]: [CROSSWALK_IGNORE] y=6 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554696.229964780] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=128.5 lane_x=128.5 filter=stable linear=0.15 angular=0.10 cw_y=6 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554696.419851632] [self_driving]: [RIGHT_CANDIDATE] valid=False reject=['small_area', 'right_done'] cnt=0 cx=179 cy=112 area=1800 score=0.86 done=True[0m
+[self_driving-10] [0m[INFO] [1782554696.770959650] [self_driving]: [OBJECTS] msg_count=374 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554696.780338243] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=141.0 lane_x=141.0 filter=stable linear=0.15 angular=-0.10 cw_y=198 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554697.115813539] [self_driving]: [RIGHT_CANDIDATE] valid=False reject=['small_area', 'right_done'] cnt=0 cx=141 cy=107 area=2255 score=0.88 done=True[0m
+[self_driving-10] [0m[INFO] [1782554697.246647872] [self_driving]: [IMAGE] received count=1935 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554697.299445557] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=115.5 lane_x=115.5 filter=stable linear=0.15 angular=0.10 cw_y=202 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554697.468003946] [self_driving]: [OBJECTS] msg_count=380 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554697.471164502] [self_driving]: [RIGHT_CANDIDATE] valid=False reject=['small_area', 'right_done'] cnt=0 cx=129 cy=105 area=2640 score=0.87 done=True[0m
+[self_driving-10] [0m[INFO] [1782554697.523857131] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554697.791473446] [self_driving]: [CROSSWALK_SLOW] y=207 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554697.836273094] [self_driving]: [RIGHT_CANDIDATE] valid=True reject=['right_done'] cnt=0 cx=112 cy=102 area=3216 score=0.87 done=True[0m
+[self_driving-10] [0m[INFO] [1782554697.840780835] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=149.5 lane_x=149.5 filter=stable linear=0.15 angular=-0.10 cw_y=417 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554698.369514575] [self_driving]: [OBJECTS] msg_count=386 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554698.375128168] [self_driving]: [RIGHT_CANDIDATE] valid=True reject=['right_done'] cnt=0 cx=47 cy=96 area=4500 score=0.76 done=True[0m
+[self_driving-10] [0m[INFO] [1782554698.390746057] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=135.5 lane_x=135.5 filter=stable linear=0.15 angular=0.10 cw_y=0 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554698.758689093] [self_driving]: [RIGHT_CANDIDATE] valid=True reject=['right_done'] cnt=0 cx=23 cy=84 area=4512 score=0.81 done=True[0m
+[self_driving-10] [0m[INFO] [1782554698.922324982] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=127.0 lane_x=127.0 filter=stable linear=0.15 angular=0.10 cw_y=0 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554699.136140964] [self_driving]: [OBJECTS] msg_count=391 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554699.246974186] [self_driving]: [IMAGE] received count=1965 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554699.465023093] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=126.0 lane_x=126.0 filter=stable linear=0.15 angular=0.10 cw_y=244 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554699.873986630] [self_driving]: [OBJECTS] msg_count=393 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554700.010916537] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=123.5 lane_x=123.5 filter=stable linear=0.15 angular=0.10 cw_y=269 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554700.474165555] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554700.529658611] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=123.5 lane_x=123.5 filter=stable linear=0.30 angular=0.10 cw_y=285 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554700.643777352] [self_driving]: [OBJECTS] msg_count=395 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554700.731595222] [self_driving]: [CROSSWALK_SLOW] y=312 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554701.087533388] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=131.0 lane_x=131.0 filter=stable linear=0.15 angular=0.10 cw_y=344 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554701.261130648] [self_driving]: [IMAGE] received count=1995 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554701.364007388] [self_driving]: [OBJECTS] msg_count=397 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554701.597075795] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=118.5 lane_x=118.5 filter=stable linear=0.15 angular=0.10 cw_y=405 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554702.150602536] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=127.0 lane_x=127.0 filter=stable linear=0.15 angular=0.10 cw_y=431 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554702.687576165] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=144.5 lane_x=144.5 filter=stable linear=0.15 angular=-0.10 cw_y=431 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554703.160749609] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [0m[INFO] [1782554703.225223665] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.15 angular=0.00 cw_y=431 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554703.286231109] [self_driving]: [IMAGE] received count=2025 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [33m[WARN] [1782554703.351924054] [self_driving]: [LANE_X_JUMP_REJECT] raw=283.5 last=76.5 diff=207.0 candidate=283.5 cnt=1/4[0m
+[self_driving-10] [0m[INFO] [1782554703.420203239] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554703.679737628] [self_driving]: [CROSSWALK_SLOW] y=431 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554703.762409516] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=53.0 filter=hold_last linear=0.15 angular=0.10 cw_y=431 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554704.019662831] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [33m[WARN] [1782554704.292068868] [self_driving]: [LANE_X_JUMP_REJECT] raw=285.0 last=53.0 diff=232.0 candidate=285.0 cnt=1/4[0m
+[self_driving-10] [0m[INFO] [1782554704.292846979] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=285.0 lane_x=53.0 filter=jump_reject linear=0.15 angular=0.10 cw_y=431 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554704.841154849] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=106.0 filter=hold_last linear=0.15 angular=0.10 cw_y=431 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554704.900706590] [self_driving]: [OBJECTS] msg_count=399 n=1 names=['crosswalk'][0m
+[self_driving-10] [33m[WARN] [1782554704.903895145] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [0m[INFO] [1782554705.303736756] [self_driving]: [IMAGE] received count=2055 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554705.376279367] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.15 angular=0.00 cw_y=392 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554705.443050386] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [33m[WARN] [1782554705.780749552] [self_driving]: [LANE_X_JUMP_REJECT] raw=291.0 last=106.0 diff=185.0 candidate=291.0 cnt=1/4[0m
+[self_driving-10] [0m[INFO] [1782554705.913488571] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=279.5 lane_x=106.0 filter=jump_reject linear=0.15 angular=0.10 cw_y=392 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554706.375429644] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554706.443864367] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=45.0 lane_x=45.0 filter=stable linear=0.30 angular=0.10 cw_y=392 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554706.636286163] [self_driving]: [OBJECTS] msg_count=400 n=1 names=['go'][0m
+[self_driving-10] [0m[INFO] [1782554706.976591940] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=36.0 lane_x=36.0 filter=stable linear=0.30 angular=0.10 cw_y=0 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554707.314318051] [self_driving]: [IMAGE] received count=2085 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554707.463595070] [self_driving]: [OBJECTS] msg_count=403 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554707.533096885] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=82.0 lane_x=82.0 filter=stable linear=0.30 angular=0.10 cw_y=0 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554708.059704699] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=153.0 lane_x=153.0 filter=stable linear=0.30 angular=-0.10 cw_y=0 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554708.168679347] [self_driving]: [OBJECTS] msg_count=408 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554708.592372514] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=136.5 lane_x=136.5 filter=stable linear=0.30 angular=-0.10 cw_y=270 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554708.735457365] [self_driving]: [CROSSWALK_SLOW] y=270 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554708.881537217] [self_driving]: [OBJECTS] msg_count=412 n=1 names=['go'][0m
+[self_driving-10] [0m[INFO] [1782554709.133460754] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=137.5 lane_x=137.5 filter=stable linear=0.15 angular=-0.10 cw_y=311 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554709.364761383] [self_driving]: [IMAGE] received count=2115 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554709.670715550] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=125.0 lane_x=125.0 filter=stable linear=0.15 angular=-0.10 cw_y=0 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554709.821218476] [self_driving]: [OBJECTS] msg_count=416 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554710.218706790] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=136.0 lane_x=136.0 filter=stable linear=0.15 angular=-0.10 cw_y=458 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554710.513964272] [self_driving]: [OBJECTS] msg_count=417 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554710.745779994] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=130.0 lane_x=130.0 filter=stable linear=0.15 angular=0.10 cw_y=410 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554711.307387919] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=131.5 lane_x=131.5 filter=stable linear=0.15 angular=-0.10 cw_y=410 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554711.408137753] [self_driving]: [IMAGE] received count=2146 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554711.417279549] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554711.685351012] [self_driving]: [CROSSWALK_SLOW] y=410 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554711.823109197] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=171.5 lane_x=171.5 filter=stable linear=0.15 angular=-0.10 cw_y=410 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554712.368630122] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=196.0 lane_x=196.0 filter=stable linear=0.15 angular=0.00 cw_y=410 right_done=True start_turn=True count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554712.888791955] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=227.5 lane_x=227.5 filter=stable linear=0.15 angular=-0.45 cw_y=410 right_done=True start_turn=True count_turn=4 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554713.111223955] [self_driving]: [LANE_X_JUMP_REJECT] raw=113.0 last=293.5 diff=180.5 candidate=113.0 cnt=1/4[0m
+[self_driving-10] [0m[INFO] [1782554713.422796103] [self_driving]: [IMAGE] received count=2176 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554713.432683955] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=159.5 lane_x=293.5 filter=jump_reject linear=0.15 angular=-0.45 cw_y=410 right_done=True start_turn=True count_turn=12 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554713.492359066] [self_driving]: [LANE_X_JUMP_ACCEPT] raw=159.5 last=159.5 cnt=4/4[0m
+[self_driving-10] [0m[INFO] [1782554713.968365399] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=274.0 lane_x=274.0 filter=stable linear=0.15 angular=-0.45 cw_y=410 right_done=True start_turn=True count_turn=4 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554714.376692362] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554714.514137158] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=291.0 lane_x=291.0 filter=stable linear=0.30 angular=-0.45 cw_y=410 right_done=True start_turn=True count_turn=12 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554714.650094084] [self_driving]: [CROSSWALK_SLOW] y=410 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554715.048791195] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=313.5 lane_x=313.5 filter=stable linear=0.15 angular=-0.45 cw_y=410 right_done=True start_turn=True count_turn=20 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554715.446123009] [self_driving]: [IMAGE] received count=2206 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554715.591586528] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=306.5 lane_x=306.5 filter=stable linear=0.15 angular=-0.45 cw_y=410 right_done=True start_turn=True count_turn=28 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554715.976297028] [self_driving]: [OBJECTS] msg_count=418 n=1 names=['right'][0m
+[self_driving-10] [0m[INFO] [1782554715.977076898] [self_driving]: [RIGHT_CANDIDATE] valid=False reject=['small_area', 'right_done'] cnt=0 cx=618 cy=122 area=864 score=0.85 done=True[0m
+[self_driving-10] [0m[INFO] [1782554716.128560916] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=199.0 lane_x=199.0 filter=stable linear=0.15 angular=-0.10 cw_y=0 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554716.664639842] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=132.0 lane_x=132.0 filter=stable linear=0.15 angular=-0.10 cw_y=185 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554716.672195620] [self_driving]: [OBJECTS] msg_count=421 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554716.675131305] [self_driving]: [RIGHT_CANDIDATE] valid=False reject=['small_area', 'right_done'] cnt=0 cx=388 cy=125 area=696 score=0.60 done=True[0m
+[self_driving-10] [0m[INFO] [1782554717.018393305] [self_driving]: [RIGHT_CANDIDATE] valid=False reject=['small_area', 'right_done'] cnt=0 cx=292 cy=124 area=918 score=0.83 done=True[0m
+[self_driving-10] [0m[INFO] [1782554717.194987953] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=128.0 lane_x=128.0 filter=stable linear=0.15 angular=0.05 cw_y=186 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554717.332348434] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554717.385158897] [self_driving]: [OBJECTS] msg_count=426 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554717.387807286] [self_driving]: [RIGHT_CANDIDATE] valid=False reject=['small_area', 'right_done'] cnt=0 cx=221 cy=121 area=1102 score=0.85 done=True[0m
+[self_driving-10] [0m[INFO] [1782554717.460920860] [self_driving]: [IMAGE] received count=2236 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554717.608123897] [self_driving]: [CROSSWALK_SLOW] y=186 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554717.742658675] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=142.5 lane_x=142.5 filter=stable linear=0.15 angular=-0.10 cw_y=186 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554717.779450064] [self_driving]: [RIGHT_CANDIDATE] valid=False reject=['small_area', 'right_done'] cnt=0 cx=198 cy=118 area=1230 score=0.83 done=True[0m
+[self_driving-10] [0m[INFO] [1782554718.122458045] [self_driving]: [OBJECTS] msg_count=432 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554718.124937323] [self_driving]: [RIGHT_CANDIDATE] valid=False reject=['small_area', 'right_done'] cnt=0 cx=192 cy=114 area=1290 score=0.85 done=True[0m
+[self_driving-10] [0m[INFO] [1782554718.279455008] [self_driving]: [CROSSWALK_IGNORE] y=10 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554718.281920934] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=135.5 lane_x=135.5 filter=stable linear=0.15 angular=-0.10 cw_y=10 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554718.480626637] [self_driving]: [RIGHT_CANDIDATE] valid=False reject=['small_area', 'right_done'] cnt=0 cx=192 cy=114 area=1504 score=0.84 done=True[0m
+[self_driving-10] [0m[INFO] [1782554718.811027341] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=121.0 lane_x=121.0 filter=stable linear=0.15 angular=0.10 cw_y=191 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554718.836400674] [self_driving]: [OBJECTS] msg_count=440 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554718.838411952] [self_driving]: [RIGHT_CANDIDATE] valid=False reject=['small_area', 'right_done'] cnt=0 cx=164 cy=108 area=2014 score=0.89 done=True[0m
+[self_driving-10] [0m[INFO] [1782554719.353383933] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=140.0 lane_x=140.0 filter=stable linear=0.15 angular=-0.10 cw_y=199 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554719.479991692] [self_driving]: [IMAGE] received count=2266 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554719.572022822] [self_driving]: [OBJECTS] msg_count=445 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554719.573794100] [self_driving]: [RIGHT_CANDIDATE] valid=False reject=['small_area', 'right_done'] cnt=0 cx=136 cy=107 area=2394 score=0.87 done=True[0m
+[self_driving-10] [0m[INFO] [1782554719.882770803] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=119.0 lane_x=119.0 filter=stable linear=0.15 angular=0.10 cw_y=203 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554719.936415914] [self_driving]: [RIGHT_CANDIDATE] valid=True reject=['right_done'] cnt=0 cx=102 cy=102 area=3055 score=0.87 done=True[0m
+[self_driving-10] [0m[INFO] [1782554720.293141821] [self_driving]: [OBJECTS] msg_count=453 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554720.297251155] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554720.432056877] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=120.0 lane_x=120.0 filter=stable linear=0.30 angular=0.10 cw_y=212 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554720.557537284] [self_driving]: [CROSSWALK_SLOW] y=212 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554720.650001673] [self_driving]: [RIGHT_CANDIDATE] valid=True reject=['right_done'] cnt=0 cx=39 cy=94 area=4880 score=0.86 done=True[0m
+[self_driving-10] [0m[INFO] [1782554720.965537136] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=128.0 lane_x=128.0 filter=stable linear=0.15 angular=0.10 cw_y=218 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554721.003412432] [self_driving]: [OBJECTS] msg_count=460 n=1 names=['right'][0m
+[self_driving-10] [0m[INFO] [1782554721.003973432] [self_driving]: [RIGHT_CANDIDATE] valid=True reject=['right_done'] cnt=0 cx=30 cy=90 area=5310 score=0.82 done=True[0m
+[self_driving-10] [0m[INFO] [1782554721.496641895] [self_driving]: [IMAGE] received count=2296 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554721.507834395] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=137.0 lane_x=137.0 filter=stable linear=0.15 angular=-0.10 cw_y=230 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554721.753836469] [self_driving]: [OBJECTS] msg_count=464 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554722.039926006] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=131.0 lane_x=131.0 filter=stable linear=0.15 angular=0.10 cw_y=249 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554722.453552857] [self_driving]: [OBJECTS] msg_count=468 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554722.580539913] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=142.0 lane_x=142.0 filter=stable linear=0.15 angular=-0.10 cw_y=277 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554723.119211320] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=124.0 lane_x=124.0 filter=stable linear=0.15 angular=0.10 cw_y=294 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554723.174224560] [self_driving]: [OBJECTS] msg_count=470 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554723.255827005] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554723.500661208] [self_driving]: [CROSSWALK_SLOW] y=318 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554723.583657819] [self_driving]: [IMAGE] received count=2327 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554723.653646227] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=136.5 lane_x=136.5 filter=stable linear=0.15 angular=-0.10 cw_y=361 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554723.913646801] [self_driving]: [OBJECTS] msg_count=472 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554724.188467930] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=110.5 lane_x=110.5 filter=stable linear=0.15 angular=0.10 cw_y=411 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554724.730779911] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=135.5 lane_x=135.5 filter=stable linear=0.15 angular=-0.10 cw_y=439 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554725.249640818] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=181.5 filter=hold_last linear=0.15 angular=-0.10 cw_y=439 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554725.402605263] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [33m[WARN] [1782554725.543179022] [self_driving]: [LANE_X_JUMP_REJECT] raw=11.0 last=181.5 diff=170.5 candidate=11.0 cnt=1/4[0m
+[self_driving-10] [0m[INFO] [1782554725.597025152] [self_driving]: [IMAGE] received count=2357 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554725.808343300] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=109.5 filter=hold_last linear=0.15 angular=0.10 cw_y=439 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554726.008073929] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [0m[INFO] [1782554726.215416614] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554726.343767466] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=439 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554726.481207336] [self_driving]: [CROSSWALK_SLOW] y=439 th=180 confirm=4[0m
+[self_driving-10] [33m[WARN] [1782554726.547487558] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [0m[INFO] [1782554726.868087262] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.15 angular=0.00 cw_y=439 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554727.112064484] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [33m[WARN] [1782554727.332961410] [self_driving]: [LANE_X_JUMP_REJECT] raw=2.5 last=109.5 diff=107.0 candidate=2.5 cnt=1/4[0m
+[self_driving-10] [0m[INFO] [1782554727.442070558] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.15 angular=0.00 cw_y=439 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554727.664848521] [self_driving]: [IMAGE] received count=2385 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [33m[WARN] [1782554727.678445465] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [0m[INFO] [1782554727.990754354] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=94.5 lane_x=94.5 filter=stable linear=0.15 angular=0.10 cw_y=439 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554728.094634520] [self_driving]: [OBJECTS] msg_count=474 n=1 names=['crosswalk'][0m
+[self_driving-10] [33m[WARN] [1782554728.384084224] [self_driving]: [LANE_X_JUMP_REJECT] raw=259.5 last=157.0 diff=102.5 candidate=259.5 cnt=1/4[0m
+[self_driving-10] [0m[INFO] [1782554728.534442742] [self_driving]: [CROSSWALK_IGNORE] y=44 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554728.536413576] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=157.0 filter=hold_last linear=0.15 angular=-0.10 cw_y=44 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554729.049987964] [self_driving]: [LANE_X_JUMP_REJECT] raw=240.0 last=150.5 diff=89.5 candidate=240.0 cnt=1/4[0m
+[self_driving-10] [0m[INFO] [1782554729.050512446] [self_driving]: [CROSSWALK_IGNORE] y=44 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554729.051457705] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=240.0 lane_x=150.5 filter=jump_reject linear=0.15 angular=-0.10 cw_y=44 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554729.207463205] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554729.602378001] [self_driving]: [CROSSWALK_IGNORE] y=44 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554729.603700742] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=92.5 filter=hold_last linear=0.30 angular=0.10 cw_y=44 right_done=True start_turn=False count_turn=0 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554729.663503557] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [0m[INFO] [1782554729.728969316] [self_driving]: [IMAGE] received count=2414 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [33m[WARN] [1782554729.735814223] [self_driving]: [LANE_X_JUMP_REJECT] raw=248.0 last=92.5 diff=155.5 candidate=222.5 cnt=2/4[0m
+[self_driving-10] [0m[INFO] [1782554729.875864371] [self_driving]: [LANE_X_JUMP_ACCEPT] raw=253.0 last=253.0 cnt=4/4[0m
+[self_driving-10] [0m[INFO] [1782554730.132118464] [self_driving]: [CROSSWALK_IGNORE] y=44 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554730.132878871] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=282.0 lane_x=282.0 filter=stable linear=0.30 angular=-0.45 cw_y=44 right_done=True start_turn=False count_turn=5 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554730.215251649] [self_driving]: [OBJECTS] msg_count=475 n=1 names=['crosswalk'][0m
+[ekf_node-8] Failed to meet update rate! Took 0.011198759000000000838seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[self_driving-10] [0m[INFO] [1782554730.475029334] [self_driving]: [CROSSWALK_SLOW] y=385 th=180 confirm=4[0m
+[self_driving-10] [0m[INFO] [1782554730.687177519] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=265.0 lane_x=265.0 filter=stable linear=0.15 angular=-0.45 cw_y=385 right_done=True start_turn=True count_turn=7 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554730.739658445] [self_driving]: [LANE_X_JUMP_REJECT] raw=110.5 last=265.0 diff=154.5 candidate=110.5 cnt=1/4[0m
+[self_driving-10] [0m[INFO] [1782554731.002688130] [self_driving]: [OBJECTS] msg_count=476 n=1 names=['crosswalk'][0m
+[self_driving-10] [33m[WARN] [1782554731.208499241] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [0m[INFO] [1782554731.211962685] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.15 angular=0.00 cw_y=421 right_done=True start_turn=True count_turn=14 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554731.430211074] [self_driving]: [LANE_X_JUMP_REJECT] raw=138.0 last=269.0 diff=131.0 candidate=138.0 cnt=1/4[0m
+[self_driving-10] [0m[INFO] [1782554731.718181426] [self_driving]: [OBJECTS] msg_count=479 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554731.754515907] [self_driving]: [IMAGE] received count=2444 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554731.765569203] [self_driving]: [LANE_X_JUMP_ACCEPT] raw=291.0 last=291.0 cnt=4/4[0m
+[self_driving-10] [0m[INFO] [1782554731.769039833] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=291.0 lane_x=291.0 filter=jump_accept linear=0.15 angular=-0.45 cw_y=453 right_done=True start_turn=True count_turn=1 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554732.289288759] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=219.0 filter=hold_last linear=0.15 angular=-0.45 cw_y=453 right_done=True start_turn=True count_turn=9 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554732.459748999] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [0m[INFO] [1782554732.543188518] [self_driving]: [OBJECTS] msg_count=480 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554732.832747814] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.15 angular=0.00 cw_y=465 right_done=True start_turn=True count_turn=10 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554732.895004369] [self_driving]: [LANE_X_JUMP_REJECT] raw=24.5 last=219.0 diff=194.5 candidate=24.5 cnt=1/4[0m
+[self_driving-10] [33m[WARN] [1782554732.987494369] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [0m[INFO] [1782554733.159737740] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [0m[INFO] [1782554733.369022869] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=465 right_done=True start_turn=True count_turn=11 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554733.437322221] [self_driving]: [CROSSWALK_SLOW] y=465 th=180 confirm=4[0m
+[self_driving-10] [33m[WARN] [1782554733.494985110] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [0m[INFO] [1782554733.756724110] [self_driving]: [IMAGE] received count=2474 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554733.900995702] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.15 angular=0.00 cw_y=465 right_done=True start_turn=True count_turn=11 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554733.977590221] [self_driving]: [OBJECTS] msg_count=481 n=1 names=['crosswalk'][0m
+[self_driving-10] [33m[WARN] [1782554734.041204295] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [0m[INFO] [1782554734.435480072] [self_driving]: [CROSSWALK_IGNORE] y=78 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554734.437271017] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.15 angular=0.00 cw_y=78 right_done=True start_turn=True count_turn=11 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554734.576253794] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [0m[INFO] [1782554734.963779516] [self_driving]: [CROSSWALK_IGNORE] y=78 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554734.965307220] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.15 angular=0.00 cw_y=78 right_done=True start_turn=True count_turn=11 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554735.119185868] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [0m[INFO] [1782554735.513218201] [self_driving]: [CROSSWALK_IGNORE] y=78 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554735.518283183] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.15 angular=0.00 cw_y=78 right_done=True start_turn=True count_turn=11 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554735.636499497] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [0m[INFO] [1782554735.772826849] [self_driving]: [IMAGE] received count=2504 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554736.054124905] [self_driving]: [CROSSWALK_IGNORE] y=78 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554736.057066608] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.15 angular=0.00 cw_y=78 right_done=True start_turn=True count_turn=11 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554736.112045071] [self_driving]: [CROSSWALK_SLOW_DONE] return normal speed[0m
+[self_driving-10] [33m[WARN] [1782554736.184718404] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [33m[WARN] [1782554736.244322386] [self_driving]: [LANE_X_JUMP_REJECT] raw=66.5 last=219.0 diff=152.5 candidate=66.5 cnt=1/4[0m
+[self_driving-10] [0m[INFO] [1782554736.571797534] [self_driving]: [CROSSWALK_IGNORE] y=78 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554736.572559701] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=78 right_done=True start_turn=True count_turn=12 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554736.731779923] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [0m[INFO] [1782554737.127255145] [self_driving]: [CROSSWALK_IGNORE] y=78 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554737.128375534] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=78 right_done=True start_turn=True count_turn=12 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554737.265097626] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [0m[INFO] [1782554737.660027459] [self_driving]: [CROSSWALK_IGNORE] y=78 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554737.661720255] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=78 right_done=True start_turn=True count_turn=12 traffic=None stop=False[0m
+[self_driving-10] [0m[INFO] [1782554737.790222607] [self_driving]: [IMAGE] received count=2534 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [33m[WARN] [1782554737.798397533] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [0m[INFO] [1782554738.207391385] [self_driving]: [CROSSWALK_IGNORE] y=78 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554738.208521570] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=78 right_done=True start_turn=True count_turn=12 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554738.339248385] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [0m[INFO] [1782554738.623111199] [self_driving]: [OBJECTS] msg_count=482 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554738.740647421] [self_driving]: [CROSSWALK_IGNORE] y=160 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554738.741493033] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=160 right_done=True start_turn=True count_turn=12 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554738.876896644] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [0m[INFO] [1782554739.271879088] [self_driving]: [CROSSWALK_IGNORE] y=160 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554739.276355255] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=160 right_done=True start_turn=True count_turn=12 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554739.412726958] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [0m[INFO] [1782554739.804287773] [self_driving]: [IMAGE] received count=2564 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554739.810358143] [self_driving]: [CROSSWALK_IGNORE] y=160 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554739.815238162] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=160 right_done=True start_turn=True count_turn=12 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554739.950384013] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [0m[INFO] [1782554740.351539680] [self_driving]: [CROSSWALK_IGNORE] y=160 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554740.353239476] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=160 right_done=True start_turn=True count_turn=12 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554740.491578661] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [0m[INFO] [1782554740.879809568] [self_driving]: [CROSSWALK_IGNORE] y=160 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554740.882148605] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=160 right_done=True start_turn=True count_turn=12 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554741.028179976] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [0m[INFO] [1782554741.081648031] [self_driving]: [OBJECTS] msg_count=483 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554741.410449864] [self_driving]: [CROSSWALK_IGNORE] y=146 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554741.411680383] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=146 right_done=True start_turn=True count_turn=12 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554741.558436642] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [0m[INFO] [1782554741.816738049] [self_driving]: [IMAGE] received count=2594 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554741.952344568] [self_driving]: [CROSSWALK_IGNORE] y=146 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554741.953784457] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=146 right_done=True start_turn=True count_turn=12 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554742.096972512] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [0m[INFO] [1782554742.503048845] [self_driving]: [CROSSWALK_IGNORE] y=146 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554742.503910049] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=146 right_done=True start_turn=True count_turn=12 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554742.625286382] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [0m[INFO] [1782554743.036049012] [self_driving]: [CROSSWALK_IGNORE] y=146 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554743.039116641] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=146 right_done=True start_turn=True count_turn=12 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554743.178513678] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [0m[INFO] [1782554743.191815900] [self_driving]: [OBJECTS] msg_count=484 n=1 names=['crosswalk'][0m
+[self_driving-10] [0m[INFO] [1782554743.587058715] [self_driving]: [CROSSWALK_IGNORE] y=36 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554743.591818826] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=36 right_done=True start_turn=True count_turn=12 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554743.716685400] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
+[self_driving-10] [0m[INFO] [1782554743.832359474] [self_driving]: [IMAGE] received count=2624 shape=(480, 640, 3) queue=0[0m
+[self_driving-10] [0m[INFO] [1782554744.117027344] [self_driving]: [CROSSWALK_IGNORE] y=36 < th=180[0m
+[self_driving-10] [0m[INFO] [1782554744.118886789] [self_driving]: [DEBUG_DRIVE] state=LINE_FOLLOW raw_lane_x=-1 lane_x=-1 filter=lost linear=0.30 angular=0.00 cw_y=36 right_done=True start_turn=True count_turn=12 traffic=None stop=False[0m
+[self_driving-10] [33m[WARN] [1782554744.271547381] [self_driving]: [LANE_LOST] raw_lane_x=-1 lane_x=-1 filter=lost stop=False state=LINE_FOLLOW safe_linear=0.00 right_ready=False right_done=True[0m
